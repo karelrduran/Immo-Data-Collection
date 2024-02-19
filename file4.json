@@ -1,0 +1,3725 @@
+[
+ {
+  "id": 11120444,
+  "cluster": {
+   "minPrice": null,
+   "maxPrice": null,
+   "minRoom": null,
+   "maxRoom": null,
+   "minSurface": null,
+   "maxSurface": null,
+   "projectInfo": null,
+   "bedroomRange": "",
+   "surfaceRange": ""
+  },
+  "customerLogoUrl": "https://static.immoweb.be/logos/3878428.gif?cache=2024521001110",
+  "customerName": "Ladar Immo",
+  "flags": {
+   "main": "new",
+   "secondary": [],
+   "percentSold": null
+  },
+  "media": {
+   "pictures": [
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/2/0/4/4/4/11120444_1.gif?cache=20240205100346",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/2/0/4/4/4/M_11120444_1.jpg?cache=20240205100346",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/2/0/4/4/4/11120444_1.jpg?cache=20240205100346",
+     "isVertical": true
+    },
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/2/0/4/4/4/11120444_2.gif?cache=20240205100346",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/2/0/4/4/4/M_11120444_2.jpg?cache=20240205100346",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/2/0/4/4/4/11120444_2.jpg?cache=20240205100346",
+     "isVertical": false
+    },
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/2/0/4/4/4/11120444_3.gif?cache=20240205100346",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/2/0/4/4/4/M_11120444_3.jpg?cache=20240205100346",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/2/0/4/4/4/11120444_3.jpg?cache=20240205100346",
+     "isVertical": false
+    }
+   ]
+  },
+  "property": {
+   "type": "HOUSE",
+   "subtype": "HOUSE",
+   "title": "3 FACADES HOUSE TO RENOVATE!",
+   "bedroomCount": 3,
+   "location": {
+    "country": "Belgium",
+    "region": "Wallonie",
+    "province": "Hainaut",
+    "district": "Charleroi",
+    "locality": "Charleroi",
+    "postalCode": "6020",
+    "street": "Impasse des Oiseaux",
+    "number": "28",
+    "box": null,
+    "propertyName": null,
+    "floor": null,
+    "latitude": 50.4189679,
+    "longitude": 4.4323831,
+    "distance": null,
+    "approximated": null,
+    "regionCode": "WALLONIE",
+    "type": null,
+    "hasSeaView": null,
+    "pointsOfInterest": null,
+    "placeName": null
+   },
+   "netHabitableSurface": 123,
+   "landSurface": 238,
+   "roomCount": null
+  },
+  "publication": {
+   "publisherId": null,
+   "visualisationOption": "XL",
+   "size": "xl"
+  },
+  "transaction": {
+   "certificateLogoUrl": "https://static.immoweb.be/pics/peb/peb_e.png",
+   "certificate": "E",
+   "type": "FOR_SALE",
+   "rental": null,
+   "sale": {
+    "lifeAnnuity": null,
+    "hasStartingPrice": true,
+    "oldPrice": null,
+    "price": 99000,
+    "pricePerSqm": null,
+    "publicSale": null,
+    "toBuild": null,
+    "isSubjectToVat": null
+   }
+  },
+  "priceType": null,
+  "price": {
+   "type": "residential_sale",
+   "mainValue": 99000,
+   "alternativeValue": null,
+   "additionalValue": null,
+   "oldValue": null,
+   "minRangeValue": null,
+   "maxRangeValue": null,
+   "mainDisplayPrice": "€99,000",
+   "HTMLDisplayPrice": "<span aria-hidden=\"true\">€99,000</span>",
+   "alternativeDisplayPrice": "",
+   "oldDisplayPrice": null,
+   "shortDisplayPrice": "€99K",
+   "accessibilityPrice": "99000€",
+   "label": "Price",
+   "date": null,
+   "language": "en"
+  },
+  "isBookmarked": false,
+  "has360Tour": null,
+  "hasVirtualTour": null,
+  "advertisementId": null
+ },
+ {
+  "id": 11137657,
+  "cluster": {
+   "minPrice": null,
+   "maxPrice": null,
+   "minRoom": null,
+   "maxRoom": null,
+   "minSurface": null,
+   "maxSurface": null,
+   "projectInfo": null,
+   "bedroomRange": "",
+   "surfaceRange": ""
+  },
+  "customerLogoUrl": "https://static.immoweb.be/logos/2352.gif?cache=2024501501410",
+  "customerName": "Latour et Petit Vente",
+  "flags": {
+   "main": "new",
+   "secondary": [
+    "new_construction"
+   ],
+   "percentSold": null
+  },
+  "media": {
+   "pictures": [
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/3/7/6/5/7/11137657_1.gif?cache=20240213040853",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/3/7/6/5/7/M_11137657_1.jpg?cache=20240213040853",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/3/7/6/5/7/11137657_1.jpg?cache=20240213040853",
+     "isVertical": false
+    },
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/3/7/6/5/7/11137657_2.gif?cache=20240213040853",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/3/7/6/5/7/M_11137657_2.jpg?cache=20240213040853",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/3/7/6/5/7/11137657_2.jpg?cache=20240213040853",
+     "isVertical": false
+    },
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/3/7/6/5/7/11137657_3.gif?cache=20240213040853",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/3/7/6/5/7/M_11137657_3.jpg?cache=20240213040853",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/3/7/6/5/7/11137657_3.jpg?cache=20240213040853",
+     "isVertical": true
+    }
+   ]
+  },
+  "property": {
+   "type": "APARTMENT",
+   "subtype": "KOT",
+   "title": "Between Louise avenue and La Cambre",
+   "bedroomCount": 0,
+   "location": {
+    "country": "Belgium",
+    "region": "Brussels",
+    "province": "Brussels",
+    "district": "Brussels",
+    "locality": "Bruxelles",
+    "postalCode": "1000",
+    "street": "Boulevard de la Cambre",
+    "number": "25",
+    "box": "2.3",
+    "propertyName": null,
+    "floor": 2,
+    "latitude": 50.8161189,
+    "longitude": 4.374468,
+    "distance": null,
+    "approximated": null,
+    "regionCode": "BRUSSELS",
+    "type": null,
+    "hasSeaView": null,
+    "pointsOfInterest": null,
+    "placeName": null
+   },
+   "netHabitableSurface": 24,
+   "landSurface": null,
+   "roomCount": null
+  },
+  "publication": {
+   "publisherId": null,
+   "visualisationOption": "XL",
+   "size": "xl"
+  },
+  "transaction": {
+   "certificateLogoUrl": null,
+   "certificate": null,
+   "type": "FOR_SALE",
+   "rental": null,
+   "sale": {
+    "lifeAnnuity": null,
+    "hasStartingPrice": false,
+    "oldPrice": null,
+    "price": 216500,
+    "pricePerSqm": null,
+    "publicSale": null,
+    "toBuild": null,
+    "isSubjectToVat": null
+   }
+  },
+  "priceType": null,
+  "price": {
+   "type": "residential_sale",
+   "mainValue": 216500,
+   "alternativeValue": null,
+   "additionalValue": null,
+   "oldValue": null,
+   "minRangeValue": null,
+   "maxRangeValue": null,
+   "mainDisplayPrice": "€216,500",
+   "HTMLDisplayPrice": "<span aria-hidden=\"true\">€216,500</span>",
+   "alternativeDisplayPrice": "",
+   "oldDisplayPrice": null,
+   "shortDisplayPrice": "€216.5K",
+   "accessibilityPrice": "216500€",
+   "label": "Price",
+   "date": null,
+   "language": "en"
+  },
+  "isBookmarked": false,
+  "has360Tour": null,
+  "hasVirtualTour": null,
+  "advertisementId": null
+ },
+ {
+  "id": 11150560,
+  "cluster": {
+   "minPrice": null,
+   "maxPrice": null,
+   "minRoom": null,
+   "maxRoom": null,
+   "minSurface": null,
+   "maxSurface": null,
+   "projectInfo": null,
+   "bedroomRange": "",
+   "surfaceRange": ""
+  },
+  "customerLogoUrl": "https://static.immoweb.be/logos/208736.gif?cache=2024591201057",
+  "customerName": "Urban Concept sprl",
+  "flags": {
+   "main": "new",
+   "secondary": [],
+   "percentSold": null
+  },
+  "media": {
+   "pictures": [
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/5/0/5/6/0/11150560_1.gif?cache=20240219041859",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/5/0/5/6/0/M_11150560_1.jpg?cache=20240219041859",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/5/0/5/6/0/11150560_1.jpg?cache=20240219041859",
+     "isVertical": false
+    },
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/5/0/5/6/0/11150560_2.gif?cache=20240219041859",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/5/0/5/6/0/M_11150560_2.jpg?cache=20240219041859",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/5/0/5/6/0/11150560_2.jpg?cache=20240219041859",
+     "isVertical": false
+    },
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/5/0/5/6/0/11150560_3.gif?cache=20240219041859",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/5/0/5/6/0/M_11150560_3.jpg?cache=20240219041859",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/5/0/5/6/0/11150560_3.jpg?cache=20240219041859",
+     "isVertical": false
+    }
+   ]
+  },
+  "property": {
+   "type": "APARTMENT",
+   "subtype": "APARTMENT",
+   "title": "2 bedroom apart. with 3 terraces, cellar and closed garage",
+   "bedroomCount": 2,
+   "location": {
+    "country": "Belgium",
+    "region": "Flanders",
+    "province": "Flemish Brabant",
+    "district": "Halle-Vilvoorde",
+    "locality": "Grimbergen",
+    "postalCode": "1853",
+    "street": "Bergdal",
+    "number": "2,006",
+    "box": null,
+    "propertyName": null,
+    "floor": 2,
+    "latitude": 50.90249,
+    "longitude": 4.3537421,
+    "distance": null,
+    "approximated": null,
+    "regionCode": "FLANDERS",
+    "type": null,
+    "hasSeaView": null,
+    "pointsOfInterest": null,
+    "placeName": "Brabant flamand"
+   },
+   "netHabitableSurface": 85,
+   "landSurface": null,
+   "roomCount": null
+  },
+  "publication": {
+   "publisherId": null,
+   "visualisationOption": "XL",
+   "size": "xl"
+  },
+  "transaction": {
+   "certificateLogoUrl": null,
+   "certificate": null,
+   "type": "FOR_SALE",
+   "rental": null,
+   "sale": {
+    "lifeAnnuity": null,
+    "hasStartingPrice": false,
+    "oldPrice": null,
+    "price": 239000,
+    "pricePerSqm": null,
+    "publicSale": null,
+    "toBuild": null,
+    "isSubjectToVat": null
+   }
+  },
+  "priceType": null,
+  "price": {
+   "type": "residential_sale",
+   "mainValue": 239000,
+   "alternativeValue": null,
+   "additionalValue": null,
+   "oldValue": null,
+   "minRangeValue": null,
+   "maxRangeValue": null,
+   "mainDisplayPrice": "€239,000",
+   "HTMLDisplayPrice": "<span aria-hidden=\"true\">€239,000</span>",
+   "alternativeDisplayPrice": "",
+   "oldDisplayPrice": null,
+   "shortDisplayPrice": "€239K",
+   "accessibilityPrice": "239000€",
+   "label": "Price",
+   "date": null,
+   "language": "en"
+  },
+  "isBookmarked": false,
+  "has360Tour": null,
+  "hasVirtualTour": null,
+  "advertisementId": null
+ },
+ {
+  "id": 11150509,
+  "cluster": {
+   "minPrice": null,
+   "maxPrice": null,
+   "minRoom": null,
+   "maxRoom": null,
+   "minSurface": null,
+   "maxSurface": null,
+   "projectInfo": null,
+   "bedroomRange": "",
+   "surfaceRange": ""
+  },
+  "customerLogoUrl": "https://static.immoweb.be/logos/988104.gif?cache=2024361601947",
+  "customerName": "B&V Invest",
+  "flags": {
+   "main": "new",
+   "secondary": [],
+   "percentSold": null
+  },
+  "media": {
+   "pictures": [
+    {
+     "smallUrl": "https://media-resize.immowebstatic.be/classifieds/9c4623ab-6e14-4e08-aff2-28dcbc185df0/100x100/11653b2f3a2c397a65013f87698598e1.jpg?cache=20240219034153",
+     "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/9c4623ab-6e14-4e08-aff2-28dcbc185df0/300x300/11653b2f3a2c397a65013f87698598e1.jpg?cache=20240219034153",
+     "largeUrl": "https://media-resize.immowebstatic.be/classifieds/9c4623ab-6e14-4e08-aff2-28dcbc185df0/736x736/11653b2f3a2c397a65013f87698598e1.jpg?cache=20240219034153",
+     "isVertical": false
+    },
+    {
+     "smallUrl": "https://media-resize.immowebstatic.be/classifieds/9c4623ab-6e14-4e08-aff2-28dcbc185df0/100x100/be3d02d807659e4217055c34c2e6b460.jpg?cache=20240219034153",
+     "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/9c4623ab-6e14-4e08-aff2-28dcbc185df0/300x300/be3d02d807659e4217055c34c2e6b460.jpg?cache=20240219034153",
+     "largeUrl": "https://media-resize.immowebstatic.be/classifieds/9c4623ab-6e14-4e08-aff2-28dcbc185df0/736x736/be3d02d807659e4217055c34c2e6b460.jpg?cache=20240219034153",
+     "isVertical": false
+    },
+    {
+     "smallUrl": "https://media-resize.immowebstatic.be/classifieds/9c4623ab-6e14-4e08-aff2-28dcbc185df0/100x100/ecd3c6c45c738d15a04c3a9f34ab7796.jpg?cache=20240219034153",
+     "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/9c4623ab-6e14-4e08-aff2-28dcbc185df0/300x300/ecd3c6c45c738d15a04c3a9f34ab7796.jpg?cache=20240219034153",
+     "largeUrl": "https://media-resize.immowebstatic.be/classifieds/9c4623ab-6e14-4e08-aff2-28dcbc185df0/736x736/ecd3c6c45c738d15a04c3a9f34ab7796.jpg?cache=20240219034153",
+     "isVertical": false
+    }
+   ]
+  },
+  "property": {
+   "type": "APARTMENT",
+   "subtype": "APARTMENT",
+   "title": "Ruim duplex-appartement in hartje Aalst",
+   "bedroomCount": 2,
+   "location": {
+    "country": "Belgium",
+    "region": "Flanders",
+    "province": "East Flanders",
+    "district": "Aalst",
+    "locality": "AALST",
+    "postalCode": "9300",
+    "street": "Pontstraat",
+    "number": "32",
+    "box": " 7",
+    "propertyName": null,
+    "floor": 5,
+    "latitude": 50.9364487,
+    "longitude": 4.0430635,
+    "distance": null,
+    "approximated": null,
+    "regionCode": "FLANDERS",
+    "type": null,
+    "hasSeaView": null,
+    "pointsOfInterest": null,
+    "placeName": null
+   },
+   "netHabitableSurface": 126,
+   "landSurface": null,
+   "roomCount": null
+  },
+  "publication": {
+   "publisherId": null,
+   "visualisationOption": "XL",
+   "size": "xl"
+  },
+  "transaction": {
+   "certificateLogoUrl": null,
+   "certificate": null,
+   "type": "FOR_SALE",
+   "rental": null,
+   "sale": {
+    "lifeAnnuity": null,
+    "hasStartingPrice": null,
+    "oldPrice": null,
+    "price": 279000,
+    "pricePerSqm": null,
+    "publicSale": null,
+    "toBuild": null,
+    "isSubjectToVat": null
+   }
+  },
+  "priceType": null,
+  "price": {
+   "type": "residential_sale",
+   "mainValue": 279000,
+   "alternativeValue": null,
+   "additionalValue": null,
+   "oldValue": null,
+   "minRangeValue": null,
+   "maxRangeValue": null,
+   "mainDisplayPrice": "€279,000",
+   "HTMLDisplayPrice": "<span aria-hidden=\"true\">€279,000</span>",
+   "alternativeDisplayPrice": "",
+   "oldDisplayPrice": null,
+   "shortDisplayPrice": "€279K",
+   "accessibilityPrice": "279000€",
+   "label": "Price",
+   "date": null,
+   "language": "en"
+  },
+  "isBookmarked": false,
+  "has360Tour": null,
+  "hasVirtualTour": null,
+  "advertisementId": null
+ },
+ {
+  "id": 11150619,
+  "cluster": {
+   "minPrice": null,
+   "maxPrice": null,
+   "minRoom": null,
+   "maxRoom": null,
+   "minSurface": null,
+   "maxSurface": null,
+   "projectInfo": null,
+   "bedroomRange": "",
+   "surfaceRange": ""
+  },
+  "customerLogoUrl": "https://static.immoweb.be/logos/3623946.gif?cache=2024141501730",
+  "customerName": "By the Way",
+  "flags": {
+   "main": "new",
+   "secondary": [],
+   "percentSold": null
+  },
+  "media": {
+   "pictures": [
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/5/0/6/1/9/11150619_1.gif?cache=20240219051353",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/5/0/6/1/9/M_11150619_1.jpg?cache=20240219051352",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/5/0/6/1/9/11150619_1.jpg?cache=20240219051352",
+     "isVertical": false
+    },
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/5/0/6/1/9/11150619_2.gif?cache=20240219051353",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/5/0/6/1/9/M_11150619_2.jpg?cache=20240219051353",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/5/0/6/1/9/11150619_2.jpg?cache=20240219051353",
+     "isVertical": false
+    },
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/5/0/6/1/9/11150619_3.gif?cache=20240219051353",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/5/0/6/1/9/M_11150619_3.jpg?cache=20240219051353",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/5/0/6/1/9/11150619_3.jpg?cache=20240219051353",
+     "isVertical": false
+    }
+   ]
+  },
+  "property": {
+   "type": "APARTMENT",
+   "subtype": "APARTMENT",
+   "title": "2-bedroom flat, possibility of 3 bedrooms",
+   "bedroomCount": 3,
+   "location": {
+    "country": "Belgium",
+    "region": "Brussels",
+    "province": "Brussels",
+    "district": "Brussels",
+    "locality": "Ixelles",
+    "postalCode": "1050",
+    "street": "Avenue Louise",
+    "number": "160A",
+    "box": null,
+    "propertyName": null,
+    "floor": 3,
+    "latitude": 50.8286819,
+    "longitude": 4.3630138,
+    "distance": null,
+    "approximated": null,
+    "regionCode": "BRUSSELS",
+    "type": null,
+    "hasSeaView": null,
+    "pointsOfInterest": null,
+    "placeName": null
+   },
+   "netHabitableSurface": 134,
+   "landSurface": null,
+   "roomCount": null
+  },
+  "publication": {
+   "publisherId": null,
+   "visualisationOption": "XL",
+   "size": "xl"
+  },
+  "transaction": {
+   "certificateLogoUrl": null,
+   "certificate": null,
+   "type": "FOR_SALE",
+   "rental": null,
+   "sale": {
+    "lifeAnnuity": null,
+    "hasStartingPrice": false,
+    "oldPrice": null,
+    "price": 495000,
+    "pricePerSqm": null,
+    "publicSale": null,
+    "toBuild": null,
+    "isSubjectToVat": null
+   }
+  },
+  "priceType": null,
+  "price": {
+   "type": "residential_sale",
+   "mainValue": 495000,
+   "alternativeValue": null,
+   "additionalValue": null,
+   "oldValue": null,
+   "minRangeValue": null,
+   "maxRangeValue": null,
+   "mainDisplayPrice": "€495,000",
+   "HTMLDisplayPrice": "<span aria-hidden=\"true\">€495,000</span>",
+   "alternativeDisplayPrice": "",
+   "oldDisplayPrice": null,
+   "shortDisplayPrice": "€495K",
+   "accessibilityPrice": "495000€",
+   "label": "Price",
+   "date": null,
+   "language": "en"
+  },
+  "isBookmarked": false,
+  "has360Tour": null,
+  "hasVirtualTour": true,
+  "advertisementId": null
+ },
+ {
+  "id": 11150505,
+  "cluster": {
+   "minPrice": null,
+   "maxPrice": null,
+   "minRoom": null,
+   "maxRoom": null,
+   "minSurface": null,
+   "maxSurface": null,
+   "projectInfo": null,
+   "bedroomRange": "",
+   "surfaceRange": ""
+  },
+  "customerLogoUrl": "https://static.immoweb.be/logos/145409.gif?cache=2024361501287",
+  "customerName": "Expertissimmo",
+  "flags": {
+   "main": "new",
+   "secondary": [],
+   "percentSold": null
+  },
+  "media": {
+   "pictures": [
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/5/0/5/0/5/11150505_1.gif?cache=20240219033852",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/5/0/5/0/5/M_11150505_1.jpg?cache=20240219033852",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/5/0/5/0/5/11150505_1.jpg?cache=20240219033852",
+     "isVertical": false
+    },
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/5/0/5/0/5/11150505_2.gif?cache=20240219033852",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/5/0/5/0/5/M_11150505_2.jpg?cache=20240219033852",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/5/0/5/0/5/11150505_2.jpg?cache=20240219033852",
+     "isVertical": false
+    },
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/5/0/5/0/5/11150505_3.gif?cache=20240219033852",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/5/0/5/0/5/M_11150505_3.jpg?cache=20240219033852",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/5/0/5/0/5/11150505_3.jpg?cache=20240219033852",
+     "isVertical": false
+    }
+   ]
+  },
+  "property": {
+   "type": "APARTMENT",
+   "subtype": "APARTMENT",
+   "title": "SAINT-MICHEL - RENOVATED FLAT + TERR/GAR / EXCEPTIONAL VIEW",
+   "bedroomCount": 3,
+   "location": {
+    "country": "Belgium",
+    "region": "Brussels",
+    "province": "Brussels",
+    "district": "Brussels",
+    "locality": "Etterbeek",
+    "postalCode": "1040",
+    "street": "Boulevard Saint-Michel",
+    "number": "115",
+    "box": null,
+    "propertyName": null,
+    "floor": 7,
+    "latitude": 50.8325261,
+    "longitude": 4.404477,
+    "distance": null,
+    "approximated": null,
+    "regionCode": "BRUSSELS",
+    "type": null,
+    "hasSeaView": null,
+    "pointsOfInterest": null,
+    "placeName": "Bruxelles (19 communes)"
+   },
+   "netHabitableSurface": 197,
+   "landSurface": null,
+   "roomCount": null
+  },
+  "publication": {
+   "publisherId": null,
+   "visualisationOption": "XL",
+   "size": "xl"
+  },
+  "transaction": {
+   "certificateLogoUrl": null,
+   "certificate": null,
+   "type": "FOR_SALE",
+   "rental": null,
+   "sale": {
+    "lifeAnnuity": null,
+    "hasStartingPrice": false,
+    "oldPrice": null,
+    "price": 749000,
+    "pricePerSqm": null,
+    "publicSale": null,
+    "toBuild": null,
+    "isSubjectToVat": null
+   }
+  },
+  "priceType": null,
+  "price": {
+   "type": "residential_sale",
+   "mainValue": 749000,
+   "alternativeValue": null,
+   "additionalValue": null,
+   "oldValue": null,
+   "minRangeValue": null,
+   "maxRangeValue": null,
+   "mainDisplayPrice": "€749,000",
+   "HTMLDisplayPrice": "<span aria-hidden=\"true\">€749,000</span>",
+   "alternativeDisplayPrice": "",
+   "oldDisplayPrice": null,
+   "shortDisplayPrice": "€749K",
+   "accessibilityPrice": "749000€",
+   "label": "Price",
+   "date": null,
+   "language": "en"
+  },
+  "isBookmarked": false,
+  "has360Tour": null,
+  "hasVirtualTour": true,
+  "advertisementId": null
+ },
+ {
+  "id": 11141681,
+  "cluster": {
+   "minPrice": 148000,
+   "maxPrice": 382000,
+   "minRoom": null,
+   "maxRoom": null,
+   "minSurface": 42,
+   "maxSurface": 133,
+   "projectInfo": {
+    "constructor": null,
+    "groupId": 11141681,
+    "phase": null,
+    "projectName": "Upsylon",
+    "deliveryDate": null,
+    "soldPercentage": null,
+    "unitsDisplayMode": null
+   },
+   "bedroomRange": "1 - 3",
+   "surfaceRange": "42 - 133"
+  },
+  "customerLogoUrl": "https://static.immoweb.be/logos/2575488.gif?cache=2024521001663",
+  "customerName": "We Invest Bruxelles",
+  "flags": {
+   "main": "new",
+   "secondary": [
+    "new_real_estate_project"
+   ],
+   "percentSold": null
+  },
+  "media": {
+   "pictures": [
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/4/1/6/8/1/11141681_1.gif?cache=20240214080428",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/4/1/6/8/1/M_11141681_1.jpg?cache=20240214080428",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/4/1/6/8/1/11141681_1.jpg?cache=20240214080428",
+     "isVertical": false
+    },
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/4/1/6/8/1/11141681_2.gif?cache=20240214080428",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/4/1/6/8/1/M_11141681_2.jpg?cache=20240214080428",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/4/1/6/8/1/11141681_2.jpg?cache=20240214080428",
+     "isVertical": false
+    },
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/4/1/6/8/1/11141681_3.gif?cache=20240214080429",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/4/1/6/8/1/M_11141681_3.jpg?cache=20240214080429",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/4/1/6/8/1/11141681_3.jpg?cache=20240214080429",
+     "isVertical": false
+    }
+   ]
+  },
+  "property": {
+   "type": "APARTMENT_GROUP",
+   "subtype": "APARTMENT_GROUP",
+   "title": "Your 100% personalised flat",
+   "bedroomCount": null,
+   "location": {
+    "country": "Belgium",
+    "region": "Brussels",
+    "province": "Brussels",
+    "district": "Brussels",
+    "locality": "Berchem-Sainte-Agathe",
+    "postalCode": "1082",
+    "street": null,
+    "number": null,
+    "box": null,
+    "propertyName": null,
+    "floor": null,
+    "latitude": null,
+    "longitude": null,
+    "distance": null,
+    "approximated": null,
+    "regionCode": "BRUSSELS",
+    "type": null,
+    "hasSeaView": null,
+    "pointsOfInterest": null,
+    "placeName": null
+   },
+   "netHabitableSurface": null,
+   "landSurface": null,
+   "roomCount": null
+  },
+  "publication": {
+   "publisherId": null,
+   "visualisationOption": "XL",
+   "size": "xl"
+  },
+  "transaction": {
+   "certificateLogoUrl": null,
+   "certificate": null,
+   "type": "FOR_SALE",
+   "rental": null,
+   "sale": {
+    "lifeAnnuity": null,
+    "hasStartingPrice": false,
+    "oldPrice": null,
+    "price": null,
+    "pricePerSqm": null,
+    "publicSale": null,
+    "toBuild": null,
+    "isSubjectToVat": null
+   }
+  },
+  "priceType": null,
+  "price": {
+   "type": "group_sale",
+   "mainValue": null,
+   "alternativeValue": null,
+   "additionalValue": null,
+   "oldValue": null,
+   "minRangeValue": 148000,
+   "maxRangeValue": 382000,
+   "mainDisplayPrice": "€148,000 - €382,000",
+   "HTMLDisplayPrice": "<span aria-hidden=\"true\">€148,000 - €382,000</span>",
+   "alternativeDisplayPrice": "",
+   "oldDisplayPrice": null,
+   "shortDisplayPrice": "€148K - 382K",
+   "accessibilityPrice": "From 148000€ To 382000€",
+   "label": "Min price - Max price",
+   "date": null,
+   "language": "en"
+  },
+  "isBookmarked": false,
+  "has360Tour": null,
+  "hasVirtualTour": null,
+  "advertisementId": null
+ },
+ {
+  "id": 11140971,
+  "cluster": {
+   "minPrice": 150000,
+   "maxPrice": 980000,
+   "minRoom": null,
+   "maxRoom": null,
+   "minSurface": 32,
+   "maxSurface": 140,
+   "projectInfo": {
+    "constructor": null,
+    "groupId": 11140971,
+    "phase": null,
+    "projectName": "CARRE COGHEN - UCCLE -",
+    "deliveryDate": null,
+    "soldPercentage": 53,
+    "unitsDisplayMode": null
+   },
+   "bedroomRange": "1 - 2",
+   "surfaceRange": "32 - 140"
+  },
+  "customerLogoUrl": "https://static.immoweb.be/logos/2595964.gif?cache=2024151601410",
+  "customerName": "Vaneau Lecobel Vente Neuf",
+  "flags": {
+   "main": "new",
+   "secondary": [
+    "new_real_estate_project",
+    "percent_sold"
+   ],
+   "percentSold": 53
+  },
+  "media": {
+   "pictures": [
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/4/0/9/7/1/11140971_1.gif?cache=20240214063901",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/4/0/9/7/1/M_11140971_1.jpg?cache=20240214063901",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/4/0/9/7/1/11140971_1.jpg?cache=20240214063901",
+     "isVertical": false
+    },
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/4/0/9/7/1/11140971_2.gif?cache=20240214063901",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/4/0/9/7/1/M_11140971_2.jpg?cache=20240214063901",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/4/0/9/7/1/11140971_2.jpg?cache=20240214063901",
+     "isVertical": false
+    },
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/4/0/9/7/1/11140971_3.gif?cache=20240214063901",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/4/0/9/7/1/M_11140971_3.jpg?cache=20240214063901",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/4/0/9/7/1/11140971_3.jpg?cache=20240214063901",
+     "isVertical": false
+    }
+   ]
+  },
+  "property": {
+   "type": "APARTMENT_GROUP",
+   "subtype": "APARTMENT_GROUP",
+   "title": "THE BEST OF CITY LIVING WITH THE CARRE COGHEN",
+   "bedroomCount": null,
+   "location": {
+    "country": "Belgium",
+    "region": "Brussels",
+    "province": "Brussels",
+    "district": "Brussels",
+    "locality": "Uccle",
+    "postalCode": "1180",
+    "street": "Rue du Doyenne",
+    "number": "56-58",
+    "box": null,
+    "propertyName": null,
+    "floor": null,
+    "latitude": 50.8062376,
+    "longitude": 4.3384171,
+    "distance": null,
+    "approximated": null,
+    "regionCode": "BRUSSELS",
+    "type": null,
+    "hasSeaView": null,
+    "pointsOfInterest": null,
+    "placeName": "Bruxelles Sud"
+   },
+   "netHabitableSurface": null,
+   "landSurface": null,
+   "roomCount": null
+  },
+  "publication": {
+   "publisherId": null,
+   "visualisationOption": "XL",
+   "size": "xl"
+  },
+  "transaction": {
+   "certificateLogoUrl": null,
+   "certificate": null,
+   "type": "FOR_SALE",
+   "rental": null,
+   "sale": {
+    "lifeAnnuity": null,
+    "hasStartingPrice": false,
+    "oldPrice": null,
+    "price": null,
+    "pricePerSqm": null,
+    "publicSale": null,
+    "toBuild": null,
+    "isSubjectToVat": null
+   }
+  },
+  "priceType": null,
+  "price": {
+   "type": "group_sale",
+   "mainValue": null,
+   "alternativeValue": null,
+   "additionalValue": null,
+   "oldValue": null,
+   "minRangeValue": 150000,
+   "maxRangeValue": 980000,
+   "mainDisplayPrice": "€150,000 - €980,000",
+   "HTMLDisplayPrice": "<span aria-hidden=\"true\">€150,000 - €980,000</span>",
+   "alternativeDisplayPrice": "",
+   "oldDisplayPrice": null,
+   "shortDisplayPrice": "€150K - 980K",
+   "accessibilityPrice": "From 150000€ To 980000€",
+   "label": "Min price - Max price",
+   "date": null,
+   "language": "en"
+  },
+  "isBookmarked": false,
+  "has360Tour": null,
+  "hasVirtualTour": null,
+  "advertisementId": null
+ },
+ {
+  "id": 11140941,
+  "cluster": {
+   "minPrice": null,
+   "maxPrice": null,
+   "minRoom": null,
+   "maxRoom": null,
+   "minSurface": null,
+   "maxSurface": null,
+   "projectInfo": null,
+   "bedroomRange": "",
+   "surfaceRange": ""
+  },
+  "customerLogoUrl": "https://static.immoweb.be/logos/1403588.gif?cache=2024101601947",
+  "customerName": "HOME ACCESS IMMOBILIER",
+  "flags": {
+   "main": "new",
+   "secondary": [],
+   "percentSold": null
+  },
+  "media": {
+   "pictures": [
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/4/0/9/4/1/11140941_1.gif?cache=20240214061913",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/4/0/9/4/1/M_11140941_1.jpg?cache=20240214061913",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/4/0/9/4/1/11140941_1.jpg?cache=20240214061913",
+     "isVertical": false
+    },
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/4/0/9/4/1/11140941_2.gif?cache=20240214061913",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/4/0/9/4/1/M_11140941_2.jpg?cache=20240214061913",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/4/0/9/4/1/11140941_2.jpg?cache=20240214061913",
+     "isVertical": false
+    },
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/4/0/9/4/1/11140941_3.gif?cache=20240214061913",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/4/0/9/4/1/M_11140941_3.jpg?cache=20240214061913",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/4/0/9/4/1/11140941_3.jpg?cache=20240214061913",
+     "isVertical": false
+    }
+   ]
+  },
+  "property": {
+   "type": "APARTMENT",
+   "subtype": "APARTMENT",
+   "title": "Beautiful 1 bedroom apartment with storage and parking",
+   "bedroomCount": 1,
+   "location": {
+    "country": "Belgium",
+    "region": "Wallonie",
+    "province": "Hainaut",
+    "district": "Soignies",
+    "locality": "Le Roeulx",
+    "postalCode": "7070",
+    "street": "Faubourg de Binche",
+    "number": "4,8",
+    "box": null,
+    "propertyName": null,
+    "floor": 3,
+    "latitude": 50.4991933,
+    "longitude": 4.1096622,
+    "distance": null,
+    "approximated": null,
+    "regionCode": "WALLONIE",
+    "type": null,
+    "hasSeaView": null,
+    "pointsOfInterest": null,
+    "placeName": null
+   },
+   "netHabitableSurface": 68,
+   "landSurface": null,
+   "roomCount": null
+  },
+  "publication": {
+   "publisherId": null,
+   "visualisationOption": "XL",
+   "size": "xl"
+  },
+  "transaction": {
+   "certificateLogoUrl": "https://static.immoweb.be/pics/peb/peb_b.png",
+   "certificate": "B",
+   "type": "FOR_SALE",
+   "rental": null,
+   "sale": {
+    "lifeAnnuity": null,
+    "hasStartingPrice": true,
+    "oldPrice": null,
+    "price": 185000,
+    "pricePerSqm": null,
+    "publicSale": null,
+    "toBuild": null,
+    "isSubjectToVat": null
+   }
+  },
+  "priceType": null,
+  "price": {
+   "type": "residential_sale",
+   "mainValue": 185000,
+   "alternativeValue": null,
+   "additionalValue": null,
+   "oldValue": null,
+   "minRangeValue": null,
+   "maxRangeValue": null,
+   "mainDisplayPrice": "€185,000",
+   "HTMLDisplayPrice": "<span aria-hidden=\"true\">€185,000</span>",
+   "alternativeDisplayPrice": "",
+   "oldDisplayPrice": null,
+   "shortDisplayPrice": "€185K",
+   "accessibilityPrice": "185000€",
+   "label": "Price",
+   "date": null,
+   "language": "en"
+  },
+  "isBookmarked": false,
+  "has360Tour": null,
+  "hasVirtualTour": null,
+  "advertisementId": null
+ },
+ {
+  "id": 11142083,
+  "cluster": {
+   "minPrice": null,
+   "maxPrice": null,
+   "minRoom": null,
+   "maxRoom": null,
+   "minSurface": null,
+   "maxSurface": null,
+   "projectInfo": null,
+   "bedroomRange": "",
+   "surfaceRange": ""
+  },
+  "customerLogoUrl": "https://static.immoweb.be/logos/1446474.gif?cache=2024261601943",
+  "customerName": "Immovasta",
+  "flags": {
+   "main": "new",
+   "secondary": [],
+   "percentSold": null
+  },
+  "media": {
+   "pictures": [
+    {
+     "smallUrl": "https://media-resize.immowebstatic.be/classifieds/05c61a40-b538-4dc3-b4f2-6db42544b4c0/100x100/4a5bce7ec2b3c708e0b4f7c19129e8e3.jpg?cache=20240219022425",
+     "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/05c61a40-b538-4dc3-b4f2-6db42544b4c0/300x300/4a5bce7ec2b3c708e0b4f7c19129e8e3.jpg?cache=20240219022425",
+     "largeUrl": "https://media-resize.immowebstatic.be/classifieds/05c61a40-b538-4dc3-b4f2-6db42544b4c0/736x736/4a5bce7ec2b3c708e0b4f7c19129e8e3.jpg?cache=20240219022425",
+     "isVertical": false
+    },
+    {
+     "smallUrl": "https://media-resize.immowebstatic.be/classifieds/05c61a40-b538-4dc3-b4f2-6db42544b4c0/100x100/050061ba9517833f38be5000b718f60d.jpg?cache=20240219022425",
+     "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/05c61a40-b538-4dc3-b4f2-6db42544b4c0/300x300/050061ba9517833f38be5000b718f60d.jpg?cache=20240219022425",
+     "largeUrl": "https://media-resize.immowebstatic.be/classifieds/05c61a40-b538-4dc3-b4f2-6db42544b4c0/736x736/050061ba9517833f38be5000b718f60d.jpg?cache=20240219022425",
+     "isVertical": false
+    },
+    {
+     "smallUrl": "https://media-resize.immowebstatic.be/classifieds/05c61a40-b538-4dc3-b4f2-6db42544b4c0/100x100/dabd85c0c72c81f7468542aaa65555d5.jpg?cache=20240219022425",
+     "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/05c61a40-b538-4dc3-b4f2-6db42544b4c0/300x300/dabd85c0c72c81f7468542aaa65555d5.jpg?cache=20240219022425",
+     "largeUrl": "https://media-resize.immowebstatic.be/classifieds/05c61a40-b538-4dc3-b4f2-6db42544b4c0/736x736/dabd85c0c72c81f7468542aaa65555d5.jpg?cache=20240219022425",
+     "isVertical": false
+    }
+   ]
+  },
+  "property": {
+   "type": "APARTMENT",
+   "subtype": "FLAT_STUDIO",
+   "title": "Appartement",
+   "bedroomCount": 1,
+   "location": {
+    "country": "Belgium",
+    "region": "Flanders",
+    "province": "Antwerp",
+    "district": "Antwerp",
+    "locality": "ANTWERPEN",
+    "postalCode": "2018",
+    "street": "Montebellostraat",
+    "number": "2",
+    "box": " 207",
+    "propertyName": null,
+    "floor": 2,
+    "latitude": 51.2081873,
+    "longitude": 4.4082537,
+    "distance": null,
+    "approximated": null,
+    "regionCode": "FLANDERS",
+    "type": null,
+    "hasSeaView": null,
+    "pointsOfInterest": null,
+    "placeName": null
+   },
+   "netHabitableSurface": 42,
+   "landSurface": null,
+   "roomCount": null
+  },
+  "publication": {
+   "publisherId": null,
+   "visualisationOption": "XL",
+   "size": "xl"
+  },
+  "transaction": {
+   "certificateLogoUrl": null,
+   "certificate": null,
+   "type": "FOR_SALE",
+   "rental": null,
+   "sale": {
+    "lifeAnnuity": null,
+    "hasStartingPrice": null,
+    "oldPrice": null,
+    "price": 187000,
+    "pricePerSqm": null,
+    "publicSale": null,
+    "toBuild": null,
+    "isSubjectToVat": null
+   }
+  },
+  "priceType": null,
+  "price": {
+   "type": "residential_sale",
+   "mainValue": 187000,
+   "alternativeValue": null,
+   "additionalValue": null,
+   "oldValue": null,
+   "minRangeValue": null,
+   "maxRangeValue": null,
+   "mainDisplayPrice": "€187,000",
+   "HTMLDisplayPrice": "<span aria-hidden=\"true\">€187,000</span>",
+   "alternativeDisplayPrice": "",
+   "oldDisplayPrice": null,
+   "shortDisplayPrice": "€187K",
+   "accessibilityPrice": "187000€",
+   "label": "Price",
+   "date": null,
+   "language": "en"
+  },
+  "isBookmarked": false,
+  "has360Tour": null,
+  "hasVirtualTour": null,
+  "advertisementId": null
+ },
+ {
+  "id": 11143240,
+  "cluster": {
+   "minPrice": 195000,
+   "maxPrice": 445000,
+   "minRoom": null,
+   "maxRoom": null,
+   "minSurface": 78,
+   "maxSurface": 175,
+   "projectInfo": {
+    "constructor": null,
+    "groupId": 11143240,
+    "phase": null,
+    "projectName": "Liv de Molens",
+    "deliveryDate": null,
+    "soldPercentage": 30,
+    "unitsDisplayMode": null
+   },
+   "bedroomRange": "2",
+   "surfaceRange": "78 - 175"
+  },
+  "customerLogoUrl": "https://static.immoweb.be/logos/2118760.gif?cache=2024481501767",
+  "customerName": "Landbergh",
+  "flags": {
+   "main": "new",
+   "secondary": [
+    "new_real_estate_project",
+    "percent_sold"
+   ],
+   "percentSold": 30
+  },
+  "media": {
+   "pictures": [
+    {
+     "smallUrl": "https://media-resize.immowebstatic.be/classifieds/d236fbd2-1c27-4eeb-b528-406ed240de20/100x100/8e05825dc8470fb0e20c8b33fe80549b.jpg?cache=20240218201559",
+     "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/d236fbd2-1c27-4eeb-b528-406ed240de20/300x300/8e05825dc8470fb0e20c8b33fe80549b.jpg?cache=20240218201559",
+     "largeUrl": "https://media-resize.immowebstatic.be/classifieds/d236fbd2-1c27-4eeb-b528-406ed240de20/736x736/8e05825dc8470fb0e20c8b33fe80549b.jpg?cache=20240218201559",
+     "isVertical": false
+    },
+    {
+     "smallUrl": "https://media-resize.immowebstatic.be/classifieds/d236fbd2-1c27-4eeb-b528-406ed240de20/100x100/00b0bdfc706592b6b9e43e664c2289a8.jpg?cache=20240218201559",
+     "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/d236fbd2-1c27-4eeb-b528-406ed240de20/300x300/00b0bdfc706592b6b9e43e664c2289a8.jpg?cache=20240218201559",
+     "largeUrl": "https://media-resize.immowebstatic.be/classifieds/d236fbd2-1c27-4eeb-b528-406ed240de20/736x736/00b0bdfc706592b6b9e43e664c2289a8.jpg?cache=20240218201559",
+     "isVertical": false
+    },
+    {
+     "smallUrl": "https://media-resize.immowebstatic.be/classifieds/d236fbd2-1c27-4eeb-b528-406ed240de20/100x100/20f026364d758192e1d4bb2c53066354.jpg?cache=20240218201559",
+     "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/d236fbd2-1c27-4eeb-b528-406ed240de20/300x300/20f026364d758192e1d4bb2c53066354.jpg?cache=20240218201559",
+     "largeUrl": "https://media-resize.immowebstatic.be/classifieds/d236fbd2-1c27-4eeb-b528-406ed240de20/736x736/20f026364d758192e1d4bb2c53066354.jpg?cache=20240218201559",
+     "isVertical": false
+    }
+   ]
+  },
+  "property": {
+   "type": "APARTMENT_GROUP",
+   "subtype": "APARTMENT_GROUP",
+   "title": "Liv de Molens",
+   "bedroomCount": null,
+   "location": {
+    "country": "Belgium",
+    "region": "Flanders",
+    "province": "East Flanders",
+    "district": "Gent",
+    "locality": "Deinze",
+    "postalCode": "9800",
+    "street": "Tolpoortstraat",
+    "number": "40",
+    "box": null,
+    "propertyName": null,
+    "floor": null,
+    "latitude": 50.9823065,
+    "longitude": 3.5305868,
+    "distance": null,
+    "approximated": null,
+    "regionCode": "FLANDERS",
+    "type": null,
+    "hasSeaView": null,
+    "pointsOfInterest": null,
+    "placeName": null
+   },
+   "netHabitableSurface": null,
+   "landSurface": null,
+   "roomCount": null
+  },
+  "publication": {
+   "publisherId": null,
+   "visualisationOption": "XL",
+   "size": "xl"
+  },
+  "transaction": {
+   "certificateLogoUrl": null,
+   "certificate": null,
+   "type": "FOR_SALE",
+   "rental": null,
+   "sale": {
+    "lifeAnnuity": null,
+    "hasStartingPrice": null,
+    "oldPrice": null,
+    "price": null,
+    "pricePerSqm": null,
+    "publicSale": null,
+    "toBuild": null,
+    "isSubjectToVat": null
+   }
+  },
+  "priceType": null,
+  "price": {
+   "type": "group_sale",
+   "mainValue": null,
+   "alternativeValue": null,
+   "additionalValue": null,
+   "oldValue": null,
+   "minRangeValue": 195000,
+   "maxRangeValue": 445000,
+   "mainDisplayPrice": "€195,000 - €445,000",
+   "HTMLDisplayPrice": "<span aria-hidden=\"true\">€195,000 - €445,000</span>",
+   "alternativeDisplayPrice": "",
+   "oldDisplayPrice": null,
+   "shortDisplayPrice": "€195K - 445K",
+   "accessibilityPrice": "From 195000€ To 445000€",
+   "label": "Min price - Max price",
+   "date": null,
+   "language": "en"
+  },
+  "isBookmarked": false,
+  "has360Tour": null,
+  "hasVirtualTour": null,
+  "advertisementId": null
+ },
+ {
+  "id": 11140649,
+  "cluster": {
+   "minPrice": 199000,
+   "maxPrice": 399000,
+   "minRoom": null,
+   "maxRoom": null,
+   "minSurface": 46,
+   "maxSurface": 127,
+   "projectInfo": {
+    "constructor": null,
+    "groupId": 11140649,
+    "phase": null,
+    "projectName": "FOREST VILLAGE II",
+    "deliveryDate": null,
+    "soldPercentage": null,
+    "unitsDisplayMode": null
+   },
+   "bedroomRange": "1 - 3",
+   "surfaceRange": "46 - 127"
+  },
+  "customerLogoUrl": "https://static.immoweb.be/logos/1942392.gif?cache=2024591201773",
+  "customerName": "BATHIM & CO RESIDENTIAL",
+  "flags": {
+   "main": "new",
+   "secondary": [
+    "new_real_estate_project"
+   ],
+   "percentSold": null
+  },
+  "media": {
+   "pictures": [
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/4/0/6/4/9/11140649_1.gif?cache=20240214050423",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/4/0/6/4/9/M_11140649_1.jpg?cache=20240214050423",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/4/0/6/4/9/11140649_1.jpg?cache=20240214050423",
+     "isVertical": false
+    },
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/4/0/6/4/9/11140649_2.gif?cache=20240214050423",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/4/0/6/4/9/M_11140649_2.jpg?cache=20240214050423",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/4/0/6/4/9/11140649_2.jpg?cache=20240214050423",
+     "isVertical": false
+    },
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/4/0/6/4/9/11140649_3.gif?cache=20240214050423",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/4/0/6/4/9/M_11140649_3.jpg?cache=20240214050423",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/4/0/6/4/9/11140649_3.jpg?cache=20240214050423",
+     "isVertical": false
+    }
+   ]
+  },
+  "property": {
+   "type": "APARTMENT_GROUP",
+   "subtype": "APARTMENT_GROUP",
+   "title": "NEW BUILT APT PEB B COMMON GARDEN AND TERRACE",
+   "bedroomCount": null,
+   "location": {
+    "country": "Belgium",
+    "region": "Brussels",
+    "province": "Brussels",
+    "district": "Brussels",
+    "locality": "Forest",
+    "postalCode": "1190",
+    "street": "Rue des Carburants",
+    "number": "1",
+    "box": null,
+    "propertyName": null,
+    "floor": null,
+    "latitude": 50.8139605,
+    "longitude": 4.3207534,
+    "distance": null,
+    "approximated": null,
+    "regionCode": "BRUSSELS",
+    "type": null,
+    "hasSeaView": null,
+    "pointsOfInterest": null,
+    "placeName": "R Forest Uccle"
+   },
+   "netHabitableSurface": null,
+   "landSurface": null,
+   "roomCount": null
+  },
+  "publication": {
+   "publisherId": null,
+   "visualisationOption": "XL",
+   "size": "xl"
+  },
+  "transaction": {
+   "certificateLogoUrl": null,
+   "certificate": null,
+   "type": "FOR_SALE",
+   "rental": null,
+   "sale": {
+    "lifeAnnuity": null,
+    "hasStartingPrice": false,
+    "oldPrice": null,
+    "price": null,
+    "pricePerSqm": null,
+    "publicSale": null,
+    "toBuild": null,
+    "isSubjectToVat": null
+   }
+  },
+  "priceType": null,
+  "price": {
+   "type": "group_sale",
+   "mainValue": null,
+   "alternativeValue": null,
+   "additionalValue": null,
+   "oldValue": null,
+   "minRangeValue": 199000,
+   "maxRangeValue": 399000,
+   "mainDisplayPrice": "€199,000 - €399,000",
+   "HTMLDisplayPrice": "<span aria-hidden=\"true\">€199,000 - €399,000</span>",
+   "alternativeDisplayPrice": "",
+   "oldDisplayPrice": null,
+   "shortDisplayPrice": "€199K - 399K",
+   "accessibilityPrice": "From 199000€ To 399000€",
+   "label": "Min price - Max price",
+   "date": null,
+   "language": "en"
+  },
+  "isBookmarked": false,
+  "has360Tour": null,
+  "hasVirtualTour": null,
+  "advertisementId": null
+ },
+ {
+  "id": 11141932,
+  "cluster": {
+   "minPrice": 206000,
+   "maxPrice": 342000,
+   "minRoom": null,
+   "maxRoom": null,
+   "minSurface": 52,
+   "maxSurface": 97,
+   "projectInfo": {
+    "constructor": null,
+    "groupId": 11141932,
+    "phase": null,
+    "projectName": "BLANCS PRES - Résidence OPALINE",
+    "deliveryDate": null,
+    "soldPercentage": 79,
+    "unitsDisplayMode": null
+   },
+   "bedroomRange": "2",
+   "surfaceRange": "52 - 97"
+  },
+  "customerLogoUrl": "https://static.immoweb.be/logos/3512537.gif?cache=2024211601303",
+  "customerName": "TREVI Luxembourg",
+  "flags": {
+   "main": "new",
+   "secondary": [
+    "new_real_estate_project",
+    "percent_sold"
+   ],
+   "percentSold": 79
+  },
+  "media": {
+   "pictures": [
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/4/1/9/3/2/11141932_1.gif?cache=20240214093351",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/4/1/9/3/2/M_11141932_1.jpg?cache=20240214093351",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/4/1/9/3/2/11141932_1.jpg?cache=20240214093351",
+     "isVertical": false
+    },
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/4/1/9/3/2/11141932_2.gif?cache=20240214093351",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/4/1/9/3/2/M_11141932_2.jpg?cache=20240214093351",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/4/1/9/3/2/11141932_2.jpg?cache=20240214093351",
+     "isVertical": false
+    },
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/4/1/9/3/2/11141932_3.gif?cache=20240214093351",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/4/1/9/3/2/M_11141932_3.jpg?cache=20240214093351",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/4/1/9/3/2/11141932_3.jpg?cache=20240214093351",
+     "isVertical": false
+    }
+   ]
+  },
+  "property": {
+   "type": "APARTMENT_GROUP",
+   "subtype": "APARTMENT_GROUP",
+   "title": "Habitez cocoon",
+   "bedroomCount": null,
+   "location": {
+    "country": "Belgium",
+    "region": "Wallonie",
+    "province": "Luxembourg",
+    "district": "Arlon",
+    "locality": "Arlon",
+    "postalCode": "6700",
+    "street": "Rue des Blancs Prés",
+    "number": "1",
+    "box": null,
+    "propertyName": null,
+    "floor": null,
+    "latitude": 49.6923475,
+    "longitude": 5.8072139,
+    "distance": null,
+    "approximated": null,
+    "regionCode": "WALLONIE",
+    "type": null,
+    "hasSeaView": null,
+    "pointsOfInterest": null,
+    "placeName": null
+   },
+   "netHabitableSurface": null,
+   "landSurface": null,
+   "roomCount": null
+  },
+  "publication": {
+   "publisherId": null,
+   "visualisationOption": "XL",
+   "size": "xl"
+  },
+  "transaction": {
+   "certificateLogoUrl": null,
+   "certificate": null,
+   "type": "FOR_SALE",
+   "rental": null,
+   "sale": {
+    "lifeAnnuity": null,
+    "hasStartingPrice": false,
+    "oldPrice": null,
+    "price": null,
+    "pricePerSqm": null,
+    "publicSale": null,
+    "toBuild": null,
+    "isSubjectToVat": null
+   }
+  },
+  "priceType": null,
+  "price": {
+   "type": "group_sale",
+   "mainValue": null,
+   "alternativeValue": null,
+   "additionalValue": null,
+   "oldValue": null,
+   "minRangeValue": 206000,
+   "maxRangeValue": 342000,
+   "mainDisplayPrice": "€206,000 - €342,000",
+   "HTMLDisplayPrice": "<span aria-hidden=\"true\">€206,000 - €342,000</span>",
+   "alternativeDisplayPrice": "",
+   "oldDisplayPrice": null,
+   "shortDisplayPrice": "€206K - 342K",
+   "accessibilityPrice": "From 206000€ To 342000€",
+   "label": "Min price - Max price",
+   "date": null,
+   "language": "en"
+  },
+  "isBookmarked": false,
+  "has360Tour": null,
+  "hasVirtualTour": null,
+  "advertisementId": null
+ },
+ {
+  "id": 11143532,
+  "cluster": {
+   "minPrice": 232900,
+   "maxPrice": 408900,
+   "minRoom": null,
+   "maxRoom": null,
+   "minSurface": 65,
+   "maxSurface": 121,
+   "projectInfo": {
+    "constructor": null,
+    "groupId": 11143532,
+    "phase": null,
+    "projectName": "Residentie Tamboer",
+    "deliveryDate": null,
+    "soldPercentage": null,
+    "unitsDisplayMode": null
+   },
+   "bedroomRange": "1 - 3",
+   "surfaceRange": "65 - 121"
+  },
+  "customerLogoUrl": "https://static.immoweb.be/logos/2152238.gif?cache=2024521001473",
+  "customerName": "Heylen Vastgoed Turnhout",
+  "flags": {
+   "main": "new",
+   "secondary": [
+    "new_real_estate_project"
+   ],
+   "percentSold": null
+  },
+  "media": {
+   "pictures": [
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/4/3/5/3/2/11143532_1.gif?cache=20240214220913",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/4/3/5/3/2/M_11143532_1.jpg?cache=20240214220913",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/4/3/5/3/2/11143532_1.jpg?cache=20240214220913",
+     "isVertical": false
+    },
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/4/3/5/3/2/11143532_2.gif?cache=20240214220913",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/4/3/5/3/2/M_11143532_2.jpg?cache=20240214220913",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/4/3/5/3/2/11143532_2.jpg?cache=20240214220913",
+     "isVertical": false
+    },
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/4/3/5/3/2/11143532_3.gif?cache=20240214220913",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/4/3/5/3/2/M_11143532_3.jpg?cache=20240214220913",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/4/3/5/3/2/11143532_3.jpg?cache=20240214220913",
+     "isVertical": false
+    }
+   ]
+  },
+  "property": {
+   "type": "APARTMENT_GROUP",
+   "subtype": "APARTMENT_GROUP",
+   "title": "Infomoment 17/02/2024 tussen 10.00u-12.30u - Kempenlaan 32 T",
+   "bedroomCount": null,
+   "location": {
+    "country": "Belgium",
+    "region": "Flanders",
+    "province": "Antwerp",
+    "district": "Turnhout",
+    "locality": "Turnhout",
+    "postalCode": "2300",
+    "street": "Kasteelloop",
+    "number": "20-28",
+    "box": null,
+    "propertyName": null,
+    "floor": null,
+    "latitude": 51.3168203,
+    "longitude": 4.9434178,
+    "distance": null,
+    "approximated": null,
+    "regionCode": "FLANDERS",
+    "type": null,
+    "hasSeaView": null,
+    "pointsOfInterest": null,
+    "placeName": null
+   },
+   "netHabitableSurface": null,
+   "landSurface": null,
+   "roomCount": null
+  },
+  "publication": {
+   "publisherId": null,
+   "visualisationOption": "XL",
+   "size": "xl"
+  },
+  "transaction": {
+   "certificateLogoUrl": null,
+   "certificate": null,
+   "type": "FOR_SALE",
+   "rental": null,
+   "sale": {
+    "lifeAnnuity": null,
+    "hasStartingPrice": false,
+    "oldPrice": null,
+    "price": null,
+    "pricePerSqm": null,
+    "publicSale": null,
+    "toBuild": null,
+    "isSubjectToVat": null
+   }
+  },
+  "priceType": null,
+  "price": {
+   "type": "group_sale",
+   "mainValue": null,
+   "alternativeValue": null,
+   "additionalValue": null,
+   "oldValue": null,
+   "minRangeValue": 232900,
+   "maxRangeValue": 408900,
+   "mainDisplayPrice": "€232,900 - €408,900",
+   "HTMLDisplayPrice": "<span aria-hidden=\"true\">€232,900 - €408,900</span>",
+   "alternativeDisplayPrice": "",
+   "oldDisplayPrice": null,
+   "shortDisplayPrice": "€232.9K - 408.9K",
+   "accessibilityPrice": "From 232900€ To 408900€",
+   "label": "Min price - Max price",
+   "date": null,
+   "language": "en"
+  },
+  "isBookmarked": false,
+  "has360Tour": null,
+  "hasVirtualTour": null,
+  "advertisementId": null
+ },
+ {
+  "id": 11103715,
+  "cluster": {
+   "minPrice": null,
+   "maxPrice": null,
+   "minRoom": null,
+   "maxRoom": null,
+   "minSurface": null,
+   "maxSurface": null,
+   "projectInfo": null,
+   "bedroomRange": "",
+   "surfaceRange": ""
+  },
+  "customerLogoUrl": "https://static.immoweb.be/logos/3760160.gif?cache=2024201001127",
+  "customerName": "Trevi.",
+  "flags": {
+   "main": null,
+   "secondary": [
+    "new_price"
+   ],
+   "percentSold": null
+  },
+  "media": {
+   "pictures": [
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/0/3/7/1/5/11103715_1.gif?cache=20240130061432",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/0/3/7/1/5/M_11103715_1.jpg?cache=20240130061432",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/0/3/7/1/5/11103715_1.jpg?cache=20240130061432",
+     "isVertical": false
+    },
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/0/3/7/1/5/11103715_2.gif?cache=20240130061432",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/0/3/7/1/5/M_11103715_2.jpg?cache=20240130061432",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/0/3/7/1/5/11103715_2.jpg?cache=20240130061432",
+     "isVertical": false
+    },
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/0/3/7/1/5/11103715_3.gif?cache=20240130061432",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/0/3/7/1/5/M_11103715_3.jpg?cache=20240130061432",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/0/3/7/1/5/11103715_3.jpg?cache=20240130061432",
+     "isVertical": false
+    }
+   ]
+  },
+  "property": {
+   "type": "APARTMENT",
+   "subtype": "APARTMENT",
+   "title": "2 bedrooms apartment + P",
+   "bedroomCount": 2,
+   "location": {
+    "country": "Belgium",
+    "region": "Brussels",
+    "province": "Brussels",
+    "district": "Brussels",
+    "locality": "Berchem-Sainte-Agathe",
+    "postalCode": "1082",
+    "street": "Rue des Soldats",
+    "number": "36",
+    "box": "G5.02",
+    "propertyName": null,
+    "floor": 5,
+    "latitude": 50.8631826,
+    "longitude": 4.2967048,
+    "distance": null,
+    "approximated": null,
+    "regionCode": "BRUSSELS",
+    "type": null,
+    "hasSeaView": null,
+    "pointsOfInterest": null,
+    "placeName": null
+   },
+   "netHabitableSurface": 110,
+   "landSurface": null,
+   "roomCount": null
+  },
+  "publication": {
+   "publisherId": null,
+   "visualisationOption": "XL",
+   "size": "xl"
+  },
+  "transaction": {
+   "certificateLogoUrl": null,
+   "certificate": null,
+   "type": "FOR_SALE",
+   "rental": null,
+   "sale": {
+    "lifeAnnuity": null,
+    "hasStartingPrice": false,
+    "oldPrice": 255000,
+    "price": 245000,
+    "pricePerSqm": null,
+    "publicSale": null,
+    "toBuild": null,
+    "isSubjectToVat": null
+   }
+  },
+  "priceType": null,
+  "price": {
+   "type": "residential_sale",
+   "mainValue": 245000,
+   "alternativeValue": null,
+   "additionalValue": null,
+   "oldValue": 255000,
+   "minRangeValue": null,
+   "maxRangeValue": null,
+   "mainDisplayPrice": "€245,000",
+   "HTMLDisplayPrice": "<span aria-hidden=\"true\">€245,000</span>",
+   "alternativeDisplayPrice": "",
+   "oldDisplayPrice": "€255,000",
+   "shortDisplayPrice": "€245K",
+   "accessibilityPrice": "245000€",
+   "label": "Price",
+   "date": null,
+   "language": "en"
+  },
+  "isBookmarked": false,
+  "has360Tour": null,
+  "hasVirtualTour": null,
+  "advertisementId": null
+ },
+ {
+  "id": 11141650,
+  "cluster": {
+   "minPrice": 251000,
+   "maxPrice": 380000,
+   "minRoom": null,
+   "maxRoom": null,
+   "minSurface": 42,
+   "maxSurface": 83,
+   "projectInfo": {
+    "constructor": null,
+    "groupId": 11141650,
+    "phase": null,
+    "projectName": "Evora",
+    "deliveryDate": null,
+    "soldPercentage": null,
+    "unitsDisplayMode": null
+   },
+   "bedroomRange": "1 - 2",
+   "surfaceRange": "42 - 83"
+  },
+  "customerLogoUrl": "https://static.immoweb.be/logos/2575488.gif?cache=2024521001663",
+  "customerName": "We Invest Bruxelles",
+  "flags": {
+   "main": "new",
+   "secondary": [
+    "new_real_estate_project"
+   ],
+   "percentSold": null
+  },
+  "media": {
+   "pictures": [
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/4/1/6/5/0/11141650_1.gif?cache=20240214080419",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/4/1/6/5/0/M_11141650_1.jpg?cache=20240214080419",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/4/1/6/5/0/11141650_1.jpg?cache=20240214080419",
+     "isVertical": false
+    },
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/4/1/6/5/0/11141650_2.gif?cache=20240214080419",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/4/1/6/5/0/M_11141650_2.jpg?cache=20240214080419",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/4/1/6/5/0/11141650_2.jpg?cache=20240214080419",
+     "isVertical": false
+    },
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/4/1/6/5/0/11141650_3.gif?cache=20240214080419",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/4/1/6/5/0/M_11141650_3.jpg?cache=20240214080419",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/4/1/6/5/0/11141650_3.jpg?cache=20240214080419",
+     "isVertical": false
+    }
+   ]
+  },
+  "property": {
+   "type": "APARTMENT_GROUP",
+   "subtype": "APARTMENT_GROUP",
+   "title": "Evora - new flats to be delivered in early 2024!",
+   "bedroomCount": null,
+   "location": {
+    "country": "Belgium",
+    "region": "Brussels",
+    "province": "Brussels",
+    "district": "Brussels",
+    "locality": "Evere",
+    "postalCode": "1140",
+    "street": "Avenue du Cimetière de Bruxelles",
+    "number": "125",
+    "box": null,
+    "propertyName": null,
+    "floor": null,
+    "latitude": 50.8629704,
+    "longitude": 4.4163776,
+    "distance": null,
+    "approximated": null,
+    "regionCode": "BRUSSELS",
+    "type": null,
+    "hasSeaView": null,
+    "pointsOfInterest": null,
+    "placeName": "Bruxelles"
+   },
+   "netHabitableSurface": null,
+   "landSurface": null,
+   "roomCount": null
+  },
+  "publication": {
+   "publisherId": null,
+   "visualisationOption": "XL",
+   "size": "xl"
+  },
+  "transaction": {
+   "certificateLogoUrl": null,
+   "certificate": null,
+   "type": "FOR_SALE",
+   "rental": null,
+   "sale": {
+    "lifeAnnuity": null,
+    "hasStartingPrice": false,
+    "oldPrice": null,
+    "price": null,
+    "pricePerSqm": null,
+    "publicSale": null,
+    "toBuild": null,
+    "isSubjectToVat": null
+   }
+  },
+  "priceType": null,
+  "price": {
+   "type": "group_sale",
+   "mainValue": null,
+   "alternativeValue": null,
+   "additionalValue": null,
+   "oldValue": null,
+   "minRangeValue": 251000,
+   "maxRangeValue": 380000,
+   "mainDisplayPrice": "€251,000 - €380,000",
+   "HTMLDisplayPrice": "<span aria-hidden=\"true\">€251,000 - €380,000</span>",
+   "alternativeDisplayPrice": "",
+   "oldDisplayPrice": null,
+   "shortDisplayPrice": "€251K - 380K",
+   "accessibilityPrice": "From 251000€ To 380000€",
+   "label": "Min price - Max price",
+   "date": null,
+   "language": "en"
+  },
+  "isBookmarked": false,
+  "has360Tour": null,
+  "hasVirtualTour": null,
+  "advertisementId": null
+ },
+ {
+  "id": 11143236,
+  "cluster": {
+   "minPrice": 255000,
+   "maxPrice": 550000,
+   "minRoom": null,
+   "maxRoom": null,
+   "minSurface": 68,
+   "maxSurface": 130,
+   "projectInfo": {
+    "constructor": null,
+    "groupId": 11143236,
+    "phase": null,
+    "projectName": "Liv De Molens",
+    "deliveryDate": null,
+    "soldPercentage": null,
+    "unitsDisplayMode": null
+   },
+   "bedroomRange": "1 - 3",
+   "surfaceRange": "68 - 130"
+  },
+  "customerLogoUrl": "https://static.immoweb.be/logos/2118760.gif?cache=2024481501767",
+  "customerName": "Landbergh",
+  "flags": {
+   "main": "new",
+   "secondary": [
+    "new_real_estate_project"
+   ],
+   "percentSold": null
+  },
+  "media": {
+   "pictures": [
+    {
+     "smallUrl": "https://media-resize.immowebstatic.be/classifieds/2390c9b0-933b-4c62-80fc-3e4b5a9684fc/100x100/21df88ff402d835a413621d76193c720.jpg?cache=20240218201544",
+     "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/2390c9b0-933b-4c62-80fc-3e4b5a9684fc/300x300/21df88ff402d835a413621d76193c720.jpg?cache=20240218201544",
+     "largeUrl": "https://media-resize.immowebstatic.be/classifieds/2390c9b0-933b-4c62-80fc-3e4b5a9684fc/736x736/21df88ff402d835a413621d76193c720.jpg?cache=20240218201544",
+     "isVertical": false
+    },
+    {
+     "smallUrl": "https://media-resize.immowebstatic.be/classifieds/2390c9b0-933b-4c62-80fc-3e4b5a9684fc/100x100/508f29139188e1731e56f62a2ba48119.jpg?cache=20240218201544",
+     "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/2390c9b0-933b-4c62-80fc-3e4b5a9684fc/300x300/508f29139188e1731e56f62a2ba48119.jpg?cache=20240218201544",
+     "largeUrl": "https://media-resize.immowebstatic.be/classifieds/2390c9b0-933b-4c62-80fc-3e4b5a9684fc/736x736/508f29139188e1731e56f62a2ba48119.jpg?cache=20240218201544",
+     "isVertical": false
+    },
+    {
+     "smallUrl": "https://media-resize.immowebstatic.be/classifieds/2390c9b0-933b-4c62-80fc-3e4b5a9684fc/100x100/4ca6adeedaba9410ab97dfd395882cba.jpg?cache=20240218201544",
+     "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/2390c9b0-933b-4c62-80fc-3e4b5a9684fc/300x300/4ca6adeedaba9410ab97dfd395882cba.jpg?cache=20240218201544",
+     "largeUrl": "https://media-resize.immowebstatic.be/classifieds/2390c9b0-933b-4c62-80fc-3e4b5a9684fc/736x736/4ca6adeedaba9410ab97dfd395882cba.jpg?cache=20240218201544",
+     "isVertical": false
+    }
+   ]
+  },
+  "property": {
+   "type": "APARTMENT_GROUP",
+   "subtype": "APARTMENT_GROUP",
+   "title": "Liv De Molens",
+   "bedroomCount": null,
+   "location": {
+    "country": "Belgium",
+    "region": "Flanders",
+    "province": "East Flanders",
+    "district": "Gent",
+    "locality": "Deinze",
+    "postalCode": "9800",
+    "street": "Tolpoortstraat",
+    "number": "41",
+    "box": null,
+    "propertyName": null,
+    "floor": null,
+    "latitude": 50.9813272,
+    "longitude": 3.5292559,
+    "distance": null,
+    "approximated": null,
+    "regionCode": "FLANDERS",
+    "type": null,
+    "hasSeaView": null,
+    "pointsOfInterest": null,
+    "placeName": null
+   },
+   "netHabitableSurface": null,
+   "landSurface": null,
+   "roomCount": null
+  },
+  "publication": {
+   "publisherId": null,
+   "visualisationOption": "XL",
+   "size": "xl"
+  },
+  "transaction": {
+   "certificateLogoUrl": null,
+   "certificate": null,
+   "type": "FOR_SALE",
+   "rental": null,
+   "sale": {
+    "lifeAnnuity": null,
+    "hasStartingPrice": null,
+    "oldPrice": null,
+    "price": null,
+    "pricePerSqm": null,
+    "publicSale": null,
+    "toBuild": null,
+    "isSubjectToVat": null
+   }
+  },
+  "priceType": null,
+  "price": {
+   "type": "group_sale",
+   "mainValue": null,
+   "alternativeValue": null,
+   "additionalValue": null,
+   "oldValue": null,
+   "minRangeValue": 255000,
+   "maxRangeValue": 550000,
+   "mainDisplayPrice": "€255,000 - €550,000",
+   "HTMLDisplayPrice": "<span aria-hidden=\"true\">€255,000 - €550,000</span>",
+   "alternativeDisplayPrice": "",
+   "oldDisplayPrice": null,
+   "shortDisplayPrice": "€255K - 550K",
+   "accessibilityPrice": "From 255000€ To 550000€",
+   "label": "Min price - Max price",
+   "date": null,
+   "language": "en"
+  },
+  "isBookmarked": false,
+  "has360Tour": null,
+  "hasVirtualTour": null,
+  "advertisementId": null
+ },
+ {
+  "id": 11141321,
+  "cluster": {
+   "minPrice": 257500,
+   "maxPrice": 523500,
+   "minRoom": null,
+   "maxRoom": null,
+   "minSurface": 49,
+   "maxSurface": 105,
+   "projectInfo": {
+    "constructor": null,
+    "groupId": 11141321,
+    "phase": null,
+    "projectName": "Delta View",
+    "deliveryDate": null,
+    "soldPercentage": 87,
+    "unitsDisplayMode": null
+   },
+   "bedroomRange": "1 - 2",
+   "surfaceRange": "49 - 105"
+  },
+  "customerLogoUrl": "https://static.immoweb.be/logos/2575488.gif?cache=2024521001663",
+  "customerName": "We Invest Bruxelles",
+  "flags": {
+   "main": "new",
+   "secondary": [
+    "new_real_estate_project",
+    "percent_sold"
+   ],
+   "percentSold": 87
+  },
+  "media": {
+   "pictures": [
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/4/1/3/2/1/11141321_1.gif?cache=20240214074454",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/4/1/3/2/1/M_11141321_1.jpg?cache=20240214074454",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/4/1/3/2/1/11141321_1.jpg?cache=20240214074454",
+     "isVertical": false
+    },
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/4/1/3/2/1/11141321_2.gif?cache=20240214074454",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/4/1/3/2/1/M_11141321_2.jpg?cache=20240214074454",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/4/1/3/2/1/11141321_2.jpg?cache=20240214074454",
+     "isVertical": false
+    },
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/4/1/3/2/1/11141321_3.gif?cache=20240214074454",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/4/1/3/2/1/M_11141321_3.jpg?cache=20240214074454",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/4/1/3/2/1/11141321_3.jpg?cache=20240214074454",
+     "isVertical": false
+    }
+   ]
+  },
+  "property": {
+   "type": "APARTMENT_GROUP",
+   "subtype": "APARTMENT_GROUP",
+   "title": "Projet Delta View",
+   "bedroomCount": null,
+   "location": {
+    "country": "Belgium",
+    "region": "Brussels",
+    "province": "Brussels",
+    "district": "Brussels",
+    "locality": "Auderghem",
+    "postalCode": "1160",
+    "street": "Boulevard du Triomphe",
+    "number": "201",
+    "box": null,
+    "propertyName": null,
+    "floor": null,
+    "latitude": 50.8163956,
+    "longitude": 4.3989398,
+    "distance": null,
+    "approximated": null,
+    "regionCode": "BRUSSELS",
+    "type": null,
+    "hasSeaView": null,
+    "pointsOfInterest": null,
+    "placeName": null
+   },
+   "netHabitableSurface": null,
+   "landSurface": null,
+   "roomCount": null
+  },
+  "publication": {
+   "publisherId": null,
+   "visualisationOption": "XL",
+   "size": "xl"
+  },
+  "transaction": {
+   "certificateLogoUrl": null,
+   "certificate": null,
+   "type": "FOR_SALE",
+   "rental": null,
+   "sale": {
+    "lifeAnnuity": null,
+    "hasStartingPrice": false,
+    "oldPrice": null,
+    "price": null,
+    "pricePerSqm": null,
+    "publicSale": null,
+    "toBuild": null,
+    "isSubjectToVat": null
+   }
+  },
+  "priceType": null,
+  "price": {
+   "type": "group_sale",
+   "mainValue": null,
+   "alternativeValue": null,
+   "additionalValue": null,
+   "oldValue": null,
+   "minRangeValue": 257500,
+   "maxRangeValue": 523500,
+   "mainDisplayPrice": "€257,500 - €523,500",
+   "HTMLDisplayPrice": "<span aria-hidden=\"true\">€257,500 - €523,500</span>",
+   "alternativeDisplayPrice": "",
+   "oldDisplayPrice": null,
+   "shortDisplayPrice": "€257.5K - 523.5K",
+   "accessibilityPrice": "From 257500€ To 523500€",
+   "label": "Min price - Max price",
+   "date": null,
+   "language": "en"
+  },
+  "isBookmarked": false,
+  "has360Tour": null,
+  "hasVirtualTour": null,
+  "advertisementId": null
+ },
+ {
+  "id": 11140621,
+  "cluster": {
+   "minPrice": 259000,
+   "maxPrice": 529000,
+   "minRoom": null,
+   "maxRoom": null,
+   "minSurface": 55,
+   "maxSurface": 127,
+   "projectInfo": {
+    "constructor": null,
+    "groupId": 11140621,
+    "phase": null,
+    "projectName": "GASTENDELLE",
+    "deliveryDate": null,
+    "soldPercentage": 62,
+    "unitsDisplayMode": null
+   },
+   "bedroomRange": "1 - 3",
+   "surfaceRange": "55 - 127"
+  },
+  "customerLogoUrl": "https://static.immoweb.be/logos/1942392.gif?cache=2024591201773",
+  "customerName": "BATHIM & CO RESIDENTIAL",
+  "flags": {
+   "main": "new",
+   "secondary": [
+    "new_real_estate_project",
+    "percent_sold"
+   ],
+   "percentSold": 62
+  },
+  "media": {
+   "pictures": [
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/4/0/6/2/1/11140621_1.gif?cache=20240214050409",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/4/0/6/2/1/M_11140621_1.jpg?cache=20240214050409",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/4/0/6/2/1/11140621_1.jpg?cache=20240214050409",
+     "isVertical": false
+    },
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/4/0/6/2/1/11140621_2.gif?cache=20240214050408",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/4/0/6/2/1/M_11140621_2.jpg?cache=20240214050408",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/4/0/6/2/1/11140621_2.jpg?cache=20240214050408",
+     "isVertical": false
+    },
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/4/0/6/2/1/11140621_3.gif?cache=20240214050409",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/4/0/6/2/1/M_11140621_3.jpg?cache=20240214050409",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/4/0/6/2/1/11140621_3.jpg?cache=20240214050409",
+     "isVertical": false
+    }
+   ]
+  },
+  "property": {
+   "type": "APARTMENT_GROUP",
+   "subtype": "APARTMENT_GROUP",
+   "title": "EVERE - OPEN HOUSE SATURDAY 17/2 FROM 10:30AM TILL 1PM",
+   "bedroomCount": null,
+   "location": {
+    "country": "Belgium",
+    "region": "Brussels",
+    "province": "Brussels",
+    "district": "Brussels",
+    "locality": "Schaerbeek",
+    "postalCode": "1030",
+    "street": "Rue Stroobants",
+    "number": "48",
+    "box": null,
+    "propertyName": null,
+    "floor": null,
+    "latitude": 50.8789854,
+    "longitude": 4.3924799,
+    "distance": null,
+    "approximated": null,
+    "regionCode": "BRUSSELS",
+    "type": null,
+    "hasSeaView": null,
+    "pointsOfInterest": null,
+    "placeName": null
+   },
+   "netHabitableSurface": null,
+   "landSurface": null,
+   "roomCount": null
+  },
+  "publication": {
+   "publisherId": null,
+   "visualisationOption": "XL",
+   "size": "xl"
+  },
+  "transaction": {
+   "certificateLogoUrl": null,
+   "certificate": null,
+   "type": "FOR_SALE",
+   "rental": null,
+   "sale": {
+    "lifeAnnuity": null,
+    "hasStartingPrice": false,
+    "oldPrice": null,
+    "price": null,
+    "pricePerSqm": null,
+    "publicSale": null,
+    "toBuild": null,
+    "isSubjectToVat": null
+   }
+  },
+  "priceType": null,
+  "price": {
+   "type": "group_sale",
+   "mainValue": null,
+   "alternativeValue": null,
+   "additionalValue": null,
+   "oldValue": null,
+   "minRangeValue": 259000,
+   "maxRangeValue": 529000,
+   "mainDisplayPrice": "€259,000 - €529,000",
+   "HTMLDisplayPrice": "<span aria-hidden=\"true\">€259,000 - €529,000</span>",
+   "alternativeDisplayPrice": "",
+   "oldDisplayPrice": null,
+   "shortDisplayPrice": "€259K - 529K",
+   "accessibilityPrice": "From 259000€ To 529000€",
+   "label": "Min price - Max price",
+   "date": null,
+   "language": "en"
+  },
+  "isBookmarked": false,
+  "has360Tour": null,
+  "hasVirtualTour": true,
+  "advertisementId": null
+ },
+ {
+  "id": 11140889,
+  "cluster": {
+   "minPrice": 268700,
+   "maxPrice": 368500,
+   "minRoom": null,
+   "maxRoom": null,
+   "minSurface": 76,
+   "maxSurface": 113,
+   "projectInfo": {
+    "constructor": null,
+    "groupId": 11140889,
+    "phase": null,
+    "projectName": "Gaverling Gebouw F",
+    "deliveryDate": null,
+    "soldPercentage": 46,
+    "unitsDisplayMode": null
+   },
+   "bedroomRange": "1 - 3",
+   "surfaceRange": "76 - 113"
+  },
+  "customerLogoUrl": "https://static.immoweb.be/logos/1989885.gif?cache=2024521001287",
+  "customerName": "Immo Da Vinci",
+  "flags": {
+   "main": "new",
+   "secondary": [
+    "new_real_estate_project",
+    "percent_sold"
+   ],
+   "percentSold": 46
+  },
+  "media": {
+   "pictures": [
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/4/0/8/8/9/11140889_1.gif?cache=20240214061516",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/4/0/8/8/9/M_11140889_1.jpg?cache=20240214061516",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/4/0/8/8/9/11140889_1.jpg?cache=20240214061516",
+     "isVertical": false
+    },
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/4/0/8/8/9/11140889_2.gif?cache=20240214061516",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/4/0/8/8/9/M_11140889_2.jpg?cache=20240214061516",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/4/0/8/8/9/11140889_2.jpg?cache=20240214061516",
+     "isVertical": false
+    },
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/4/0/8/8/9/11140889_3.gif?cache=20240214061516",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/4/0/8/8/9/M_11140889_3.jpg?cache=20240214061516",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/4/0/8/8/9/11140889_3.jpg?cache=20240214061516",
+     "isVertical": false
+    }
+   ]
+  },
+  "property": {
+   "type": "APARTMENT_GROUP",
+   "subtype": "APARTMENT_GROUP",
+   "title": "Wonen in het park in Gavere.",
+   "bedroomCount": null,
+   "location": {
+    "country": "Belgium",
+    "region": "Flanders",
+    "province": "East Flanders",
+    "district": "Gent",
+    "locality": "Gavere",
+    "postalCode": "9890",
+    "street": null,
+    "number": null,
+    "box": null,
+    "propertyName": null,
+    "floor": null,
+    "latitude": null,
+    "longitude": null,
+    "distance": null,
+    "approximated": null,
+    "regionCode": "FLANDERS",
+    "type": null,
+    "hasSeaView": null,
+    "pointsOfInterest": null,
+    "placeName": null
+   },
+   "netHabitableSurface": null,
+   "landSurface": null,
+   "roomCount": null
+  },
+  "publication": {
+   "publisherId": null,
+   "visualisationOption": "XL",
+   "size": "xl"
+  },
+  "transaction": {
+   "certificateLogoUrl": null,
+   "certificate": null,
+   "type": "FOR_SALE",
+   "rental": null,
+   "sale": {
+    "lifeAnnuity": null,
+    "hasStartingPrice": false,
+    "oldPrice": null,
+    "price": null,
+    "pricePerSqm": null,
+    "publicSale": null,
+    "toBuild": null,
+    "isSubjectToVat": null
+   }
+  },
+  "priceType": null,
+  "price": {
+   "type": "group_sale",
+   "mainValue": null,
+   "alternativeValue": null,
+   "additionalValue": null,
+   "oldValue": null,
+   "minRangeValue": 268700,
+   "maxRangeValue": 368500,
+   "mainDisplayPrice": "€268,700 - €368,500",
+   "HTMLDisplayPrice": "<span aria-hidden=\"true\">€268,700 - €368,500</span>",
+   "alternativeDisplayPrice": "",
+   "oldDisplayPrice": null,
+   "shortDisplayPrice": "€268.7K - 368.5K",
+   "accessibilityPrice": "From 268700€ To 368500€",
+   "label": "Min price - Max price",
+   "date": null,
+   "language": "en"
+  },
+  "isBookmarked": false,
+  "has360Tour": null,
+  "hasVirtualTour": null,
+  "advertisementId": null
+ },
+ {
+  "id": 11140841,
+  "cluster": {
+   "minPrice": 268700,
+   "maxPrice": 442375,
+   "minRoom": null,
+   "maxRoom": null,
+   "minSurface": 76,
+   "maxSurface": 165,
+   "projectInfo": {
+    "constructor": null,
+    "groupId": 11140841,
+    "phase": null,
+    "projectName": "Gaverling - Gavere",
+    "deliveryDate": null,
+    "soldPercentage": 45,
+    "unitsDisplayMode": null
+   },
+   "bedroomRange": "1 - 3",
+   "surfaceRange": "76 - 165"
+  },
+  "customerLogoUrl": "https://static.immoweb.be/logos/1989885.gif?cache=2024521001287",
+  "customerName": "Immo Da Vinci",
+  "flags": {
+   "main": "new",
+   "secondary": [
+    "new_real_estate_project",
+    "percent_sold"
+   ],
+   "percentSold": 45
+  },
+  "media": {
+   "pictures": [
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/4/0/8/4/1/11140841_1.gif?cache=20240214061409",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/4/0/8/4/1/M_11140841_1.jpg?cache=20240214061409",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/4/0/8/4/1/11140841_1.jpg?cache=20240214061409",
+     "isVertical": false
+    },
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/4/0/8/4/1/11140841_2.gif?cache=20240214061409",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/4/0/8/4/1/M_11140841_2.jpg?cache=20240214061409",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/4/0/8/4/1/11140841_2.jpg?cache=20240214061409",
+     "isVertical": false
+    },
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/4/0/8/4/1/11140841_3.gif?cache=20240214061409",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/4/0/8/4/1/M_11140841_3.jpg?cache=20240214061409",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/4/0/8/4/1/11140841_3.jpg?cache=20240214061409",
+     "isVertical": false
+    }
+   ]
+  },
+  "property": {
+   "type": "APARTMENT_GROUP",
+   "subtype": "APARTMENT_GROUP",
+   "title": "Wonen in het park in Gavere.",
+   "bedroomCount": null,
+   "location": {
+    "country": "Belgium",
+    "region": "Flanders",
+    "province": "East Flanders",
+    "district": "Gent",
+    "locality": "Gavere",
+    "postalCode": "9890",
+    "street": "Egmont Park",
+    "number": "11",
+    "box": null,
+    "propertyName": null,
+    "floor": null,
+    "latitude": 50.9284071,
+    "longitude": 3.679605,
+    "distance": null,
+    "approximated": null,
+    "regionCode": "FLANDERS",
+    "type": null,
+    "hasSeaView": null,
+    "pointsOfInterest": null,
+    "placeName": "Oost-Vlaanderen"
+   },
+   "netHabitableSurface": null,
+   "landSurface": null,
+   "roomCount": null
+  },
+  "publication": {
+   "publisherId": null,
+   "visualisationOption": "XL",
+   "size": "xl"
+  },
+  "transaction": {
+   "certificateLogoUrl": null,
+   "certificate": null,
+   "type": "FOR_SALE",
+   "rental": null,
+   "sale": {
+    "lifeAnnuity": null,
+    "hasStartingPrice": false,
+    "oldPrice": null,
+    "price": null,
+    "pricePerSqm": null,
+    "publicSale": null,
+    "toBuild": null,
+    "isSubjectToVat": null
+   }
+  },
+  "priceType": null,
+  "price": {
+   "type": "group_sale",
+   "mainValue": null,
+   "alternativeValue": null,
+   "additionalValue": null,
+   "oldValue": null,
+   "minRangeValue": 268700,
+   "maxRangeValue": 442375,
+   "mainDisplayPrice": "€268,700 - €442,375",
+   "HTMLDisplayPrice": "<span aria-hidden=\"true\">€268,700 - €442,375</span>",
+   "alternativeDisplayPrice": "",
+   "oldDisplayPrice": null,
+   "shortDisplayPrice": "€268.7K - 442.4K",
+   "accessibilityPrice": "From 268700€ To 442375€",
+   "label": "Min price - Max price",
+   "date": null,
+   "language": "en"
+  },
+  "isBookmarked": false,
+  "has360Tour": null,
+  "hasVirtualTour": null,
+  "advertisementId": null
+ },
+ {
+  "id": 11140816,
+  "cluster": {
+   "minPrice": null,
+   "maxPrice": null,
+   "minRoom": null,
+   "maxRoom": null,
+   "minSurface": null,
+   "maxSurface": null,
+   "projectInfo": null,
+   "bedroomRange": "",
+   "surfaceRange": ""
+  },
+  "customerLogoUrl": "https://static.immoweb.be/logos/3760160.gif?cache=2024201001127",
+  "customerName": "Trevi.",
+  "flags": {
+   "main": "new",
+   "secondary": [],
+   "percentSold": null
+  },
+  "media": {
+   "pictures": [
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/4/0/8/1/6/11140816_1.gif?cache=20240214060903",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/4/0/8/1/6/M_11140816_1.jpg?cache=20240214060903",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/4/0/8/1/6/11140816_1.jpg?cache=20240214060903",
+     "isVertical": false
+    },
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/4/0/8/1/6/11140816_2.gif?cache=20240214060903",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/4/0/8/1/6/M_11140816_2.jpg?cache=20240214060903",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/4/0/8/1/6/11140816_2.jpg?cache=20240214060903",
+     "isVertical": false
+    },
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/4/0/8/1/6/11140816_3.gif?cache=20240214060903",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/4/0/8/1/6/M_11140816_3.jpg?cache=20240214060903",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/4/0/8/1/6/11140816_3.jpg?cache=20240214060903",
+     "isVertical": true
+    }
+   ]
+  },
+  "property": {
+   "type": "APARTMENT",
+   "subtype": "APARTMENT",
+   "title": "3 bedrooms apartment + P",
+   "bedroomCount": 3,
+   "location": {
+    "country": "Belgium",
+    "region": "Brussels",
+    "province": "Brussels",
+    "district": "Brussels",
+    "locality": "Berchem-Sainte-Agathe",
+    "postalCode": "1082",
+    "street": "Rue des Soldats",
+    "number": "36",
+    "box": "G3.02",
+    "propertyName": null,
+    "floor": 3,
+    "latitude": 50.8631826,
+    "longitude": 4.2967048,
+    "distance": null,
+    "approximated": null,
+    "regionCode": "BRUSSELS",
+    "type": null,
+    "hasSeaView": null,
+    "pointsOfInterest": null,
+    "placeName": null
+   },
+   "netHabitableSurface": 119,
+   "landSurface": null,
+   "roomCount": null
+  },
+  "publication": {
+   "publisherId": null,
+   "visualisationOption": "XL",
+   "size": "xl"
+  },
+  "transaction": {
+   "certificateLogoUrl": null,
+   "certificate": null,
+   "type": "FOR_SALE",
+   "rental": null,
+   "sale": {
+    "lifeAnnuity": null,
+    "hasStartingPrice": false,
+    "oldPrice": null,
+    "price": 275000,
+    "pricePerSqm": null,
+    "publicSale": null,
+    "toBuild": null,
+    "isSubjectToVat": null
+   }
+  },
+  "priceType": null,
+  "price": {
+   "type": "residential_sale",
+   "mainValue": 275000,
+   "alternativeValue": null,
+   "additionalValue": null,
+   "oldValue": null,
+   "minRangeValue": null,
+   "maxRangeValue": null,
+   "mainDisplayPrice": "€275,000",
+   "HTMLDisplayPrice": "<span aria-hidden=\"true\">€275,000</span>",
+   "alternativeDisplayPrice": "",
+   "oldDisplayPrice": null,
+   "shortDisplayPrice": "€275K",
+   "accessibilityPrice": "275000€",
+   "label": "Price",
+   "date": null,
+   "language": "en"
+  },
+  "isBookmarked": false,
+  "has360Tour": null,
+  "hasVirtualTour": null,
+  "advertisementId": null
+ },
+ {
+  "id": 11142762,
+  "cluster": {
+   "minPrice": null,
+   "maxPrice": null,
+   "minRoom": null,
+   "maxRoom": null,
+   "minSurface": null,
+   "maxSurface": null,
+   "projectInfo": null,
+   "bedroomRange": "",
+   "surfaceRange": ""
+  },
+  "customerLogoUrl": "https://static.immoweb.be/logos/1817271.gif?cache=2024201601347",
+  "customerName": "Skyline Renting Services",
+  "flags": {
+   "main": "new",
+   "secondary": [],
+   "percentSold": null
+  },
+  "media": {
+   "pictures": [
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/4/2/7/6/2/11142762_1.gif?cache=20240214150427",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/4/2/7/6/2/M_11142762_1.jpg?cache=20240214150427",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/4/2/7/6/2/11142762_1.jpg?cache=20240214150427",
+     "isVertical": false
+    },
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/4/2/7/6/2/11142762_2.gif?cache=20240214150427",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/4/2/7/6/2/M_11142762_2.jpg?cache=20240214150427",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/4/2/7/6/2/11142762_2.jpg?cache=20240214150427",
+     "isVertical": true
+    },
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/4/2/7/6/2/11142762_3.gif?cache=20240214150427",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/4/2/7/6/2/M_11142762_3.jpg?cache=20240214150427",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/4/2/7/6/2/11142762_3.jpg?cache=20240214150427",
+     "isVertical": false
+    }
+   ]
+  },
+  "property": {
+   "type": "APARTMENT",
+   "subtype": "APARTMENT",
+   "title": "INVEST - Apartment 1 bedroom + terrace (NATO)",
+   "bedroomCount": 1,
+   "location": {
+    "country": "Belgium",
+    "region": "Brussels",
+    "province": "Brussels",
+    "district": "Brussels",
+    "locality": "Evere",
+    "postalCode": "1140",
+    "street": "Rue de Genève",
+    "number": "7",
+    "box": null,
+    "propertyName": null,
+    "floor": 3,
+    "latitude": 50.8639409,
+    "longitude": 4.4034631,
+    "distance": null,
+    "approximated": null,
+    "regionCode": "BRUSSELS",
+    "type": null,
+    "hasSeaView": null,
+    "pointsOfInterest": null,
+    "placeName": "Brussel (19 gemeenten)"
+   },
+   "netHabitableSurface": 63,
+   "landSurface": null,
+   "roomCount": null
+  },
+  "publication": {
+   "publisherId": null,
+   "visualisationOption": "XL",
+   "size": "xl"
+  },
+  "transaction": {
+   "certificateLogoUrl": null,
+   "certificate": null,
+   "type": "FOR_SALE",
+   "rental": null,
+   "sale": {
+    "lifeAnnuity": null,
+    "hasStartingPrice": false,
+    "oldPrice": null,
+    "price": 285000,
+    "pricePerSqm": null,
+    "publicSale": null,
+    "toBuild": null,
+    "isSubjectToVat": null
+   }
+  },
+  "priceType": null,
+  "price": {
+   "type": "residential_sale",
+   "mainValue": 285000,
+   "alternativeValue": null,
+   "additionalValue": null,
+   "oldValue": null,
+   "minRangeValue": null,
+   "maxRangeValue": null,
+   "mainDisplayPrice": "€285,000",
+   "HTMLDisplayPrice": "<span aria-hidden=\"true\">€285,000</span>",
+   "alternativeDisplayPrice": "",
+   "oldDisplayPrice": null,
+   "shortDisplayPrice": "€285K",
+   "accessibilityPrice": "285000€",
+   "label": "Price",
+   "date": null,
+   "language": "en"
+  },
+  "isBookmarked": false,
+  "has360Tour": null,
+  "hasVirtualTour": true,
+  "advertisementId": null
+ },
+ {
+  "id": 11143491,
+  "cluster": {
+   "minPrice": 289000,
+   "maxPrice": 685000,
+   "minRoom": null,
+   "maxRoom": null,
+   "minSurface": 73,
+   "maxSurface": 193,
+   "projectInfo": {
+    "constructor": null,
+    "groupId": 11143491,
+    "phase": null,
+    "projectName": "Residentie Konijnenberg",
+    "deliveryDate": null,
+    "soldPercentage": null,
+    "unitsDisplayMode": null
+   },
+   "bedroomRange": "1 - 3",
+   "surfaceRange": "73 - 193"
+  },
+  "customerLogoUrl": "https://static.immoweb.be/logos/2152238.gif?cache=2024521001473",
+  "customerName": "Heylen Vastgoed Turnhout",
+  "flags": {
+   "main": "new",
+   "secondary": [
+    "new_real_estate_project"
+   ],
+   "percentSold": null
+  },
+  "media": {
+   "pictures": [
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/4/3/4/9/1/11143491_1.gif?cache=20240214220847",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/4/3/4/9/1/M_11143491_1.jpg?cache=20240214220847",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/4/3/4/9/1/11143491_1.jpg?cache=20240214220847",
+     "isVertical": false
+    },
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/4/3/4/9/1/11143491_2.gif?cache=20240214220847",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/4/3/4/9/1/M_11143491_2.jpg?cache=20240214220847",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/4/3/4/9/1/11143491_2.jpg?cache=20240214220847",
+     "isVertical": false
+    },
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/4/3/4/9/1/11143491_3.gif?cache=20240214220847",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/4/3/4/9/1/M_11143491_3.jpg?cache=20240214220847",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/4/3/4/9/1/11143491_3.jpg?cache=20240214220847",
+     "isVertical": false
+    }
+   ]
+  },
+  "property": {
+   "type": "APARTMENT_GROUP",
+   "subtype": "APARTMENT_GROUP",
+   "title": "Prachtig wonen in het park! 39 luxe, villa appartementen",
+   "bedroomCount": null,
+   "location": {
+    "country": "Belgium",
+    "region": "Flanders",
+    "province": "Antwerp",
+    "district": "Turnhout",
+    "locality": "Vosselaar",
+    "postalCode": "2350",
+    "street": "Dennendreef",
+    "number": "24",
+    "box": null,
+    "propertyName": null,
+    "floor": null,
+    "latitude": 51.311313,
+    "longitude": 4.8764985,
+    "distance": null,
+    "approximated": null,
+    "regionCode": "FLANDERS",
+    "type": null,
+    "hasSeaView": null,
+    "pointsOfInterest": null,
+    "placeName": null
+   },
+   "netHabitableSurface": null,
+   "landSurface": null,
+   "roomCount": null
+  },
+  "publication": {
+   "publisherId": null,
+   "visualisationOption": "XL",
+   "size": "xl"
+  },
+  "transaction": {
+   "certificateLogoUrl": null,
+   "certificate": null,
+   "type": "FOR_SALE",
+   "rental": null,
+   "sale": {
+    "lifeAnnuity": null,
+    "hasStartingPrice": false,
+    "oldPrice": null,
+    "price": null,
+    "pricePerSqm": null,
+    "publicSale": null,
+    "toBuild": null,
+    "isSubjectToVat": null
+   }
+  },
+  "priceType": null,
+  "price": {
+   "type": "group_sale",
+   "mainValue": null,
+   "alternativeValue": null,
+   "additionalValue": null,
+   "oldValue": null,
+   "minRangeValue": 289000,
+   "maxRangeValue": 685000,
+   "mainDisplayPrice": "€289,000 - €685,000",
+   "HTMLDisplayPrice": "<span aria-hidden=\"true\">€289,000 - €685,000</span>",
+   "alternativeDisplayPrice": "",
+   "oldDisplayPrice": null,
+   "shortDisplayPrice": "€289K - 685K",
+   "accessibilityPrice": "From 289000€ To 685000€",
+   "label": "Min price - Max price",
+   "date": null,
+   "language": "en"
+  },
+  "isBookmarked": false,
+  "has360Tour": null,
+  "hasVirtualTour": null,
+  "advertisementId": null
+ },
+ {
+  "id": 11141245,
+  "cluster": {
+   "minPrice": 289500,
+   "maxPrice": 372500,
+   "minRoom": null,
+   "maxRoom": null,
+   "minSurface": 85,
+   "maxSurface": 121,
+   "projectInfo": {
+    "constructor": null,
+    "groupId": 11141245,
+    "phase": null,
+    "projectName": "City-Dox - Park Side",
+    "deliveryDate": null,
+    "soldPercentage": 88,
+    "unitsDisplayMode": null
+   },
+   "bedroomRange": "2 - 3",
+   "surfaceRange": "85 - 121"
+  },
+  "customerLogoUrl": "https://static.immoweb.be/logos/2575488.gif?cache=2024521001663",
+  "customerName": "We Invest Bruxelles",
+  "flags": {
+   "main": "new",
+   "secondary": [
+    "new_real_estate_project",
+    "percent_sold"
+   ],
+   "percentSold": 88
+  },
+  "media": {
+   "pictures": [
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/4/1/2/4/5/11141245_1.gif?cache=20240214073901",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/4/1/2/4/5/M_11141245_1.jpg?cache=20240214073901",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/4/1/2/4/5/11141245_1.jpg?cache=20240214073901",
+     "isVertical": false
+    },
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/4/1/2/4/5/11141245_2.gif?cache=20240214073901",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/4/1/2/4/5/M_11141245_2.jpg?cache=20240214073901",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/4/1/2/4/5/11141245_2.jpg?cache=20240214073901",
+     "isVertical": false
+    },
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/4/1/2/4/5/11141245_3.gif?cache=20240214073901",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/4/1/2/4/5/M_11141245_3.jpg?cache=20240214073901",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/4/1/2/4/5/11141245_3.jpg?cache=20240214073901",
+     "isVertical": false
+    }
+   ]
+  },
+  "property": {
+   "type": "APARTMENT_GROUP",
+   "subtype": "APARTMENT_GROUP",
+   "title": "Park-side enjoy your city",
+   "bedroomCount": null,
+   "location": {
+    "country": "Belgium",
+    "region": "Brussels",
+    "province": "Brussels",
+    "district": "Brussels",
+    "locality": "Anderlecht",
+    "postalCode": "1070",
+    "street": "Rue de la Petite Ile",
+    "number": "20",
+    "box": null,
+    "propertyName": null,
+    "floor": null,
+    "latitude": 50.831669,
+    "longitude": 4.3153713,
+    "distance": null,
+    "approximated": null,
+    "regionCode": "BRUSSELS",
+    "type": null,
+    "hasSeaView": null,
+    "pointsOfInterest": null,
+    "placeName": "Bruxelles"
+   },
+   "netHabitableSurface": null,
+   "landSurface": null,
+   "roomCount": null
+  },
+  "publication": {
+   "publisherId": null,
+   "visualisationOption": "XL",
+   "size": "xl"
+  },
+  "transaction": {
+   "certificateLogoUrl": null,
+   "certificate": null,
+   "type": "FOR_SALE",
+   "rental": null,
+   "sale": {
+    "lifeAnnuity": null,
+    "hasStartingPrice": false,
+    "oldPrice": null,
+    "price": null,
+    "pricePerSqm": null,
+    "publicSale": null,
+    "toBuild": null,
+    "isSubjectToVat": null
+   }
+  },
+  "priceType": null,
+  "price": {
+   "type": "group_sale",
+   "mainValue": null,
+   "alternativeValue": null,
+   "additionalValue": null,
+   "oldValue": null,
+   "minRangeValue": 289500,
+   "maxRangeValue": 372500,
+   "mainDisplayPrice": "€289,500 - €372,500",
+   "HTMLDisplayPrice": "<span aria-hidden=\"true\">€289,500 - €372,500</span>",
+   "alternativeDisplayPrice": "",
+   "oldDisplayPrice": null,
+   "shortDisplayPrice": "€289.5K - 372.5K",
+   "accessibilityPrice": "From 289500€ To 372500€",
+   "label": "Min price - Max price",
+   "date": null,
+   "language": "en"
+  },
+  "isBookmarked": false,
+  "has360Tour": null,
+  "hasVirtualTour": null,
+  "advertisementId": null
+ },
+ {
+  "id": 11140817,
+  "cluster": {
+   "minPrice": null,
+   "maxPrice": null,
+   "minRoom": null,
+   "maxRoom": null,
+   "minSurface": null,
+   "maxSurface": null,
+   "projectInfo": null,
+   "bedroomRange": "",
+   "surfaceRange": ""
+  },
+  "customerLogoUrl": "https://static.immoweb.be/logos/3760160.gif?cache=2024201001127",
+  "customerName": "Trevi.",
+  "flags": {
+   "main": "new",
+   "secondary": [],
+   "percentSold": null
+  },
+  "media": {
+   "pictures": [
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/4/0/8/1/7/11140817_1.gif?cache=20240214060903",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/4/0/8/1/7/M_11140817_1.jpg?cache=20240214060903",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/4/0/8/1/7/11140817_1.jpg?cache=20240214060903",
+     "isVertical": false
+    },
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/4/0/8/1/7/11140817_2.gif?cache=20240214060903",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/4/0/8/1/7/M_11140817_2.jpg?cache=20240214060903",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/4/0/8/1/7/11140817_2.jpg?cache=20240214060903",
+     "isVertical": false
+    },
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/4/0/8/1/7/11140817_3.gif?cache=20240214060903",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/4/0/8/1/7/M_11140817_3.jpg?cache=20240214060903",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/4/0/8/1/7/11140817_3.jpg?cache=20240214060903",
+     "isVertical": true
+    }
+   ]
+  },
+  "property": {
+   "type": "APARTMENT",
+   "subtype": "APARTMENT",
+   "title": "3 bedrooms apartment + P",
+   "bedroomCount": 3,
+   "location": {
+    "country": "Belgium",
+    "region": "Brussels",
+    "province": "Brussels",
+    "district": "Brussels",
+    "locality": "Berchem-Sainte-Agathe",
+    "postalCode": "1082",
+    "street": "Rue des Soldats",
+    "number": "36",
+    "box": "G3.03",
+    "propertyName": null,
+    "floor": 3,
+    "latitude": 50.8631826,
+    "longitude": 4.2967048,
+    "distance": null,
+    "approximated": null,
+    "regionCode": "BRUSSELS",
+    "type": null,
+    "hasSeaView": null,
+    "pointsOfInterest": null,
+    "placeName": null
+   },
+   "netHabitableSurface": 130,
+   "landSurface": null,
+   "roomCount": null
+  },
+  "publication": {
+   "publisherId": null,
+   "visualisationOption": "XL",
+   "size": "xl"
+  },
+  "transaction": {
+   "certificateLogoUrl": null,
+   "certificate": null,
+   "type": "FOR_SALE",
+   "rental": null,
+   "sale": {
+    "lifeAnnuity": null,
+    "hasStartingPrice": false,
+    "oldPrice": null,
+    "price": 290000,
+    "pricePerSqm": null,
+    "publicSale": null,
+    "toBuild": null,
+    "isSubjectToVat": null
+   }
+  },
+  "priceType": null,
+  "price": {
+   "type": "residential_sale",
+   "mainValue": 290000,
+   "alternativeValue": null,
+   "additionalValue": null,
+   "oldValue": null,
+   "minRangeValue": null,
+   "maxRangeValue": null,
+   "mainDisplayPrice": "€290,000",
+   "HTMLDisplayPrice": "<span aria-hidden=\"true\">€290,000</span>",
+   "alternativeDisplayPrice": "",
+   "oldDisplayPrice": null,
+   "shortDisplayPrice": "€290K",
+   "accessibilityPrice": "290000€",
+   "label": "Price",
+   "date": null,
+   "language": "en"
+  },
+  "isBookmarked": false,
+  "has360Tour": null,
+  "hasVirtualTour": null,
+  "advertisementId": null
+ },
+ {
+  "id": 11141224,
+  "cluster": {
+   "minPrice": null,
+   "maxPrice": null,
+   "minRoom": null,
+   "maxRoom": null,
+   "minSurface": null,
+   "maxSurface": null,
+   "projectInfo": null,
+   "bedroomRange": "",
+   "surfaceRange": ""
+  },
+  "customerLogoUrl": "https://static.immoweb.be/logos/3502683.gif?cache=202403150100",
+  "customerName": "Nigel Immo",
+  "flags": {
+   "main": "new",
+   "secondary": [],
+   "percentSold": null
+  },
+  "media": {
+   "pictures": [
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/4/1/2/2/4/11141224_1.gif?cache=20240214073411",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/4/1/2/2/4/M_11141224_1.jpg?cache=20240214073411",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/4/1/2/2/4/11141224_1.jpg?cache=20240214073411",
+     "isVertical": false
+    },
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/4/1/2/2/4/11141224_2.gif?cache=20240214073411",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/4/1/2/2/4/M_11141224_2.jpg?cache=20240214073411",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/4/1/2/2/4/11141224_2.jpg?cache=20240214073411",
+     "isVertical": false
+    },
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/4/1/2/2/4/11141224_3.gif?cache=20240214073411",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/4/1/2/2/4/M_11141224_3.jpg?cache=20240214073411",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/4/1/2/2/4/11141224_3.jpg?cache=20240214073411",
+     "isVertical": false
+    }
+   ]
+  },
+  "property": {
+   "type": "HOUSE",
+   "subtype": "HOUSE",
+   "title": "Entièrement rénovée, 4 CH, garage, terrasse, jardin, PEB: A.",
+   "bedroomCount": 4,
+   "location": {
+    "country": "Belgium",
+    "region": "Wallonie",
+    "province": "Liège",
+    "district": "Liège",
+    "locality": "Herstal",
+    "postalCode": "4040",
+    "street": "Rue sur les Thiers",
+    "number": "113",
+    "box": "R2",
+    "propertyName": null,
+    "floor": null,
+    "latitude": 50.6694204,
+    "longitude": 5.6122958,
+    "distance": null,
+    "approximated": null,
+    "regionCode": "WALLONIE",
+    "type": null,
+    "hasSeaView": null,
+    "pointsOfInterest": null,
+    "placeName": "Liège environs"
+   },
+   "netHabitableSurface": 145,
+   "landSurface": 275,
+   "roomCount": null
+  },
+  "publication": {
+   "publisherId": null,
+   "visualisationOption": "XL",
+   "size": "xl"
+  },
+  "transaction": {
+   "certificateLogoUrl": "https://static.immoweb.be/pics/peb/peb_a.png",
+   "certificate": "A",
+   "type": "FOR_SALE",
+   "rental": null,
+   "sale": {
+    "lifeAnnuity": null,
+    "hasStartingPrice": true,
+    "oldPrice": null,
+    "price": 299000,
+    "pricePerSqm": null,
+    "publicSale": null,
+    "toBuild": null,
+    "isSubjectToVat": null
+   }
+  },
+  "priceType": null,
+  "price": {
+   "type": "residential_sale",
+   "mainValue": 299000,
+   "alternativeValue": null,
+   "additionalValue": null,
+   "oldValue": null,
+   "minRangeValue": null,
+   "maxRangeValue": null,
+   "mainDisplayPrice": "€299,000",
+   "HTMLDisplayPrice": "<span aria-hidden=\"true\">€299,000</span>",
+   "alternativeDisplayPrice": "",
+   "oldDisplayPrice": null,
+   "shortDisplayPrice": "€299K",
+   "accessibilityPrice": "299000€",
+   "label": "Price",
+   "date": null,
+   "language": "en"
+  },
+  "isBookmarked": false,
+  "has360Tour": null,
+  "hasVirtualTour": true,
+  "advertisementId": null
+ },
+ {
+  "id": 11141563,
+  "cluster": {
+   "minPrice": 312000,
+   "maxPrice": 746000,
+   "minRoom": null,
+   "maxRoom": null,
+   "minSurface": 72,
+   "maxSurface": 161,
+   "projectInfo": {
+    "constructor": null,
+    "groupId": 11141563,
+    "phase": null,
+    "projectName": "Park Lane - Scarlet",
+    "deliveryDate": null,
+    "soldPercentage": 36,
+    "unitsDisplayMode": null
+   },
+   "bedroomRange": "1 - 3",
+   "surfaceRange": "72 - 161"
+  },
+  "customerLogoUrl": "https://static.immoweb.be/logos/2575488.gif?cache=2024521001663",
+  "customerName": "We Invest Bruxelles",
+  "flags": {
+   "main": "new",
+   "secondary": [
+    "new_real_estate_project",
+    "percent_sold"
+   ],
+   "percentSold": 36
+  },
+  "media": {
+   "pictures": [
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/4/1/5/6/3/11141563_1.gif?cache=20240217072351",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/4/1/5/6/3/M_11141563_1.jpg?cache=20240217072351",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/4/1/5/6/3/11141563_1.jpg?cache=20240217072351",
+     "isVertical": false
+    },
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/4/1/5/6/3/11141563_2.gif?cache=20240217071937",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/4/1/5/6/3/M_11141563_2.jpg?cache=20240217071937",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/4/1/5/6/3/11141563_2.jpg?cache=20240217071937",
+     "isVertical": false
+    },
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/4/1/5/6/3/11141563_3.gif?cache=20240217072351",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/4/1/5/6/3/M_11141563_3.jpg?cache=20240217072351",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/4/1/5/6/3/11141563_3.jpg?cache=20240217072351",
+     "isVertical": false
+    }
+   ]
+  },
+  "property": {
+   "type": "APARTMENT_GROUP",
+   "subtype": "APARTMENT_GROUP",
+   "title": "Apartment with large terraces overlooking Tour & Taxis Park",
+   "bedroomCount": null,
+   "location": {
+    "country": "Belgium",
+    "region": "Brussels",
+    "province": "Brussels",
+    "district": "Brussels",
+    "locality": "Bruxelles",
+    "postalCode": "1000",
+    "street": "Parkdreef",
+    "number": "45",
+    "box": null,
+    "propertyName": null,
+    "floor": null,
+    "latitude": 50.8665959,
+    "longitude": 4.3449,
+    "distance": null,
+    "approximated": null,
+    "regionCode": "BRUSSELS",
+    "type": null,
+    "hasSeaView": null,
+    "pointsOfInterest": null,
+    "placeName": "Bruxelles"
+   },
+   "netHabitableSurface": null,
+   "landSurface": null,
+   "roomCount": null
+  },
+  "publication": {
+   "publisherId": null,
+   "visualisationOption": "XL",
+   "size": "xl"
+  },
+  "transaction": {
+   "certificateLogoUrl": null,
+   "certificate": null,
+   "type": "FOR_SALE",
+   "rental": null,
+   "sale": {
+    "lifeAnnuity": null,
+    "hasStartingPrice": false,
+    "oldPrice": null,
+    "price": null,
+    "pricePerSqm": null,
+    "publicSale": null,
+    "toBuild": null,
+    "isSubjectToVat": null
+   }
+  },
+  "priceType": null,
+  "price": {
+   "type": "group_sale",
+   "mainValue": null,
+   "alternativeValue": null,
+   "additionalValue": null,
+   "oldValue": null,
+   "minRangeValue": 312000,
+   "maxRangeValue": 746000,
+   "mainDisplayPrice": "€312,000 - €746,000",
+   "HTMLDisplayPrice": "<span aria-hidden=\"true\">€312,000 - €746,000</span>",
+   "alternativeDisplayPrice": "",
+   "oldDisplayPrice": null,
+   "shortDisplayPrice": "€312K - 746K",
+   "accessibilityPrice": "From 312000€ To 746000€",
+   "label": "Min price - Max price",
+   "date": null,
+   "language": "en"
+  },
+  "isBookmarked": false,
+  "has360Tour": null,
+  "hasVirtualTour": null,
+  "advertisementId": null
+ },
+ {
+  "id": 11141665,
+  "cluster": {
+   "minPrice": 320000,
+   "maxPrice": 810000,
+   "minRoom": null,
+   "maxRoom": null,
+   "minSurface": 45,
+   "maxSurface": 137,
+   "projectInfo": {
+    "constructor": null,
+    "groupId": 11141665,
+    "phase": null,
+    "projectName": "Spring Gardens - Appartem",
+    "deliveryDate": null,
+    "soldPercentage": null,
+    "unitsDisplayMode": null
+   },
+   "bedroomRange": "2 - 3",
+   "surfaceRange": "45 - 137"
+  },
+  "customerLogoUrl": "https://static.immoweb.be/logos/2575488.gif?cache=2024521001663",
+  "customerName": "We Invest Bruxelles",
+  "flags": {
+   "main": "new",
+   "secondary": [
+    "new_real_estate_project"
+   ],
+   "percentSold": null
+  },
+  "media": {
+   "pictures": [
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/4/1/6/6/5/11141665_1.gif?cache=20240214080423",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/4/1/6/6/5/M_11141665_1.jpg?cache=20240214080423",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/4/1/6/6/5/11141665_1.jpg?cache=20240214080423",
+     "isVertical": false
+    },
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/4/1/6/6/5/11141665_2.gif?cache=20240214080423",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/4/1/6/6/5/M_11141665_2.jpg?cache=20240214080423",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/4/1/6/6/5/11141665_2.jpg?cache=20240214080423",
+     "isVertical": false
+    },
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/4/1/6/6/5/11141665_3.gif?cache=20240214080423",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/4/1/6/6/5/M_11141665_3.jpg?cache=20240214080423",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/4/1/6/6/5/11141665_3.jpg?cache=20240214080423",
+     "isVertical": false
+    }
+   ]
+  },
+  "property": {
+   "type": "APARTMENT_GROUP",
+   "subtype": "APARTMENT_GROUP",
+   "title": "6% VAT - Geothermal Energy",
+   "bedroomCount": null,
+   "location": {
+    "country": "Belgium",
+    "region": "Brussels",
+    "province": "Brussels",
+    "district": "Brussels",
+    "locality": "Ixelles",
+    "postalCode": "1050",
+    "street": "rue du printemps",
+    "number": "49 - 55",
+    "box": null,
+    "propertyName": null,
+    "floor": null,
+    "latitude": 50.8203979,
+    "longitude": 4.3891671,
+    "distance": null,
+    "approximated": null,
+    "regionCode": "BRUSSELS",
+    "type": null,
+    "hasSeaView": null,
+    "pointsOfInterest": null,
+    "placeName": "Bruxelles-Est"
+   },
+   "netHabitableSurface": null,
+   "landSurface": null,
+   "roomCount": null
+  },
+  "publication": {
+   "publisherId": null,
+   "visualisationOption": "XL",
+   "size": "xl"
+  },
+  "transaction": {
+   "certificateLogoUrl": null,
+   "certificate": null,
+   "type": "FOR_SALE",
+   "rental": null,
+   "sale": {
+    "lifeAnnuity": null,
+    "hasStartingPrice": false,
+    "oldPrice": null,
+    "price": null,
+    "pricePerSqm": null,
+    "publicSale": null,
+    "toBuild": null,
+    "isSubjectToVat": null
+   }
+  },
+  "priceType": null,
+  "price": {
+   "type": "group_sale",
+   "mainValue": null,
+   "alternativeValue": null,
+   "additionalValue": null,
+   "oldValue": null,
+   "minRangeValue": 320000,
+   "maxRangeValue": 810000,
+   "mainDisplayPrice": "€320,000 - €810,000",
+   "HTMLDisplayPrice": "<span aria-hidden=\"true\">€320,000 - €810,000</span>",
+   "alternativeDisplayPrice": "",
+   "oldDisplayPrice": null,
+   "shortDisplayPrice": "€320K - 810K",
+   "accessibilityPrice": "From 320000€ To 810000€",
+   "label": "Min price - Max price",
+   "date": null,
+   "language": "en"
+  },
+  "isBookmarked": false,
+  "has360Tour": null,
+  "hasVirtualTour": null,
+  "advertisementId": null
+ },
+ {
+  "id": 11140587,
+  "cluster": {
+   "minPrice": 335000,
+   "maxPrice": 945000,
+   "minRoom": null,
+   "maxRoom": null,
+   "minSurface": 57,
+   "maxSurface": 136,
+   "projectInfo": {
+    "constructor": null,
+    "groupId": 11140587,
+    "phase": null,
+    "projectName": "LAUREE",
+    "deliveryDate": null,
+    "soldPercentage": null,
+    "unitsDisplayMode": null
+   },
+   "bedroomRange": "1 - 3",
+   "surfaceRange": "57 - 136"
+  },
+  "customerLogoUrl": "https://static.immoweb.be/logos/1364801.gif?cache=2024511501747",
+  "customerName": "Victoire (Immobilier Neuf)",
+  "flags": {
+   "main": "new",
+   "secondary": [
+    "new_real_estate_project"
+   ],
+   "percentSold": null
+  },
+  "media": {
+   "pictures": [
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/4/0/5/8/7/11140587_1.gif?cache=20240214045400",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/4/0/5/8/7/M_11140587_1.jpg?cache=20240214045400",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/4/0/5/8/7/11140587_1.jpg?cache=20240214045400",
+     "isVertical": false
+    },
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/4/0/5/8/7/11140587_2.gif?cache=20240214045400",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/4/0/5/8/7/M_11140587_2.jpg?cache=20240214045400",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/4/0/5/8/7/11140587_2.jpg?cache=20240214045400",
+     "isVertical": false
+    },
+    {
+     "smallUrl": "https://static.immoweb.be/photos/1/1/1/4/0/5/8/7/11140587_3.gif?cache=20240214045400",
+     "mediumUrl": "https://static.immoweb.be/photos/1/1/1/4/0/5/8/7/M_11140587_3.jpg?cache=20240214045400",
+     "largeUrl": "https://static.immoweb.be/photos/1/1/1/4/0/5/8/7/11140587_3.jpg?cache=20240214045400",
+     "isVertical": false
+    }
+   ]
+  },
+  "property": {
+   "type": "APARTMENT_GROUP",
+   "subtype": "APARTMENT_GROUP",
+   "title": "Bois de la Cambre, close to Churchill/Beau-séjour - Nice 18",
+   "bedroomCount": null,
+   "location": {
+    "country": "Belgium",
+    "region": "Brussels",
+    "province": "Brussels",
+    "district": "Brussels",
+    "locality": "Uccle",
+    "postalCode": "1180",
+    "street": "Chaussée de Waterloo",
+    "number": "843-851",
+    "box": null,
+    "propertyName": null,
+    "floor": null,
+    "latitude": 50.7954576,
+    "longitude": 4.3735771,
+    "distance": null,
+    "approximated": null,
+    "regionCode": "BRUSSELS",
+    "type": null,
+    "hasSeaView": null,
+    "pointsOfInterest": null,
+    "placeName": "Projets Bruxelles Sud"
+   },
+   "netHabitableSurface": null,
+   "landSurface": null,
+   "roomCount": null
+  },
+  "publication": {
+   "publisherId": null,
+   "visualisationOption": "XL",
+   "size": "xl"
+  },
+  "transaction": {
+   "certificateLogoUrl": null,
+   "certificate": null,
+   "type": "FOR_SALE",
+   "rental": null,
+   "sale": {
+    "lifeAnnuity": null,
+    "hasStartingPrice": true,
+    "oldPrice": null,
+    "price": null,
+    "pricePerSqm": null,
+    "publicSale": null,
+    "toBuild": null,
+    "isSubjectToVat": null
+   }
+  },
+  "priceType": null,
+  "price": {
+   "type": "group_sale",
+   "mainValue": null,
+   "alternativeValue": null,
+   "additionalValue": null,
+   "oldValue": null,
+   "minRangeValue": 335000,
+   "maxRangeValue": 945000,
+   "mainDisplayPrice": "€335,000 - €945,000",
+   "HTMLDisplayPrice": "<span aria-hidden=\"true\">€335,000 - €945,000</span>",
+   "alternativeDisplayPrice": "",
+   "oldDisplayPrice": null,
+   "shortDisplayPrice": "€335K - 945K",
+   "accessibilityPrice": "From 335000€ To 945000€",
+   "label": "Min price - Max price",
+   "date": null,
+   "language": "en"
+  },
+  "isBookmarked": false,
+  "has360Tour": null,
+  "hasVirtualTour": true,
+  "advertisementId": null
+ }
+]
