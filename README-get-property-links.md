@@ -13,10 +13,12 @@ It takes the base Immoweb URL for Belgian properties for sale and the number of 
 - returns the list to be used in the rest of the project code
 
 ## Runtime
-Right now, it executes for 10 search pages (1,800 unique URLs) in ~10 sec and for 200 pages (12,000 unique URLs) in ~200 seconds.
+Right now, it executes for 200 pages (12,000 unique URLs) in ~200 seconds.
 
+Update - after editing the code to use ConcurrentFutures and ThreadPoolExecutor, it now executes for 200 search pages (12,000 unique URLs) in ~56 seconds.
+
+![runtime](time-12k-urls-conc.jpg)
 ## Special thanks!
 
 To my team mates Gerrit, Karel and especially to Alice Mendes for her guidance & inspiration! 
 
-### To be improved!
