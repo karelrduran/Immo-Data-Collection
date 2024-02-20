@@ -33,6 +33,7 @@ base_search_url = 'https://www.immoweb.be/en/search/house-and-apartment/for-sale
 # Specify the number of pages we want to scrape: (each search page contains 60 properties)
 total_pages = 200 # 10 pages (600 unique URLS saved) takes 6 seconds
 # 200 pages (12,000 unique URLs) taks 55 seconds
+# 400 pages (24,000 unique URLs) takes 110 seconds
 
 # Get property URLs from the specified number of pages
 property_urls = get_property_links(base_search_url, total_pages)

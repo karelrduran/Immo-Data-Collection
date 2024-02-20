@@ -27,6 +27,7 @@ def get_property_links(base_url, pages):
 base_search_url = 'https://www.immoweb.be/en/search/house-and-apartment/for-sale'
 # Specify the number of pages we want to scrape: (each search page contains 60 properties)
 total_pages = 10 # 10 pages (600 unique URLS saved) takes 10 seconds
+
 # 30 pages (1800 unique URLS saved) takes 25 seconds
 # 50 pages (3000 unique URLS saved) takes 50 seconds
 # 100 pages (6000 unique URLS saved) takes 90 seconds
