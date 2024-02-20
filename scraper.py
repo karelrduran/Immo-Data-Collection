@@ -1,6 +1,7 @@
 from requests import Session
 from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright
+from pprint import pprint
 
 
 class Scraper:
@@ -11,14 +12,33 @@ class Scraper:
 
     def scrape(self):
         with sync_playwright() as p:
+            dict = {}
             browser = p.chromium.launch(headless=False)
             page = browser.new_page()
             page.goto(self.url)
             content = page.content()
             soup = BeautifulSoup(content, "html.parser")
             for i in soup.find_all("table", class_="classified-table"):
-                for j in i.find_all("td"):
-                    print(j.get_text().strip())
+                table_data = {}
+                for j, k in zip(i.find_all("td"), i.find_all("th")):
+                    jfix = " ".join(
+                        j.text.replace("\n", "")
+                        .replace("kWh/", "")
+                        .replace("m²", "")
+                        .replace("€", "")
+                        .split()
+                    )
+                    if k.text.strip() == "":
+                        continue
+                    if (
+                        "Price" in k.text.strip()
+                        or "Cadastral income" in k.text.strip()
+                    ):
+                        list = jfix.split()
+                        jfix = f"{list[0]}€"
+                    table_data[k.text.strip()] = jfix
+                dict.update(table_data)
+            pprint(dict)
 
 
 Scraper().scrape()
