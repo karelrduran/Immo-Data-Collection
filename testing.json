@@ -1,0 +1,663 @@
+{
+    "id": 11044025,
+    "cluster": {
+        "minPrice": 208000,
+        "maxPrice": 355000,
+        "minSurface": 40,
+        "maxSurface": 96,
+        "projectInfo": {
+            "constructor": null,
+            "groupId": 11044025,
+            "phase": null,
+            "projectName": "Les Canopées",
+            "deliveryDate": null,
+            "soldPercentage": null,
+            "unitsDisplayMode": "DETAILED"
+        },
+        "units": [
+            {
+                "type": "APARTMENT",
+                "maxPrice": 355000,
+                "minPrice": 208000,
+                "minRoom": 1,
+                "maxRoom": 2,
+                "minSurface": 40,
+                "maxSurface": 96,
+                "soldCount": 5,
+                "items": [
+                    {
+                        "id": 11044029,
+                        "subtype": "FLAT_STUDIO",
+                        "saleStatus": "SOLD",
+                        "floor": 0,
+                        "price": null,
+                        "bedroomCount": 1,
+                        "realEstateProjectPhase": null,
+                        "surface": 61
+                    },
+                    {
+                        "id": 11044030,
+                        "subtype": "FLAT_STUDIO",
+                        "saleStatus": "AVAILABLE",
+                        "floor": 0,
+                        "price": 208000,
+                        "bedroomCount": 1,
+                        "realEstateProjectPhase": null,
+                        "surface": 46
+                    },
+                    {
+                        "id": 11044041,
+                        "subtype": "FLAT_STUDIO",
+                        "saleStatus": "AVAILABLE",
+                        "floor": 1,
+                        "price": 212000,
+                        "bedroomCount": 2,
+                        "realEstateProjectPhase": null,
+                        "surface": 41
+                    },
+                    {
+                        "id": 11044034,
+                        "subtype": "FLAT_STUDIO",
+                        "saleStatus": "AVAILABLE",
+                        "floor": 2,
+                        "price": 216000,
+                        "bedroomCount": 1,
+                        "realEstateProjectPhase": null,
+                        "surface": 40
+                    },
+                    {
+                        "id": 11044042,
+                        "subtype": "APARTMENT",
+                        "saleStatus": "AVAILABLE",
+                        "floor": 1,
+                        "price": 224000,
+                        "bedroomCount": 1,
+                        "realEstateProjectPhase": null,
+                        "surface": 60
+                    },
+                    {
+                        "id": 11044027,
+                        "subtype": "APARTMENT",
+                        "saleStatus": "AVAILABLE",
+                        "floor": 0,
+                        "price": 226000,
+                        "bedroomCount": 1,
+                        "realEstateProjectPhase": null,
+                        "surface": 66
+                    },
+                    {
+                        "id": 11044044,
+                        "subtype": "APARTMENT",
+                        "saleStatus": "SOLD",
+                        "floor": 1,
+                        "price": null,
+                        "bedroomCount": 1,
+                        "realEstateProjectPhase": null,
+                        "surface": 66
+                    },
+                    {
+                        "id": 11044035,
+                        "subtype": "APARTMENT",
+                        "saleStatus": "AVAILABLE",
+                        "floor": 2,
+                        "price": 228000,
+                        "bedroomCount": 1,
+                        "realEstateProjectPhase": null,
+                        "surface": 60
+                    },
+                    {
+                        "id": 11044031,
+                        "subtype": "APARTMENT",
+                        "saleStatus": "AVAILABLE",
+                        "floor": 0,
+                        "price": 230000,
+                        "bedroomCount": 1,
+                        "realEstateProjectPhase": null,
+                        "surface": 59
+                    },
+                    {
+                        "id": 11044046,
+                        "subtype": "APARTMENT",
+                        "saleStatus": "AVAILABLE",
+                        "floor": 2,
+                        "price": 232000,
+                        "bedroomCount": 1,
+                        "realEstateProjectPhase": null,
+                        "surface": 66
+                    },
+                    {
+                        "id": 11044033,
+                        "subtype": "APARTMENT",
+                        "saleStatus": "AVAILABLE",
+                        "floor": 1,
+                        "price": 260000,
+                        "bedroomCount": 2,
+                        "realEstateProjectPhase": null,
+                        "surface": 81
+                    },
+                    {
+                        "id": 11044049,
+                        "subtype": "APARTMENT",
+                        "saleStatus": "AVAILABLE",
+                        "floor": 2,
+                        "price": 268000,
+                        "bedroomCount": 2,
+                        "realEstateProjectPhase": null,
+                        "surface": 81
+                    },
+                    {
+                        "id": 11044050,
+                        "subtype": "APARTMENT",
+                        "saleStatus": "AVAILABLE",
+                        "floor": 3,
+                        "price": 270000,
+                        "bedroomCount": 2,
+                        "realEstateProjectPhase": null,
+                        "surface": 80
+                    },
+                    {
+                        "id": 11044028,
+                        "subtype": "APARTMENT",
+                        "saleStatus": "AVAILABLE",
+                        "floor": 0,
+                        "price": 270000,
+                        "bedroomCount": 2,
+                        "realEstateProjectPhase": null,
+                        "surface": 84
+                    },
+                    {
+                        "id": 11044045,
+                        "subtype": "APARTMENT",
+                        "saleStatus": "AVAILABLE",
+                        "floor": 1,
+                        "price": 274000,
+                        "bedroomCount": 2,
+                        "realEstateProjectPhase": null,
+                        "surface": 85
+                    },
+                    {
+                        "id": 11044043,
+                        "subtype": "APARTMENT",
+                        "saleStatus": "SOLD",
+                        "floor": 1,
+                        "price": null,
+                        "bedroomCount": 2,
+                        "realEstateProjectPhase": null,
+                        "surface": 93
+                    },
+                    {
+                        "id": 11044047,
+                        "subtype": "APARTMENT",
+                        "saleStatus": "AVAILABLE",
+                        "floor": 21,
+                        "price": 278000,
+                        "bedroomCount": 2,
+                        "realEstateProjectPhase": null,
+                        "surface": 85
+                    },
+                    {
+                        "id": 11044040,
+                        "subtype": "APARTMENT",
+                        "saleStatus": "AVAILABLE",
+                        "floor": 3,
+                        "price": 279000,
+                        "bedroomCount": 2,
+                        "realEstateProjectPhase": null,
+                        "surface": 77
+                    },
+                    {
+                        "id": 11044026,
+                        "subtype": "APARTMENT",
+                        "saleStatus": "SOLD",
+                        "floor": 0,
+                        "price": null,
+                        "bedroomCount": 2,
+                        "realEstateProjectPhase": null,
+                        "surface": 98
+                    },
+                    {
+                        "id": 11044032,
+                        "subtype": "APARTMENT",
+                        "saleStatus": "AVAILABLE",
+                        "floor": 1,
+                        "price": 280000,
+                        "bedroomCount": 2,
+                        "realEstateProjectPhase": null,
+                        "surface": 87
+                    },
+                    {
+                        "id": 11044048,
+                        "subtype": "APARTMENT",
+                        "saleStatus": "AVAILABLE",
+                        "floor": 2,
+                        "price": 284000,
+                        "bedroomCount": 2,
+                        "realEstateProjectPhase": null,
+                        "surface": 87
+                    },
+                    {
+                        "id": 11044036,
+                        "subtype": "APARTMENT",
+                        "saleStatus": "AVAILABLE",
+                        "floor": 2,
+                        "price": 286000,
+                        "bedroomCount": 2,
+                        "realEstateProjectPhase": null,
+                        "surface": 93
+                    },
+                    {
+                        "id": 11044039,
+                        "subtype": "APARTMENT",
+                        "saleStatus": "AVAILABLE",
+                        "floor": 3,
+                        "price": 292000,
+                        "bedroomCount": 2,
+                        "realEstateProjectPhase": null,
+                        "surface": 81
+                    },
+                    {
+                        "id": 11044038,
+                        "subtype": "APARTMENT",
+                        "saleStatus": "AVAILABLE",
+                        "floor": 3,
+                        "price": 355000,
+                        "bedroomCount": 2,
+                        "realEstateProjectPhase": null,
+                        "surface": 96
+                    },
+                    {
+                        "id": 11044037,
+                        "subtype": "APARTMENT",
+                        "saleStatus": "SOLD",
+                        "floor": 3,
+                        "price": null,
+                        "bedroomCount": 2,
+                        "realEstateProjectPhase": null,
+                        "surface": 97
+                    }
+                ],
+                "minPriceVAT": null,
+                "maxPriceVAT": null
+            }
+        ],
+        "bedroomRange": "1 - 2",
+        "surfaceRange": "40 - 96",
+        "minPriceVAT": null,
+        "maxPriceVAT": null
+    },
+    "customers": [
+        {
+            "id": 2066628,
+            "type": "AGENCY",
+            "email": "inred@omniwebsites.be",
+            "logoUrl": "https://static.immoweb.be/logos/2066628.gif?cache=2024211601323",
+            "phoneNumber": "+3210420142",
+            "mobileNumber": null,
+            "name": "ABOREAL",
+            "website": "http://www.aboreal.be",
+            "location": {
+                "country": "Belgium",
+                "region": null,
+                "province": "Walloon Brabant",
+                "district": "Nivelles",
+                "locality": "Mont St Guibert",
+                "postalCode": "1435",
+                "street": "Rue du fond Cattelain 1 bt1",
+                "number": null,
+                "box": null,
+                "propertyName": null,
+                "floor": null,
+                "latitude": 50.6568015,
+                "longitude": 4.6259543,
+                "distance": null,
+                "approximated": null,
+                "regionCode": null,
+                "type": null,
+                "hasSeaView": null,
+                "pointsOfInterest": null,
+                "placeName": null
+            },
+            "ipiNo": "503077",
+            "isOwner": true,
+            "contactHoursMobile": "anytime",
+            "contactHoursLandline": "anytime",
+            "salesRepresentative": null,
+            "features": {
+                "page404": true,
+                "investorFlag": false,
+                "relatedClassifieds": true,
+                "leafletsCTA": true,
+                "leadQualification": true,
+                "recommendation": true
+            }
+        }
+    ],
+    "premiumProjectPage": {
+        "medias": null,
+        "options": null,
+        "promoter": null,
+        "tabs": null
+    },
+    "flags": {
+        "isPublicSale": false,
+        "isNewClassified": false,
+        "isNewPrice": false,
+        "isInvestmentProject": false,
+        "isNewlyBuilt": true,
+        "isNotarySale": null,
+        "isLifeAnnuitySale": false,
+        "adQuality": null,
+        "date": null,
+        "priceSqm": null,
+        "price": null,
+        "default": null,
+        "isSoldOrRented": false,
+        "isLowEnergy": null,
+        "percentSold": null,
+        "isPassiveHouse": null,
+        "isNewRealEstateProject": true,
+        "isAnInteractiveSale": null,
+        "isUnderOption": false
+    },
+    "media": {
+        "pictures": [
+            {
+                "smallUrl": "https://media-resize.immowebstatic.be/classifieds/40c9ffc8-9565-5d6d-b79f-0e2c99686cd7/100x100/065dbca138967c27a550591eedb870f0.jpg?cache=20240220123333",
+                "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/40c9ffc8-9565-5d6d-b79f-0e2c99686cd7/300x300/065dbca138967c27a550591eedb870f0.jpg?cache=20240220123333",
+                "largeUrl": "https://media-resize.immowebstatic.be/classifieds/40c9ffc8-9565-5d6d-b79f-0e2c99686cd7/736x736/065dbca138967c27a550591eedb870f0.jpg?cache=20240220123333",
+                "isVertical": false
+            },
+            {
+                "smallUrl": "https://media-resize.immowebstatic.be/classifieds/40c9ffc8-9565-5d6d-b79f-0e2c99686cd7/100x100/7ab4240211adf5cd0d3a6ef2ca85f99d.jpg?cache=20240220123333",
+                "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/40c9ffc8-9565-5d6d-b79f-0e2c99686cd7/300x300/7ab4240211adf5cd0d3a6ef2ca85f99d.jpg?cache=20240220123333",
+                "largeUrl": "https://media-resize.immowebstatic.be/classifieds/40c9ffc8-9565-5d6d-b79f-0e2c99686cd7/736x736/7ab4240211adf5cd0d3a6ef2ca85f99d.jpg?cache=20240220123333",
+                "isVertical": false
+            },
+            {
+                "smallUrl": "https://media-resize.immowebstatic.be/classifieds/40c9ffc8-9565-5d6d-b79f-0e2c99686cd7/100x100/b9c0fb298dd94175b3944e076dd0a36a.jpg?cache=20240220123333",
+                "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/40c9ffc8-9565-5d6d-b79f-0e2c99686cd7/300x300/b9c0fb298dd94175b3944e076dd0a36a.jpg?cache=20240220123333",
+                "largeUrl": "https://media-resize.immowebstatic.be/classifieds/40c9ffc8-9565-5d6d-b79f-0e2c99686cd7/736x736/b9c0fb298dd94175b3944e076dd0a36a.jpg?cache=20240220123333",
+                "isVertical": false
+            },
+            {
+                "smallUrl": "https://media-resize.immowebstatic.be/classifieds/40c9ffc8-9565-5d6d-b79f-0e2c99686cd7/100x100/b3077fb50386af6373c0f9a73d118e0f.jpg?cache=20240220123333",
+                "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/40c9ffc8-9565-5d6d-b79f-0e2c99686cd7/300x300/b3077fb50386af6373c0f9a73d118e0f.jpg?cache=20240220123333",
+                "largeUrl": "https://media-resize.immowebstatic.be/classifieds/40c9ffc8-9565-5d6d-b79f-0e2c99686cd7/736x736/b3077fb50386af6373c0f9a73d118e0f.jpg?cache=20240220123333",
+                "isVertical": false
+            },
+            {
+                "smallUrl": "https://media-resize.immowebstatic.be/classifieds/40c9ffc8-9565-5d6d-b79f-0e2c99686cd7/100x100/98a8143f9a69dfe841bda84c37d90271.jpg?cache=20240220123333",
+                "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/40c9ffc8-9565-5d6d-b79f-0e2c99686cd7/300x300/98a8143f9a69dfe841bda84c37d90271.jpg?cache=20240220123333",
+                "largeUrl": "https://media-resize.immowebstatic.be/classifieds/40c9ffc8-9565-5d6d-b79f-0e2c99686cd7/736x736/98a8143f9a69dfe841bda84c37d90271.jpg?cache=20240220123333",
+                "isVertical": false
+            },
+            {
+                "smallUrl": "https://media-resize.immowebstatic.be/classifieds/40c9ffc8-9565-5d6d-b79f-0e2c99686cd7/100x100/3c3866d1f378d93447e4dda42ea52b05.jpg?cache=20240220123333",
+                "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/40c9ffc8-9565-5d6d-b79f-0e2c99686cd7/300x300/3c3866d1f378d93447e4dda42ea52b05.jpg?cache=20240220123333",
+                "largeUrl": "https://media-resize.immowebstatic.be/classifieds/40c9ffc8-9565-5d6d-b79f-0e2c99686cd7/736x736/3c3866d1f378d93447e4dda42ea52b05.jpg?cache=20240220123333",
+                "isVertical": false
+            },
+            {
+                "smallUrl": "https://media-resize.immowebstatic.be/classifieds/40c9ffc8-9565-5d6d-b79f-0e2c99686cd7/100x100/76abac8acb604e766df11772b5b180a6.jpg?cache=20240220123333",
+                "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/40c9ffc8-9565-5d6d-b79f-0e2c99686cd7/300x300/76abac8acb604e766df11772b5b180a6.jpg?cache=20240220123333",
+                "largeUrl": "https://media-resize.immowebstatic.be/classifieds/40c9ffc8-9565-5d6d-b79f-0e2c99686cd7/736x736/76abac8acb604e766df11772b5b180a6.jpg?cache=20240220123333",
+                "isVertical": false
+            },
+            {
+                "smallUrl": "https://media-resize.immowebstatic.be/classifieds/40c9ffc8-9565-5d6d-b79f-0e2c99686cd7/100x100/02c912a09674bb4874816f9f65f25612.jpg?cache=20240220123333",
+                "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/40c9ffc8-9565-5d6d-b79f-0e2c99686cd7/300x300/02c912a09674bb4874816f9f65f25612.jpg?cache=20240220123333",
+                "largeUrl": "https://media-resize.immowebstatic.be/classifieds/40c9ffc8-9565-5d6d-b79f-0e2c99686cd7/736x736/02c912a09674bb4874816f9f65f25612.jpg?cache=20240220123333",
+                "isVertical": false
+            },
+            {
+                "smallUrl": "https://media-resize.immowebstatic.be/classifieds/40c9ffc8-9565-5d6d-b79f-0e2c99686cd7/100x100/4b427aac0505d4d864315dce04efcd84.jpg?cache=20240220123333",
+                "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/40c9ffc8-9565-5d6d-b79f-0e2c99686cd7/300x300/4b427aac0505d4d864315dce04efcd84.jpg?cache=20240220123333",
+                "largeUrl": "https://media-resize.immowebstatic.be/classifieds/40c9ffc8-9565-5d6d-b79f-0e2c99686cd7/736x736/4b427aac0505d4d864315dce04efcd84.jpg?cache=20240220123333",
+                "isVertical": false
+            },
+            {
+                "smallUrl": "https://media-resize.immowebstatic.be/classifieds/40c9ffc8-9565-5d6d-b79f-0e2c99686cd7/100x100/2b690c63fdd7864f49f948f9ea68ec8c.jpg?cache=20240220123333",
+                "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/40c9ffc8-9565-5d6d-b79f-0e2c99686cd7/300x300/2b690c63fdd7864f49f948f9ea68ec8c.jpg?cache=20240220123333",
+                "largeUrl": "https://media-resize.immowebstatic.be/classifieds/40c9ffc8-9565-5d6d-b79f-0e2c99686cd7/736x736/2b690c63fdd7864f49f948f9ea68ec8c.jpg?cache=20240220123333",
+                "isVertical": false
+            },
+            {
+                "smallUrl": "https://media-resize.immowebstatic.be/classifieds/40c9ffc8-9565-5d6d-b79f-0e2c99686cd7/100x100/100e1787c8430b1cb5b67a3fda1425ed.jpg?cache=20240220123333",
+                "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/40c9ffc8-9565-5d6d-b79f-0e2c99686cd7/300x300/100e1787c8430b1cb5b67a3fda1425ed.jpg?cache=20240220123333",
+                "largeUrl": "https://media-resize.immowebstatic.be/classifieds/40c9ffc8-9565-5d6d-b79f-0e2c99686cd7/736x736/100e1787c8430b1cb5b67a3fda1425ed.jpg?cache=20240220123333",
+                "isVertical": false
+            },
+            {
+                "smallUrl": "https://media-resize.immowebstatic.be/classifieds/40c9ffc8-9565-5d6d-b79f-0e2c99686cd7/100x100/e9b910781eb6bcb5ebb21342a8006fb7.jpg?cache=20240220123333",
+                "mediumUrl": "https://media-resize.immowebstatic.be/classifieds/40c9ffc8-9565-5d6d-b79f-0e2c99686cd7/300x300/e9b910781eb6bcb5ebb21342a8006fb7.jpg?cache=20240220123333",
+                "largeUrl": "https://media-resize.immowebstatic.be/classifieds/40c9ffc8-9565-5d6d-b79f-0e2c99686cd7/736x736/e9b910781eb6bcb5ebb21342a8006fb7.jpg?cache=20240220123333",
+                "isVertical": false
+            }
+        ],
+        "virtualTourUrl": null,
+        "floorPlans": null,
+        "specifications": null,
+        "virtualExperienceUrl": null
+    },
+    "property": {
+        "type": "APARTMENT_GROUP",
+        "subtype": "APARTMENT_GROUP",
+        "title": "Nouveau projet à Namur",
+        "description": "Namur, à proximité de la Sambre et de la gare, dans le calme d’un clos arboré, la première phase du projet «  Les Canopées » sera composée de 25 appartements avec terrasse. Toutes les unités bénéficient d’excellentes performances énergétiques (PEB A), système de chauffage sol par pompe à chaleur et ventilation individuelle. Mais également de finitions complètes et personnalisables (cuisine, revêtements sols, sanitaires, ...).",
+        "name": null,
+        "isHolidayProperty": null,
+        "bedroomCount": null,
+        "bedrooms": [],
+        "bathroomCount": null,
+        "bathrooms": [],
+        "location": {
+            "country": "Belgium",
+            "region": "Wallonie",
+            "province": "Namur",
+            "district": "Namur",
+            "locality": "NAMUR",
+            "postalCode": "5000",
+            "street": "Rue de la Dodane",
+            "number": "8",
+            "box": null,
+            "propertyName": null,
+            "floor": null,
+            "latitude": 50.4680465,
+            "longitude": 4.8542223,
+            "distance": null,
+            "approximated": null,
+            "regionCode": "WALLONIE",
+            "type": null,
+            "hasSeaView": null,
+            "pointsOfInterest": [
+                {
+                    "type": "SCHOOL",
+                    "distance": -1
+                },
+                {
+                    "type": "SHOPS",
+                    "distance": -1
+                },
+                {
+                    "type": "TRANSPORT",
+                    "distance": -1
+                }
+            ],
+            "placeName": null
+        },
+        "netHabitableSurface": null,
+        "roomCount": null,
+        "monthlyCosts": null,
+        "attic": null,
+        "hasAttic": null,
+        "basement": null,
+        "hasBasement": null,
+        "hasDressingRoom": null,
+        "diningRoom": null,
+        "hasDiningRoom": null,
+        "building": null,
+        "propertyCertificates": null,
+        "hasCaretakerOrConcierge": null,
+        "hasDisabledAccess": null,
+        "hasLift": null,
+        "constructionPermit": {
+            "constructionType": null,
+            "floodZoneType": null,
+            "isObtained": true,
+            "hasObligationToConstruct": null,
+            "hasPlotDivisionAuthorization": true,
+            "hasPossiblePriorityPurchaseRight": false,
+            "isBreachingUrbanPlanningRegulation": null,
+            "floodZoneIconUrl": null,
+            "totalBuildableGroundFloorSurface": 0,
+            "urbanPlanningInformation": null,
+            "pScore": null,
+            "gScore": null
+        },
+        "energy": null,
+        "kitchen": null,
+        "land": null,
+        "laundryRoom": null,
+        "hasLaundryRoom": null,
+        "livingRoom": null,
+        "hasLivingRoom": false,
+        "isFirstOccupation": null,
+        "hasBalcony": null,
+        "hasBarbecue": null,
+        "hasGarden": null,
+        "gardenSurface": null,
+        "gardenOrientation": null,
+        "parkingCountIndoor": null,
+        "parkingCountOutdoor": null,
+        "parkingCountClosedBox": null,
+        "hasAirConditioning": null,
+        "hasArmoredDoor": null,
+        "hasVisiophone": null,
+        "hasSecureAccessAlarm": null,
+        "hasCableTV": null,
+        "hasDoorPhone": null,
+        "hasInternet": null,
+        "showerRoomCount": null,
+        "showerRooms": [],
+        "specificities": null,
+        "toiletCount": null,
+        "toilets": [],
+        "hasFitnessRoom": null,
+        "hasTennisCourt": null,
+        "hasSwimmingPool": null,
+        "hasSauna": null,
+        "hasJacuzzi": null,
+        "hasHammam": null,
+        "bedroomSurface": null,
+        "alternativeDescriptions": {
+            "fr": "A proximité de la Sambre et de la gare, dans le calme d’un clos arboré, la première phase du projet «  Les Canopées » sera composée de 25 appartements avec terrasse. Toutes les unités bénéficient d’excellentes performances énergétiques (PEB A), système de chauffage sol par pompe à chaleur et ventilation individuelle. Mais également de finitions complètes et personnalisables (cuisine, revêtements sols, sanitaires, ...).",
+            "nl": "Namur, à proximité de la Sambre et de la gare, dans le calme d’un clos arboré, la première phase du projet «  Les Canopées » sera composée de 25 appartements avec terrasse. Toutes les unités bénéficient d’excellentes performances énergétiques (PEB A), système de chauffage sol par pompe à chaleur et ventilation individuelle. Mais également de finitions complètes et personnalisables (cuisine, revêtements sols, sanitaires, ...)."
+        },
+        "habitableUnitCount": null,
+        "fireplaceCount": null,
+        "fireplaceExists": false,
+        "hasTerrace": null,
+        "terraceSurface": null,
+        "terraceOrientation": null
+    },
+    "publication": {
+        "creationDate": "2024-01-02T14:21:54.000+0000",
+        "expirationDate": "2024-02-29T22:59:59.000+0000",
+        "publisherId": null,
+        "visualisationOption": "XL",
+        "lastModificationDate": "2024-02-20T12:48:19.430+0000"
+    },
+    "transaction": {
+        "type": "FOR_SALE",
+        "subtype": "BUY_REGULAR",
+        "availabilityPeriodType": null,
+        "availabilityDate": null,
+        "certificates": {
+            "carbonEmission": 18,
+            "hasElectricalInstallationComplianceCertificate": null,
+            "primaryEnergyConsumptionPerSqm": 85,
+            "primaryEnergyConsumptionYearly": null,
+            "epcDescription": null,
+            "epcReference": "11111",
+            "epcScore": "A",
+            "epcUrl": "https://static.immoweb.be/pics/peb/peb_a.png"
+        },
+        "rental": null,
+        "sale": {
+            "price": null,
+            "isSubjectToVat": false,
+            "cadastralIncome": 0,
+            "publicSale": null,
+            "pricePerSqm": null,
+            "oldPrice": null,
+            "lifeAnnuity": null,
+            "hasStartingPrice": null,
+            "isFurnished": null,
+            "homeToBuild": null,
+            "newBuildsTotalPrice": "",
+            "newBuildsVAT": "",
+            "newBuildsLandPrice": "",
+            "newBuildsLandTaxes": ""
+        },
+        "investor": {
+            "isInvestmentProperty": false,
+            "currentMonthlyRentalIncome": null,
+            "currentReturnOnInvestment": null,
+            "expectedMonthlyRentalIncome": null,
+            "expectedMonthlyRentalIncomeDescription": null,
+            "expectedReturnOnInvestment": null,
+            "habitableUnitCount": null,
+            "occupancyRate": null
+        }
+    },
+    "priceType": null,
+    "price": {
+        "type": "group_sale",
+        "mainValue": null,
+        "alternativeValue": null,
+        "additionalValue": null,
+        "oldValue": null,
+        "minRangeValue": 208000,
+        "maxRangeValue": 355000,
+        "mainDisplayPrice": "€208,000 - €355,000",
+        "HTMLDisplayPrice": "<span aria-hidden=\"true\">€208,000 - €355,000</span>",
+        "alternativeDisplayPrice": "",
+        "oldDisplayPrice": null,
+        "shortDisplayPrice": "€208K - 355K",
+        "accessibilityPrice": "From 208000€ To 355000€",
+        "label": "Min price - Max price",
+        "date": null,
+        "language": "en"
+    },
+    "externalReference": "4772 - ",
+    "isBookmarked": false,
+    "hasSectionsArray": {
+        "hasGeneralSection": false,
+        "hasInteriorSection": false,
+        "hasExteriorSection": false,
+        "hasFacilitiesSection": false,
+        "hasEnergySection": true,
+        "hasPlanningSection": true,
+        "hasFinancialSection": false,
+        "hasPublicSaleSection": false
+    },
+    "unitGroupings": [],
+    "displayFlags": {
+        "main": null,
+        "secondary": [
+            "new_real_estate_project"
+        ],
+        "percentSold": null
+    },
+    "statistics": {
+        "bookmarkCount": 17,
+        "viewCount": 1241,
+        "alertPrice": null,
+        "creationDate": null,
+        "description": null,
+        "isAlertEmailSet": null,
+        "rating": null,
+        "wasOwnerContacted": null,
+        "wasPropertyVisited": null
+    }
+}

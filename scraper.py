@@ -1,3 +1,4 @@
+import re
 from requests import Session
 from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright
@@ -259,10 +260,73 @@ class Scraper:
                             ).replace(" square meters", "")
                         else:
                             useful_dict["Terrace"] = None
-                with open("useful_data.json", "a", encoding="utf-8") as file:
+                with open("testing2.json", "a", encoding="utf-8") as file:
                     json.dump(useful_dict, file, ensure_ascii=False)
                     file.write("\n")
                 sleep(1)
+
+    def get_data_from_html(self, html: str):
+        response = self.session.get(html)
+        regex = r"(<script type=\"text/javascript\">\n\s+window\.classified = )(.*)"
+        match = re.search(regex, response.text)
+        with open("useful_data.json", "a", encoding="utf-8") as file:
+            json.dump(json.loads(match.group(2)[:-1]), file, ensure_ascii=False)
+
+    def assign_data(self):
+        with open("testing2.json", "r", encoding="utf-8") as file:
+            data = json.load(file)
+        if data.get("cluster") is not None:
+            pass
+        else:
+            property_id = data.get("id", {})
+            locality = data.get("property", {}).get("location", {}).get("locality", {})
+            postal_code = (
+                data.get("property", {}).get("location", {}).get("postalCode", {})
+            )
+            price = data.get("price", {}).get("mainValue", {})
+            property_type = data.get("property", {}).get("type", {})
+            subtype = data.get("property", {}).get("subtype", {})
+            sale_type = data.get("flags", {}).get("isPublicSale", {})
+            room_count = data.get("property", {}).get("bedroomCount", {})
+            living_area = (
+                data.get("property", {}).get("livingRoom", {}).get("surface", {})
+            )
+            kitchen_type = data.get("property", {}).get("kitchen", {}).get("type", {})
+            is_furnished = data.get("transaction", {}).get("isFurnished", {})
+            has_open_fire = data.get("property", {}).get("fireplaceExists", {})
+            terrace_surface = data.get("property", {}).get("terraceSurface", {})
+            garden_surface = data.get("property", {}).get("gardenSurface", {})
+            land_surface = data.get("property", {}).get("netHabitableSurface", {})
+            facade_count = (
+                data.get("property", {}).get("building", {}).get("facadeCount", {})
+            )
+            has_swimming_pool = data.get("property", {}).get("hasSwimmingPool", {})
+            building_condition = (
+                data.get("property", {}).get("building", {}).get("condition", {})
+            )
+            useful_data = {
+                "Property ID": property_id,
+                "Locality": locality,
+                "Postal Code": postal_code,
+                "Price": price,
+                "Type of property": property_type,
+                "Subtype of property": subtype,
+                "Type of sale": sale_type,
+                "Number of rooms": room_count,
+                "Living area": living_area,
+                "Kitchen type": kitchen_type,
+                "Furnished": is_furnished,
+                "Open fire": has_open_fire,
+                "Terrace surface": terrace_surface,
+                "Garden surface": garden_surface,
+                "Land surface": land_surface,
+                "Number of facades": facade_count,
+                "Swimming pool": has_swimming_pool,
+                "Building condition": building_condition,
+            }
+            with open("useful_data2.json", "a", encoding="utf-8") as file:
+                json.dump(useful_data, file, ensure_ascii=False)
+                file.write("\n")
 
     def scrapesession(self, urls):
         with multiprocessing.Pool() as pool:
@@ -277,8 +341,12 @@ class Scraper:
 
 def main():
     scraper = Scraper()
-    property_urls = scraper.get_property_links(base_search_url, total_pages)
-    scraper.scrapesession(property_urls)
+    # property_urls = scraper.get_property_links(base_search_url, total_pages)
+    # scraper.scrapesession(property_urls)
+    scraper.get_data_from_html(
+        "https://www.immoweb.be/en/classified/apartment/for-sale/evere/1140/11012764"
+    )
+    scraper.assign_data()
 
 
 if __name__ == "__main__":
