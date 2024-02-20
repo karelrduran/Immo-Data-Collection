@@ -47,37 +47,79 @@ class Scraper:
     def scrape(self, url):
         self.url = url
         with sync_playwright() as p:
-            dict = {}
+            my_dict = {}
             browser = p.chromium.launch(headless=False)
             page = browser.new_page()
             page.goto(url)
             content = page.content()
             soup = BeautifulSoup(content, "html.parser")
-            for i in soup.find_all("table", class_="classified-table"):
-                table_data = {}
-                for row in i.find_all("tr"):
-                    for j, k in zip(row.find_all("td"), row.find_all("th")):
-                        jfix = " ".join(
-                            j.text.replace("\n", "")
-                            .replace("kWh/", "")
-                            .replace("m²", "")
-                            .replace("€", "")
-                            .split()
-                        )
-                        if k.text.strip() == "":
-                            continue
-                        if (
-                            "Price" in k.text.strip()
-                            or "Cadastral income" in k.text.strip()
-                        ):
-                            list = jfix.split()
-                            jfix = f"{list[0]}€"
-                        table_data[k.text.strip()] = jfix
-                    dict.update(table_data)
-            pprint(dict)
-            with open("data.json", "a", encoding="utf-8") as file:
-                json.dump(dict, file)
-                file.write("\n")
+            if "new-real-estate-project" in url:
+                urls = []
+                for list in soup.find_all(
+                    "ul", class_="classified__list classified__list--striped"
+                ):
+                    for i in list.find_all("li"):
+                        href = i.find("a")
+                        if href:
+                            urls.append(href.get("href"))
+                    for u in urls:
+                        page.goto(u)
+                        content = page.content()
+                        soup = BeautifulSoup(content, "html.parser")
+                        for i in soup.find_all("table", class_="classified-table"):
+                            table_data = {}
+                            for row in i.find_all("tr"):
+                                for j, k in zip(row.find_all("td"), row.find_all("th")):
+                                    jfix = " ".join(
+                                        j.text.replace("\n", "")
+                                        .replace("kWh/", "")
+                                        .replace("m²", "")
+                                        .replace("€", "")
+                                        .split()
+                                    )
+                                    if k.text.strip() == "":
+                                        continue
+                                    if (
+                                        "Price" in k.text.strip()
+                                        or "Cadastral income" in k.text.strip()
+                                    ):
+                                        list = jfix.split()
+                                        jfix = f"{list[0]}€"
+                                    table_data[k.text.strip()] = jfix
+                                table_data["URL"] = u
+                                my_dict.update(table_data)
+                                sorted_dict = dict(sorted(my_dict.items()))
+                        with open("real_estate.json", "a", encoding="utf-8") as file:
+                            json.dump(sorted_dict, file, ensure_ascii=False)
+                            file.write("\n")
+
+            else:
+                for i in soup.find_all("table", class_="classified-table"):
+                    table_data = {}
+                    for row in i.find_all("tr"):
+                        for j, k in zip(row.find_all("td"), row.find_all("th")):
+                            jfix = " ".join(
+                                j.text.replace("\n", "")
+                                .replace("kWh/", "")
+                                .replace("m²", "")
+                                .replace("€", "")
+                                .split()
+                            )
+                            if k.text.strip() == "":
+                                continue
+                            if (
+                                "Price" in k.text.strip()
+                                or "Cadastral income" in k.text.strip()
+                            ):
+                                list = jfix.split()
+                                jfix = f"{list[0]}€"
+                            table_data[k.text.strip()] = jfix
+                        table_data["URL"] = url
+                        my_dict.update(table_data)
+                        sorted_dict = dict(sorted(my_dict.items()))
+                with open("house+appartments.json", "a", encoding="utf-8") as file:
+                    json.dump(sorted_dict, file, ensure_ascii=False)
+                    file.write("\n")
 
     def scrapesession(self, urls):
         with multiprocessing.Pool() as pool:
