@@ -5,6 +5,8 @@ from pprint import pprint
 import multiprocessing
 import json
 import pandas as pd  # I'm using pandas to save the URLs to a CSV file, as I'm familiar with this package
+from time import sleep
+import csv
 
 base_search_url = "https://www.immoweb.be/en/search/house-and-apartment/for-sale"
 
@@ -88,10 +90,84 @@ class Scraper:
                                     table_data[k.text.strip()] = jfix
                                 table_data["URL"] = u
                                 my_dict.update(table_data)
-                                sorted_dict = dict(sorted(my_dict.items()))
-                        with open("real_estate.json", "a", encoding="utf-8") as file:
-                            json.dump(sorted_dict, file, ensure_ascii=False)
+                                propertyid = u.split("/")[-1]
+                                postalcode = u.split("/")[-2]
+                                locality = u.split("/")[-3].capitalize()
+                                type_of_property = u.split("/")[-5].capitalize()
+                                useful_dict = {
+                                    "Property ID": propertyid,
+                                    "Locality": locality,
+                                    "Postal Code": postalcode,
+                                    "Price": my_dict.get("Price"),
+                                    "Type of property": type_of_property,
+                                    "Subtype of property": my_dict.get(
+                                        "Subtype of property"
+                                    ),
+                                    "Type of sale": my_dict.get("Type of sale"),
+                                    "Number of rooms": my_dict.get("Bedrooms"),
+                                    "Living area": my_dict.get("Living area"),
+                                    "Surface of good": my_dict.get(
+                                        "Living area", ""
+                                    ).replace(" square meters", ""),
+                                    "Number of facades": my_dict.get(
+                                        "Number of frontages"
+                                    ),
+                                    "State of the building": my_dict.get(
+                                        "Building condition"
+                                    ),
+                                    "Energy class": my_dict.get("Energy class"),
+                                    "Construction year": my_dict.get(
+                                        "Construction year"
+                                    ),
+                                    "URL": my_dict.get("URL"),
+                                }
+
+                                if my_dict.get("Kitchen style") == "Not installed":
+                                    useful_dict["Equipped kitchen"] = 0
+                                else:
+                                    useful_dict["Equipped kitchen"] = 1
+
+                                if my_dict.get("Swimming pool"):
+                                    if my_dict.get("Swimming pool") == "Yes":
+                                        useful_dict["Swimming pool"] = 1
+                                    else:
+                                        useful_dict["Swimming pool"] = 0
+                                else:
+                                    useful_dict["Swimming pool"] = 0
+
+                                if my_dict.get("Furnished"):
+                                    if my_dict.get("Furnished") == "Yes":
+                                        useful_dict["Furnished"] = 1
+                                    else:
+                                        useful_dict["Furnished"] = 0
+                                else:
+                                    useful_dict["Furnished"] = 0
+
+                                if my_dict.get("How many fireplaces?"):
+                                    if int(my_dict.get("How many fireplaces?")) > 0:
+                                        useful_dict["Open fire"] = 1
+                                    else:
+                                        useful_dict["Open fire"] = 0
+                                else:
+                                    useful_dict["Open fire"] = 0
+
+                                if my_dict.get("Garden surface"):
+                                    useful_dict["Garden"] = my_dict.get(
+                                        "Garden surface", ""
+                                    ).replace(" square meters", "")
+                                else:
+                                    useful_dict["Garden"] = None
+
+                                if my_dict.get("Terrace surface"):
+                                    useful_dict["Terrace"] = my_dict.get(
+                                        "Terrace surface", ""
+                                    ).replace(" square meters", "")
+                                else:
+                                    useful_dict["Terrace"] = None
+                        with open("useful_data.json", "a", encoding="utf-8") as file:
+                            json.dump(useful_dict, file, ensure_ascii=False)
                             file.write("\n")
+                        sleep(1)
 
             else:
                 for i in soup.find_all("table", class_="classified-table"):
@@ -114,16 +190,89 @@ class Scraper:
                                 list = jfix.split()
                                 jfix = f"{list[0]}€"
                             table_data[k.text.strip()] = jfix
+
                         table_data["URL"] = url
                         my_dict.update(table_data)
-                        sorted_dict = dict(sorted(my_dict.items()))
-                with open("house+appartments.json", "a", encoding="utf-8") as file:
-                    json.dump(sorted_dict, file, ensure_ascii=False)
+                        propertyid = url.split("/")[-1]
+                        postalcode = url.split("/")[-2]
+                        locality = url.split("/")[-3].capitalize()
+                        type_of_property = url.split("/")[-5].capitalize()
+                        useful_dict = {
+                            "Property ID": propertyid,
+                            "Locality": locality,
+                            "Postal Code": postalcode,
+                            "Price": my_dict.get("Price"),
+                            "Type of property": type_of_property,
+                            "Subtype of property": my_dict.get("Subtype of property"),
+                            "Type of sale": my_dict.get("Type of sale"),
+                            "Number of rooms": my_dict.get("Bedrooms"),
+                            "Living area": my_dict.get("Living area"),
+                            "Surface of good": my_dict.get("Living area", "").replace(
+                                " square meters", ""
+                            ),
+                            "Number of facades": my_dict.get("Number of frontages"),
+                            "State of the building": my_dict.get("Building condition"),
+                            "Energy class": my_dict.get("Energy class"),
+                            "Construction year": my_dict.get("Construction year"),
+                            "URL": my_dict.get("URL"),
+                        }
+
+                        if my_dict.get("Kitchen style") == "Not installed":
+                            useful_dict["Equipped kitchen"] = 0
+                        else:
+                            useful_dict["Equipped kitchen"] = 1
+
+                        if my_dict.get("Swimming pool"):
+                            if my_dict.get("Swimming pool") == "Yes":
+                                useful_dict["Swimming pool"] = 1
+                            else:
+                                useful_dict["Swimming pool"] = 0
+                        else:
+                            useful_dict["Swimming pool"] = 0
+
+                        if my_dict.get("Furnished"):
+                            if my_dict.get("Furnished") == "Yes":
+                                useful_dict["Furnished"] = 1
+                            else:
+                                useful_dict["Furnished"] = 0
+                        else:
+                            useful_dict["Furnished"] = 0
+
+                        if my_dict.get("How many fireplaces?"):
+                            if int(my_dict.get("How many fireplaces?")) > 0:
+                                useful_dict["Open fire"] = 1
+                            else:
+                                useful_dict["Open fire"] = 0
+                        else:
+                            useful_dict["Open fire"] = 0
+
+                        if my_dict.get("Garden surface"):
+                            useful_dict["Garden"] = my_dict.get(
+                                "Garden surface", ""
+                            ).replace(" square meters", "")
+                        else:
+                            useful_dict["Garden"] = None
+
+                        if my_dict.get("Terrace surface"):
+                            useful_dict["Terrace"] = my_dict.get(
+                                "Terrace surface", ""
+                            ).replace(" square meters", "")
+                        else:
+                            useful_dict["Terrace"] = None
+                with open("useful_data.json", "a", encoding="utf-8") as file:
+                    json.dump(useful_dict, file, ensure_ascii=False)
                     file.write("\n")
+                sleep(1)
 
     def scrapesession(self, urls):
         with multiprocessing.Pool() as pool:
             pool.map(self.scrape, urls)
+
+    def write_to_csv(self, json_file, csv_file):
+        self.json_file = json_file
+        self.csv_file = csv_file
+        df = pd.DataFrame(json.load(open(json_file)))
+        df.to_csv(csv_file, index=False)
 
 
 def main():
