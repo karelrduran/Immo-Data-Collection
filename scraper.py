@@ -20,24 +20,25 @@ class Scraper:
             soup = BeautifulSoup(content, "html.parser")
             for i in soup.find_all("table", class_="classified-table"):
                 table_data = {}
-                for j, k in zip(i.find_all("td"), i.find_all("th")):
-                    jfix = " ".join(
-                        j.text.replace("\n", "")
-                        .replace("kWh/", "")
-                        .replace("m²", "")
-                        .replace("€", "")
-                        .split()
-                    )
-                    if k.text.strip() == "":
-                        continue
-                    if (
-                        "Price" in k.text.strip()
-                        or "Cadastral income" in k.text.strip()
-                    ):
-                        list = jfix.split()
-                        jfix = f"{list[0]}€"
-                    table_data[k.text.strip()] = jfix
-                dict.update(table_data)
+                for row in i.find_all("tr"):
+                    for j, k in zip(row.find_all("td"), row.find_all("th")):
+                        jfix = " ".join(
+                            j.text.replace("\n", "")
+                            .replace("kWh/", "")
+                            .replace("m²", "")
+                            .replace("€", "")
+                            .split()
+                        )
+                        if k.text.strip() == "":
+                            continue
+                        if (
+                            "Price" in k.text.strip()
+                            or "Cadastral income" in k.text.strip()
+                        ):
+                            list = jfix.split()
+                            jfix = f"{list[0]}€"
+                        table_data[k.text.strip()] = jfix
+                    dict.update(table_data)
             pprint(dict)
 
 
