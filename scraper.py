@@ -2,12 +2,10 @@ import re
 from requests import Session
 from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright
-from pprint import pprint
 import multiprocessing
 import json
 import pandas as pd  # I'm using pandas to save the URLs to a CSV file, as I'm familiar with this package
 from time import sleep
-import csv
 
 base_search_url = "https://www.immoweb.be/en/search/house-and-apartment/for-sale"
 
@@ -168,7 +166,6 @@ class Scraper:
                         with open("useful_data.json", "a", encoding="utf-8") as file:
                             json.dump(useful_dict, file, ensure_ascii=False)
                             file.write("\n")
-                        sleep(1)
 
             else:
                 for i in soup.find_all("table", class_="classified-table"):
@@ -260,73 +257,235 @@ class Scraper:
                             ).replace(" square meters", "")
                         else:
                             useful_dict["Terrace"] = None
-                with open("testing2.json", "a", encoding="utf-8") as file:
+                with open("useful_data.json", "a", encoding="utf-8") as file:
                     json.dump(useful_dict, file, ensure_ascii=False)
                     file.write("\n")
-                sleep(1)
 
     def get_data_from_html(self, html: str):
         response = self.session.get(html)
         regex = r"(<script type=\"text/javascript\">\n\s+window\.classified = )(.*)"
         match = re.search(regex, response.text)
-        with open("useful_data.json", "a", encoding="utf-8") as file:
-            json.dump(json.loads(match.group(2)[:-1]), file, ensure_ascii=False)
+        with open("testing.json", "a", encoding="utf-8") as file:
+            json.dump(
+                json.loads(match.group(2)[:-1]), file, ensure_ascii=False, indent=4
+            )
+            file.write("\n")
+        return json.loads(match.group(2)[:-1])
 
-    def assign_data(self):
-        with open("testing2.json", "r", encoding="utf-8") as file:
-            data = json.load(file)
-        if data.get("cluster") is not None:
-            pass
+    def safeget(self, nested_dict, keys: list[str], default=None):
+        """
+        Safely get a value from a nested dictionary using a list of keys.
+        If an intermediate key leads to None, treat it as an empty dict for the purpose of continuing the path traversal.
+        """
+        self.nested_dict = nested_dict
+        self.keys = keys
+        current_level = nested_dict
+        for i, key in enumerate(keys):
+            # If current_level is None but not at the last key, simulate it as an empty dict
+            if current_level is None and i < len(keys) - 1:
+                current_level = {}
+
+            # Check if the current level is a dictionary and the key exists in it.
+            if isinstance(current_level, dict) and key in current_level:
+                current_level = current_level[key]
+            else:
+                return default
+        return current_level if current_level is not None else default
+
+    def estate_check(self, data: dict):
+        """
+        Checks if the property is a new real estate project or not
+        """
+        self.data = data
+        cluster = data.get("cluster")
+        if cluster is None:
+            self.get_data(data)
         else:
-            property_id = data.get("id", {})
-            locality = data.get("property", {}).get("location", {}).get("locality", {})
-            postal_code = (
-                data.get("property", {}).get("location", {}).get("postalCode", {})
-            )
-            price = data.get("price", {}).get("mainValue", {})
-            property_type = data.get("property", {}).get("type", {})
-            subtype = data.get("property", {}).get("subtype", {})
-            sale_type = data.get("flags", {}).get("isPublicSale", {})
-            room_count = data.get("property", {}).get("bedroomCount", {})
-            living_area = (
-                data.get("property", {}).get("livingRoom", {}).get("surface", {})
-            )
-            kitchen_type = data.get("property", {}).get("kitchen", {}).get("type", {})
-            is_furnished = data.get("transaction", {}).get("isFurnished", {})
-            has_open_fire = data.get("property", {}).get("fireplaceExists", {})
-            terrace_surface = data.get("property", {}).get("terraceSurface", {})
-            garden_surface = data.get("property", {}).get("gardenSurface", {})
-            land_surface = data.get("property", {}).get("netHabitableSurface", {})
-            facade_count = (
-                data.get("property", {}).get("building", {}).get("facadeCount", {})
-            )
-            has_swimming_pool = data.get("property", {}).get("hasSwimmingPool", {})
-            building_condition = (
-                data.get("property", {}).get("building", {}).get("condition", {})
-            )
-            useful_data = {
-                "Property ID": property_id,
-                "Locality": locality,
-                "Postal Code": postal_code,
-                "Price": price,
-                "Type of property": property_type,
-                "Subtype of property": subtype,
-                "Type of sale": sale_type,
-                "Number of rooms": room_count,
-                "Living area": living_area,
-                "Kitchen type": kitchen_type,
-                "Furnished": is_furnished,
-                "Open fire": has_open_fire,
-                "Terrace surface": terrace_surface,
-                "Garden surface": garden_surface,
-                "Land surface": land_surface,
-                "Number of facades": facade_count,
-                "Swimming pool": has_swimming_pool,
-                "Building condition": building_condition,
-            }
-            with open("useful_data2.json", "a", encoding="utf-8") as file:
-                json.dump(useful_data, file, ensure_ascii=False)
-                file.write("\n")
+            unitlist = []
+            units = data.get("cluster").get("units")[0].get("items")
+            for item in units:
+                salestatus = self.safeget(item, ["saleStatus"])
+                if salestatus == "AVAILABLE":
+                    locality = self.safeget(
+                        data, ["cluster", "units", "items", "locality"], default=None
+                    )
+                    postalcode = self.safeget(
+                        data, ["property", "location", "postalCode"], default=None
+                    )
+                    id = item.get("id")
+                    housetype = self.safeget(item, ["subtype"], default=None)
+                    baseurl = f"https://www.immoweb.be/en/classified/{housetype}/for-sale/{locality}/{postalcode}/{id}"
+                    unitlist.append(baseurl)
+            for unit in unitlist:
+                self.get_data(self.get_data_from_html(unit))
+
+    def get_data(self, data: dict) -> dict:
+        """
+        receives the raw data from the window.classified json and returns a dictionary with the fields that we want to keep
+        """
+        if not isinstance(data, dict):
+            raise ValueError("data must be a dictionary")
+
+        # logic is not exact as item that are NOTARY_SALE and LIFE_ANNUITY_SALE will only be marked as LIFE_ANNUITY_SALE,
+        # but it doesn't matter because we are only interested in NORMAL_SALE and not NORMAL_SALE
+        sale_type = "NORMAL_SALE"
+        if self.safeget(data, ["flags", "isLifeAnnuitySale"], default=None):
+            sale_type = "LIFE_ANNUITY_SALE"
+        elif self.safeget(data, ["flags", "isPublicSale"], default=None):
+            sale_type = "PUBLIC_SALE"
+        elif self.safeget(data, ["flags", "isNotarySale"], default=None):
+            sale_type = "NOTARY_SALE"
+
+        new_data = {}
+        # do not self.safeget the id, so it will raise an AttributeError if it does not exist
+        new_data["ID"] = data["id"]
+        new_data["Locality"] = self.safeget(
+            data, ["property", "location", "locality"], default=None
+        )
+        new_data["Postal Code"] = self.safeget(
+            data, ["property", "location", "postalCode"], default=None
+        )
+        new_data["Build Year"] = self.safeget(
+            data, ["property", "building", "constructionYear"], default=None
+        )
+        new_data["Facades"] = self.safeget(
+            data, ["property", "building", "facadeCount"], default=None
+        )
+        new_data["Habitable Surface"] = self.safeget(
+            data, ["property", "netHabitableSurface"], default=None
+        )
+        new_data["Land Surface"] = self.safeget(
+            data, ["property", "land", "surface"], default=None
+        )  # needs some work
+        new_data["Type"] = self.safeget(data, ["property", "type"], default=None)
+        new_data["Subtype"] = self.safeget(data, ["property", "subtype"], default=None)
+        new_data["Price"] = self.safeget(data, ["price", "mainValue"], default=None)
+        new_data["Sale Type"] = sale_type
+        new_data["Bedroom Count"] = self.safeget(
+            data, ["property", "bedroomCount"], default=None
+        )
+        new_data["Bathroom Count"] = self.safeget(
+            data, ["property", "bathroomCount"], default=None
+        )
+        new_data["Toilet Count"] = self.safeget(
+            data, ["property", "toiletCount"], default=None
+        )
+
+        new_data["Room Count"] = 0
+        new_data["Room Count"] += (
+            new_data["Bedroom Count"] if new_data["Bedroom Count"] else 0
+        )
+        new_data["Room Count"] += (
+            new_data["Bathroom Count"] if new_data["Bathroom Count"] else 0
+        )
+        new_data["Room Count"] += (
+            new_data["Toilet Count"] if new_data["Toilet Count"] else 0
+        )
+        new_data["Room Count"] = (
+            new_data["Room Count"] if new_data["Room Count"] else None
+        )
+
+        new_data["Kitchen"] = (
+            True
+            if self.safeget(data, ["property", "kitchen", "type"], default=False)
+            else False
+        )
+        new_data["Kitchen Surface"] = self.safeget(
+            data, ["property", "kitchen", "surface"], default=None
+        )
+        new_data["Kitchen Type"] = self.safeget(
+            data, ["property", "kitchen", "type"], default=None
+        )
+        new_data["Furnished"] = (
+            True
+            if self.safeget(data, ["transaction", "sale", "isFurnished"], default=False)
+            else False
+        )
+        new_data["Openfire"] = (
+            True
+            if self.safeget(data, ["property", "fireplaceExists"], default=False)
+            else False
+        )
+        new_data["Fireplace Count"] = self.safeget(
+            data, ["property", "fireplaceCount"], default=None
+        )
+        new_data["Terrace"] = (
+            True
+            if self.safeget(data, ["property", "hasTerrace"], default=False)
+            else False
+        )
+        new_data["Terrace Surface"] = self.safeget(
+            data, ["property", "terraceSurface"], default=None
+        )
+        new_data["Terrace Orientation"] = self.safeget(
+            data, ["property", "terraceOrientation"], default=None
+        )
+        new_data["Garden Exists"] = (
+            True
+            if self.safeget(data, ["property", "hasGarden"], default=False)
+            else False
+        )
+        new_data["Garden Surface"] = self.safeget(
+            data, ["property", "gardenSurface"], default=None
+        )
+        new_data["Garden Orientation"] = self.safeget(
+            data, ["property", "gardenOrientation"], default=None
+        )
+        new_data["Swimming Pool"] = self.safeget(
+            data, ["property", "hasSwimmingPool"], default=None
+        )
+        new_data["State of Building"] = self.safeget(
+            data, ["property", "building", "condition"], default=None
+        )
+        new_data["Living Surface"] = self.safeget(
+            data, ["property", "livingRoom", "surface"], default=None
+        )
+
+        new_data["EPC"] = self.safeget(
+            data, ["transaction", "certificates", "epcScore"], default=None
+        )
+        new_data["Consumption Per m2"] = self.safeget(
+            data,
+            ["transaction", "certificates", "primaryEnergyConsumptionPerSqm"],
+            default=None,
+        )
+        new_data["Cadastral Income"] = self.safeget(
+            data, ["transaction", "sale", "cadastralIncome"], default=None
+        )
+        new_data["Has starting Price"] = self.safeget(
+            data, ["transaction", "sale", "hasStartingPrice"], default=None
+        )
+        new_data["Transaction Subtype"] = self.safeget(
+            data, ["transaction", "subtype"], default=None
+        )
+        new_data["Heating Type"] = self.safeget(
+            data, ["property", "energy", "heatingType"], default=None
+        )
+
+        new_data["Is Holiday Property"] = self.safeget(
+            data, ["property", "isHolidayProperty"], default=None
+        )
+        new_data["Gas Water Electricity"] = self.safeget(
+            data, ["property", "land", "hasGasWaterElectricityConnection"], default=None
+        )
+        new_data["Sewer"] = self.safeget(
+            data, ["property", "land", "sewerConnection"], default=None
+        )
+        new_data["Sea view"] = self.safeget(
+            data, ["property", "location", "hasSeaView"], default=None
+        )
+        new_data["Parking count inside"] = self.safeget(
+            data, ["property", "parkingCountIndoor"], default=None
+        )
+        new_data["Parking count outside"] = self.safeget(
+            data, ["property", "parkingCountOutdoor"], default=None
+        )
+        new_data["Parking box count"] = self.safeget(
+            data, ["property", "parkingCountClosedBox"], default=None
+        )
+        with open("testing2.json", "a", encoding="utf-8") as file:
+            json.dump(new_data, file, ensure_ascii=False)
+            file.write("\n")
 
     def scrapesession(self, urls):
         with multiprocessing.Pool() as pool:
@@ -340,13 +499,10 @@ class Scraper:
 
 
 def main():
-    scraper = Scraper()
-    # property_urls = scraper.get_property_links(base_search_url, total_pages)
-    # scraper.scrapesession(property_urls)
-    scraper.get_data_from_html(
-        "https://www.immoweb.be/en/classified/apartment/for-sale/evere/1140/11012764"
-    )
-    scraper.assign_data()
+    scrape = Scraper()
+    urls = scrape.get_property_links(base_search_url, total_pages)
+    for u in urls:
+        scrape.estate_check(scrape.get_data_from_html(u))
 
 
 if __name__ == "__main__":
