@@ -39,7 +39,7 @@ class ImmowebItem(scrapy.Item):
         living_surface = scrapy.Field()
         url = scrapy.Field()
         epc = scrapy.Field()
-        consumption_per_m2 = scrapy.Field()
+        consumption_per_m2 = scrapy.Field()  # drop this item
         parking_count_inside = scrapy.Field()
         parking_count_outside = scrapy.Field()
         parking_box_count = scrapy.Field()
