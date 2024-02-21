@@ -12,24 +12,39 @@ BOT_NAME = "immoweb"
 SPIDER_MODULES = ["immoweb.spiders"]
 NEWSPIDER_MODULE = "immoweb.spiders"
 
+# CUSTOM SETTINGS
+
+# These are the default settings when you run the command `scrapy crawl immoweb`
+FEEDS = {
+    './data/data.csv': {
+        'format': 'csv',  # 'jsonlines',
+        'overwrite': False,
+        'encoding': 'utf8',
+    },
+}
+
+# set log level to info, debug is too verbose
+LOG_LEVEL = 'INFO'
+
+# Do not obey the robots.txt file
+ROBOTSTXT_OBEY = False
+
+# Configure maximum concurrent requests performed by Scrapy (default: 16)
+CONCURRENT_REQUESTS = 16
+
+# OTHER SETTINGS
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = "immoweb (+http://www.yourdomain.com)"
 
-# Obey robots.txt rules
-ROBOTSTXT_OBEY = False
+# DOWNLOAD_HANDLERS = {
+#     "http": "scrapy_playwright.handler.ScrapyPlaywrightDownloadHandler",
+#     "https": "scrapy_playwright.handler.ScrapyPlaywrightDownloadHandler",
+# }
 
-DOWNLOAD_HANDLERS = {
-    "http": "scrapy_playwright.handler.ScrapyPlaywrightDownloadHandler",
-    "https": "scrapy_playwright.handler.ScrapyPlaywrightDownloadHandler",
-}
 
-PLAYWRIGHT_PROCESS_REQUEST_HEADERS = None
 
-LOG_LEVEL = 'INFO'
 
-# Configure maximum concurrent requests performed by Scrapy (default: 16)
-CONCURRENT_REQUESTS = 1
 
 # Configure a delay for requests for the same website (default: 0)
 # See https://docs.scrapy.org/en/latest/topics/settings.html#download-delay
@@ -62,9 +77,9 @@ CONCURRENT_REQUESTS = 1
 #DOWNLOADER_MIDDLEWARES = {
 #    "immoweb.middlewares.ImmowebDownloaderMiddleware": 543,
 #}
-DOWNLOADER_MIDDLEWARES = {
-    'scrapy_playwright.handler.ScrapyPlaywrightDownloadHandler': 543,
-}
+# DOWNLOADER_MIDDLEWARES = {
+#     'scrapy_playwright.handler.ScrapyPlaywrightDownloadHandler': 543,
+# }
 
 
 # Enable or disable extensions

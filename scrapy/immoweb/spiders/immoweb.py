@@ -1,107 +1,125 @@
+import json
 import logging
-from pprint import pprint
+import os
+import traceback
 
 import scrapy
-import re
 
-from scrapy_playwright.page import PageMethod
+from scrapy.exceptions import CloseSpider
+
+from immoweb.items import ImmowebItem
+from immoweb.utils import get_data_from_html, get_data, next_page, get_property_url
 
 
-class QuotesSpider(scrapy.Spider):
+class ImmoSpider(scrapy.Spider):
     name = 'immoweb'
+
     start_urls = [
-        "https://www.immoweb.be/en/search-results/house/for-sale/east-flanders/province?countries=BE&page=1&orderBy=most_expensive",
-        # "https://www.immoweb.be/en/search/house-and-apartment/for-sale?countries=BE&page=2&orderBy=relevance",
+        # f"https://www.immoweb.be/en/search-results/house-and-apartment/for-sale/east-flanders/province?countries=BE&isALifeAnnuitySale=false&isAPublicSale=false&page=1&orderBy=most_expensive"
+        # f"https://www.immoweb.be/en/search-results/house-and-apartment/for-sale/west-flanders/province?countries=BE&isALifeAnnuitySale=false&isAPublicSale=false&page=1&orderBy=most_expensive"
+        # f"https://www.immoweb.be/en/search-results/house-and-apartment/for-sale/antwerpen/province?countries=BE&isALifeAnnuitySale=false&isAPublicSale=false&page=1&orderBy=most_expensive"
+        # f"https://www.immoweb.be/en/search-results/house-and-apartment/for-sale/limburg/province?countries=BE&isALifeAnnuitySale=false&isAPublicSale=false&page=1&orderBy=most_expensive"
+        # f"https://www.immoweb.be/en/search-results/house-and-apartment/for-sale/vlaams/province?countries=BE&isALifeAnnuitySale=false&isAPublicSale=false&page=1&orderBy=most_expensive"
+        f"https://www.immoweb.be/en/search-results/house-and-apartment/for-sale/brussels/province?countries=BE&isALifeAnnuitySale=false&isAPublicSale=false&page=1&orderBy=most_expensive"
+        # f"https://www.immoweb.be/en/search-results/house-and-apartment/for-sale/waals-brabant/province?countries=BE&isALifeAnnuitySale=false&isAPublicSale=false&page=1&orderBy=most_expensive"
+        # f"https://www.immoweb.be/en/search-results/house-and-apartment/for-sale/henegouwen/province?countries=BE&isALifeAnnuitySale=false&isAPublicSale=false&page=1&orderBy=most_expensive"
+        # f"https://www.immoweb.be/en/search-results/house-and-apartment/for-sale/luxembourg/province?countries=BE&isALifeAnnuitySale=false&isAPublicSale=false&page=1&orderBy=most_expensive"
+        # f"https://www.immoweb.be/en/search-results/house-and-apartment/for-sale/namen/province?countries=BE&isALifeAnnuitySale=false&isAPublicSale=false&page=1&orderBy=most_expensive"
+        # f"https://www.immoweb.be/en/search-results/house-and-apartment/for-sale/luik/province?countries=BE&isALifeAnnuitySale=false&isAPublicSale=false&page=1&orderBy=most_expensive",  # &minPrice=2000000
     ]
-    handle_httpstatus_list = [403]
 
-    def next_page(self, url):
-        """get the next page for a given page"""
-        pattern = r"(page=)(\d+)"
-
-        def replace(match):
-            page_num = int(match.group(2))
-            incremented_page_num = page_num + 1
-            return match.group(1) + str(incremented_page_num)
-
-        next_page_url = re.sub(pattern, replace, url)
-
-        return next_page_url
-
-    def get_property_url(self, property: dict) -> str:
-        type = property["property"]["type"]
-        postalcode = property["property"]["location"]["postalCode"]
-        locality = property["property"]["location"]["locality"]
-        id = property["id"]
-        url = f'https://www.immoweb.be/en/classified/{type.lower()}/for-sale/{locality.replace(" ", "-")}/{postalcode}/{id}'
-        return url
+    def __init__(self, *args, **kwargs):
+        super(ImmoSpider, self).__init__(*args, **kwargs)
+        self.counter = 0
 
     def start_requests(self):
+        """
+        this function is automatically called when the spider is started.
+        it will loop over the  start_urls and make a request for each url
+        than call the parse_page_search_result_list function when the
+        response of that request is received
+        """
         for start_url in self.start_urls:
             logging.info(f'loading: {start_url}')
             yield scrapy.Request(
                 start_url,
-                callback=self.parse_page_searh_result_list
+                # when the response is received for start_url, the parse_page_search_result_list
+                # function is called and the response object is passed as an argument
+                callback=self.parse_page_search_result_list,
+                errback=self.errback,
             )
 
-    async def parse_page_searh_result_list(self, response):
-        # if response.get('playwright_page'):
-        #     page = response.meta["playwright_page"]
-        #     await page.close()
-
+    async def parse_page_search_result_list(self, response):
+        """
+        it receives the responses that are made by the start_requests function,
+        and it will extract json data from those responses and build individual
+        property urls. Then it will make a request for each property url and call
+        the parse_property function when the response of that request is received
+        """
         json_response = response.json()
-        logging.info(f"json_response = type: {type(json_response)}")
         properties = json_response.get('results', {})
 
+        # yield the properties
         for property in properties:
-            url = self.get_property_url(property)
-            logging.info(f'loading property url: {url}')
+            url = get_property_url(property)
+            logging.info(f'\tloading property url: {url}')
             yield scrapy.Request(  # load a search list and call back parse_my_search_lists
                 url,
+                # when the response is received for url, the parse_page_search_result_list
+                # function is called and the response object is passed as an argument
                 callback=self.parse_property,
-                meta=dict(
-                    playwright=True,
-                    playwright_include_page=True,
-                    playwright_page_methods=[
-                        PageMethod('wait_for_timeout', 1000),
-                    ],
-                    errback=self.errback,
-                )
+                errback=self.errback,
             )
 
-        # recursively call parse if there was a full page of items
-        if len(properties) != 29:
-            next_page_url = self.next_page(response.url)
-            logging.info(f'Loading next page {next_page_url}')
+        # yield the next page
+        if len(properties) != 0:
+            next_page_url = next_page(response.url)
+            logging.info(f'NEXT PAGE: {next_page_url}')
             yield scrapy.Request(
                 next_page_url,
-                callback=self.parse_page_searh_result_list,
-                meta=dict(
-                    playwright=True,
-                    playwright_include_page=True,
-                    playwright_page_methods=[
-                        PageMethod('wait_for_timeout', 1000),
-                    ],
-                    errback=self.errback,
-                )
+                # when the response is received for next_page_url, the parse_page_search_result_list
+                # function is called and the response object is passed as an argument.
+                # so this is a recursive call to parse_page_search_result_list
+                callback=self.parse_page_search_result_list,
+                errback=self.errback,
             )
 
     async def parse_property(self, response):
-        with open('output.html', 'w') as f:
-            f.write(response.text)
-        page = response.meta["playwright_page"]
-        await page.close()
+        """
+        it receives the responses that are made by the parse_page_search_result_list function,
+        and it will extract json data from the window.classified variable in the script tag,
+        it will then call the get_data function to clean the data and yield an ImmowebItem,
+        if there is an error, it will write the raw json data to a file together with the error,
+        so it can be inspected later. If there is an error, it will also stop the spider
+        """
+        self.counter += 1
+        raw_data = get_data_from_html(response.text)
+        try:
+            cleaned_data = get_data(raw_data)
+            # yield an ImmowebItem
+            yield ImmowebItem(**cleaned_data, url=response.url)
+        except Exception as e:
+            # get the full error message
+            full_traceback = traceback.format_exc()
 
-        css_selector_price = '.classified__price .sr-only'
+            # build the error dump file path
+            error_dump_path = os.path.join('errors', raw_data.get("id") + '.json')
 
-        result = response.css(css_selector_price)
-        logging.info(result)
+            logging.error('\t\t' + 'ERROR ' * 5 + ' error_dump:' + error_dump_path + ' url:' + response.url)
+
+            # write the error to a file
+            with open(error_dump_path, 'w') as f:
+                # write the raw json from immoweb to a file
+                f.writelines(json.dumps(raw_data, indent=4, sort_keys=True))
+                # append the full error message to the file
+                f.writelines('\n' + full_traceback)
+                # append the url of the property to the file
+                f.writelines('\n' + response.url)
+
+            # raise an exception to stop the spider
+            raise CloseSpider(reason=f'Error, stopping the spider. look at dump file: {error_dump_path}')
+
+        logging.info(f"\t\t#{self.counter} id: {cleaned_data.get('immoweb_id')} price: {cleaned_data.get('price')} location: {cleaned_data.get('location')}")
 
     async def errback(self, failure):
-        logging.info('FAILED')
-        # Check if the failure is because of a 403 response
-        if failure.value.response.status == 403:
-            logging.info(f"Got a 403 response: {failure.value.response.text}")
-        logging.error(f"Error callback An error occurred: {failure.getErrorMessage()}, closing playwright page.")
-        page = failure.request.meta["playwright_page"]
-        await page.close()
+        logging.error('FAILED')
