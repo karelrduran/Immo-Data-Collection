@@ -15,16 +15,16 @@ class ImmoSpider(scrapy.Spider):
     name = 'immoweb'
 
     start_urls = [
-        # f"https://www.immoweb.be/en/search-results/house-and-apartment/for-sale/east-flanders/province?countries=BE&isALifeAnnuitySale=false&isAPublicSale=false&page=1&orderBy=most_expensive"
-        # f"https://www.immoweb.be/en/search-results/house-and-apartment/for-sale/west-flanders/province?countries=BE&isALifeAnnuitySale=false&isAPublicSale=false&page=1&orderBy=most_expensive"
-        # f"https://www.immoweb.be/en/search-results/house-and-apartment/for-sale/antwerpen/province?countries=BE&isALifeAnnuitySale=false&isAPublicSale=false&page=1&orderBy=most_expensive"
-        # f"https://www.immoweb.be/en/search-results/house-and-apartment/for-sale/limburg/province?countries=BE&isALifeAnnuitySale=false&isAPublicSale=false&page=1&orderBy=most_expensive"
-        # f"https://www.immoweb.be/en/search-results/house-and-apartment/for-sale/vlaams/province?countries=BE&isALifeAnnuitySale=false&isAPublicSale=false&page=1&orderBy=most_expensive"
-        f"https://www.immoweb.be/en/search-results/house-and-apartment/for-sale/brussels/province?countries=BE&isALifeAnnuitySale=false&isAPublicSale=false&page=1&orderBy=most_expensive"
-        # f"https://www.immoweb.be/en/search-results/house-and-apartment/for-sale/waals-brabant/province?countries=BE&isALifeAnnuitySale=false&isAPublicSale=false&page=1&orderBy=most_expensive"
-        # f"https://www.immoweb.be/en/search-results/house-and-apartment/for-sale/henegouwen/province?countries=BE&isALifeAnnuitySale=false&isAPublicSale=false&page=1&orderBy=most_expensive"
-        # f"https://www.immoweb.be/en/search-results/house-and-apartment/for-sale/luxembourg/province?countries=BE&isALifeAnnuitySale=false&isAPublicSale=false&page=1&orderBy=most_expensive"
-        # f"https://www.immoweb.be/en/search-results/house-and-apartment/for-sale/namen/province?countries=BE&isALifeAnnuitySale=false&isAPublicSale=false&page=1&orderBy=most_expensive"
+        f"https://www.immoweb.be/en/search-results/house-and-apartment/for-sale/east-flanders/province?countries=BE&isALifeAnnuitySale=false&isAPublicSale=false&page=1&orderBy=most_expensive",
+        f"https://www.immoweb.be/en/search-results/house-and-apartment/for-sale/west-flanders/province?countries=BE&isALifeAnnuitySale=false&isAPublicSale=false&page=1&orderBy=most_expensive",
+        f"https://www.immoweb.be/en/search-results/house-and-apartment/for-sale/antwerpen/province?countries=BE&isALifeAnnuitySale=false&isAPublicSale=false&page=1&orderBy=most_expensive",
+        f"https://www.immoweb.be/en/search-results/house-and-apartment/for-sale/limburg/province?countries=BE&isALifeAnnuitySale=false&isAPublicSale=false&page=1&orderBy=most_expensive",
+        f"https://www.immoweb.be/en/search-results/house-and-apartment/for-sale/vlaams-brabant/province?countries=BE&isALifeAnnuitySale=false&isAPublicSale=false&page=1&orderBy=most_expensive",
+        # f"https://www.immoweb.be/en/search-results/house-and-apartment/for-sale/brussels/province?countries=BE&isALifeAnnuitySale=false&isAPublicSale=false&page=1&orderBy=most_expensive",
+        # f"https://www.immoweb.be/en/search-results/house-and-apartment/for-sale/waals-brabant/province?countries=BE&isALifeAnnuitySale=false&isAPublicSale=false&page=1&orderBy=most_expensive",
+        # f"https://www.immoweb.be/en/search-results/house-and-apartment/for-sale/henegouwen/province?countries=BE&isALifeAnnuitySale=false&isAPublicSale=false&page=1&orderBy=most_expensive",
+        # f"https://www.immoweb.be/en/search-results/house-and-apartment/for-sale/luxembourg/province?countries=BE&isALifeAnnuitySale=false&isAPublicSale=false&page=1&orderBy=most_expensive",
+        # f"https://www.immoweb.be/en/search-results/house-and-apartment/for-sale/namen/province?countries=BE&isALifeAnnuitySale=false&isAPublicSale=false&page=1&orderBy=most_expensive",
         # f"https://www.immoweb.be/en/search-results/house-and-apartment/for-sale/luik/province?countries=BE&isALifeAnnuitySale=false&isAPublicSale=false&page=1&orderBy=most_expensive",  # &minPrice=2000000
     ]
 
