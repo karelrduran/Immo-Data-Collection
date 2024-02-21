@@ -1,0 +1,1286 @@
+property_id,locality_name,postal_code,price,type_of_property,subtype_of_property,type_of_sale,number_of_bedrooms,living_area,equiped_kitchen,furnished,open_fire,terrace,garden,surface_of_good,number_of_facades,swimming_pool,state_of_building
+11152295,brussels-city,1000,226000,apartment,apartment,for sale,2,0,1,0,0,0,0,,0,0,
+11137660,uccle,1180,285000,apartment,apartment,for sale,1,0,1,0,0,0,true,,0,0,AS_NEW
+11027586,arlon,6700,265000,apartment,apartment,for sale,2,0,1,0,0,0,0,,0,0,GOOD
+11152088,gent,9000,248000,apartment,apartment,for sale,1,0,1,0,0,0,true,,0,0,GOOD
+11152498,mechelen,2812,258000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,GOOD
+11152400,middelkerke,8430,295000,apartment,flat_studio,for sale,0,0,1,0,0,0,0,,0,0,GOOD
+11152305,niel,2845,274500,apartment,duplex,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11152642,sint-agatha-berchem,1082,379000,apartment,penthouse,for sale,2,0,1,0,0,0,true,,0,0,
+11152577,zwijnaarde,9052,495000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,
+11150865,brussel,1000,440000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11151154,ganshoren,1083,385000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11151786,ixelles,1050,475000,apartment,apartment,for sale,1,0,1,0,0,0,true,,0,0,GOOD
+11150874,ixelles,1050,430000,apartment,apartment,for sale,1,0,1,0,0,0,true,,0,0,GOOD
+11137661,uccle,1180,380000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11152449,grace-hollogne,4460,275000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,JUST_RENOVATED
+11150869,brussel,1000,840000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,AS_NEW
+11137054,aalst,9300,239000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,TO_RENOVATE
+11108163,gijzegem,9308,369000,house,house,for sale,3,0,1,0,0,0,true,,0,0,TO_BE_DONE_UP
+11136848,de-panne,8660,315000,apartment,apartment,for sale,1,0,1,0,0,0,true,,0,0,AS_NEW
+11136538,uccle,1180,299000,apartment,penthouse,for sale,2,0,1,0,0,0,true,,0,0,TO_BE_DONE_UP
+11136790,deurne,2100,249000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,TO_BE_DONE_UP
+10949380,malmedy,4960,495000,house,villa,for sale,3,0,1,0,0,0,true,,0,0,GOOD
+11136539,bruxelles,1000,265000,apartment,apartment,for sale,2,0,1,0,0,0,0,,0,0,GOOD
+11146097,gijzegem,9308,369000,house,house,for sale,3,0,1,0,0,0,true,,0,0,TO_BE_DONE_UP
+11150313,kraainem,1950,1025000,house,villa,for sale,4,0,1,0,0,750,true,,0,0,GOOD
+11145239,knokke-heist,8300,1295000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11142377,middelkerke,8430,295000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11125957,ronse,9600,119000,house,house,for sale,3,0,1,0,0,130,true,,0,0,TO_RENOVATE
+11154497,schaerbeek,1030,648000,house,apartment_block,for sale,4,0,1,0,0,80,true,,0,0,TO_BE_DONE_UP
+11155353,aalst%20%289300%29,9300,205000,house,house,for sale,3,0,0,0,0,0,0,,0,0,
+11100841,geraardsbergen,9500,250000,house,house,for sale,4,0,1,0,0,0,true,,0,0,
+11155351,oostrozebeke,8780,105000,house,house,for sale,1,0,0,0,0,0,0,,0,0,GOOD
+10964253,oudenburg,8460,445000,house,villa,for sale,3,0,0,0,0,0,0,,0,0,GOOD
+11155344,stekene,9190,499000,house,house,for sale,4,0,0,0,0,80,true,,0,0,
+11155349,ronse,9600,199500,house,house,for sale,4,0,0,0,0,0,0,,0,0,TO_RENOVATE
+11154498,schaerbeek,1030,648000,house,house,for sale,4,0,1,0,0,80,true,,0,0,TO_BE_DONE_UP
+11155346,knokke-heist,8300,645000,apartment,apartment,for sale,2,0,0,0,0,0,0,,0,0,GOOD
+11155342,knokke-zoute,8300,3950000,house,house,for sale,4,0,1,0,0,0,0,,0,0,
+11155343,louvain-la-neuve,1348,445000,apartment,apartment,for sale,3,0,0,0,0,0,true,,0,0,
+11155337,geel,2440,220000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11155341,zwijndrecht,2070,369000,apartment,duplex,for sale,2,0,0,0,0,0,0,,0,0,
+11155339,zwijndrecht,2070,319500,apartment,apartment,for sale,2,0,0,0,0,0,true,,0,0,
+11155338,geel,2440,220000,apartment,apartment,for sale,2,0,1,0,0,20,0,,0,0,AS_NEW
+11155340,zwijndrecht,2070,379000,apartment,duplex,for sale,2,0,0,0,0,0,true,,0,0,
+11155321,gent,9000,175000,apartment,apartment,for sale,2,0,0,0,0,0,true,,0,0,
+11155334,uccle,1180,250000,apartment,apartment,for sale,2,0,1,0,0,0,0,,0,0,GOOD
+11132613,hamme,9220,239000,house,house,for sale,2,0,1,0,0,0,true,,0,0,JUST_RENOVATED
+11155302,wielsbeke,8710,420000,house,villa,for sale,3,0,1,0,0,0,true,,0,0,GOOD
+11155305,heverlee,3001,485000,house,house,for sale,3,0,0,0,0,0,0,,0,0,TO_RENOVATE
+11155262,ch%C3%8Anee,4032,349000,house,apartment_block,for sale,4,0,1,0,0,0,0,,0,0,GOOD
+11155286,auderghem,1160,700000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11155256,schaerbeek,1030,325000,apartment,apartment,for sale,1,0,1,0,0,0,true,,0,0,JUST_RENOVATED
+11048488,aiseau-presles,6250,309000,house,house,for sale,3,0,0,0,0,1968,true,,0,0,GOOD
+11155285,kontich,2550,875000,house,mixed_use_building,for sale,4,0,1,0,0,0,true,,0,0,GOOD
+11155255,arlon,6700,210000,apartment,ground_floor,for sale,2,0,1,0,0,0,0,,0,0,GOOD
+11155287,borgerhout,2140,269000,apartment,apartment,for sale,1,0,1,0,0,70,0,,0,0,
+11155247,fosses-la-ville,5070,215000,house,house,for sale,4,0,1,0,0,0,0,,0,0,
+11155288,antwerp,2000,398000,apartment,apartment,for sale,2,0,1,0,0,0,0,,0,0,
+11155243,ixelles,1050,159000,apartment,flat_studio,for sale,1,0,1,0,0,0,0,,0,0,TO_RENOVATE
+11155242,ixelles,1050,169000,apartment,flat_studio,for sale,0,0,1,0,0,0,0,,0,0,TO_RENOVATE
+11136002,eine,9700,174000,apartment,apartment,for sale,2,0,1,0,0,0,0,,0,0,GOOD
+11079381,willebroek,2830,205000,apartment,apartment,for sale,1,0,1,0,0,0,true,,0,0,GOOD
+11136340,antwerp,2060,205000,apartment,apartment,for sale,1,0,1,0,0,0,0,,0,0,JUST_RENOVATED
+11135548,ronse,9600,259000,house,villa,for sale,3,0,1,0,0,351,true,,0,0,TO_RENOVATE
+11136327,ombret-rawsa,4540,219000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11135758,ganshoren,1083,179000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,TO_RENOVATE
+10979572,lubbeek,3210,270000,apartment,apartment,for sale,3,0,1,0,0,0,0,,0,0,GOOD
+11137175,bierges,1301,310000 - 945000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11136495,mol,2400,289000 - 315000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11136533,schoten,2900,295000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11135516,gent,9000,346500,apartment,apartment,for sale,1,0,1,0,0,0,true,,0,0,AS_NEW
+11136885,oostende,8400,369000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11135496,gent,9050,462500 - 542500,house group,house_group,for sale,,0,0,0,0,0,0,,0,0,
+11135530,brakel,9660,389000 - 498500,house group,house_group,for sale,,0,0,0,0,0,0,,0,0,
+11135485,gent-sint-denijs-westrem,9051,1016000 - 1372000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11135545,zottegem,9620,645000,house,villa,for sale,4,0,1,0,0,2327,true,,0,0,GOOD
+11146239,ixelles,1050,395000,house,house,for sale,3,0,1,0,0,0,0,,0,0,GOOD
+11146779,graide,5555,159000,house,house,for sale,3,0,1,0,0,0,0,,0,0,GOOD
+11148058,oudenburg,8460,633000,house,house,for sale,4,0,1,0,0,0,true,,0,0,GOOD
+11115192,hannut,4280,400000,house,mansion,for sale,4,0,0,0,0,1050,true,,0,0,GOOD
+11115195,hannut,4280,550000,house,mansion,for sale,5,0,0,0,0,1050,true,,0,0,GOOD
+11147360,wemmel,1780,725000,house,apartment_block,for sale,3,0,1,0,0,0,true,,0,0,GOOD
+11147947,ixelles,1050,999000,house,exceptional_property,for sale,3,0,1,0,0,35,true,,0,0,GOOD
+11146658,ixelles,1050,999000,house,mixed_use_building,for sale,3,0,1,0,0,35,true,,0,0,GOOD
+11147421,montegnee,4420,162138,apartment,apartment,for sale,1,0,1,0,0,0,0,,0,0,AS_NEW
+11148718,forest,1190,399000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,AS_NEW
+11148806,ixelles,1050,1495000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,AS_NEW
+11148716,berchem-sainte-agathe,1082,339000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11147008,woluwe-saint-lambert,1200,155000,apartment,flat_studio,for sale,0,0,0,0,0,0,0,,0,0,GOOD
+11147416,montegnee,4420,168652,apartment,apartment,for sale,1,0,1,0,0,0,true,,0,0,AS_NEW
+11155818,geraardsbergen,9500,349500,house,mixed_use_building,for sale,4,0,1,0,0,0,0,,0,0,GOOD
+11155817,geraardsbergen,9500,100000,house,house,for sale,2,0,1,0,0,0,0,,0,0,TO_BE_DONE_UP
+11155816,strombeek-bever,1853,399000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,GOOD
+11155814,linkeroever,2050,175000,apartment,apartment,for sale,2,0,0,0,0,0,0,,0,0,
+11155813,champion,5020,235000,house,house,for sale,3,0,0,0,0,0,true,,0,0,GOOD
+11155812,overijse,3090,485000,house,house,for sale,3,0,1,0,0,0,true,,0,0,JUST_RENOVATED
+11155811,lievegem,9930,379500,house,house,for sale,3,0,1,0,0,0,0,,0,0,
+11155819,geraardsbergen,9500,449500,house,house,for sale,4,0,1,0,0,0,true,,0,0,GOOD
+11155800,merchtem,1785,159000,apartment,apartment,for sale,1,0,1,0,0,0,0,,0,0,TO_RENOVATE
+11155798,willebroek,2830,229000,house,house,for sale,4,0,1,0,0,0,0,,0,0,TO_BE_DONE_UP
+11155799,vilvoorde,1800,695000,house,villa,for sale,3,0,1,0,0,270,true,,0,0,GOOD
+11155803,couvin,5660,99000,house,house,for sale,4,0,1,0,0,0,0,,0,0,TO_RENOVATE
+11155797,wemmel,1780,795000,house,apartment_block,for sale,4,0,1,0,0,0,true,,0,0,TO_BE_DONE_UP
+11155772,mariakerke,9030,365000,house,house,for sale,3,0,0,0,0,0,0,,0,0,TO_RENOVATE
+11155775,charleroi,6000,196000,apartment,duplex,for sale,3,0,1,0,0,0,true,,0,0,
+11155776,geel,2440,599000,house,house,for sale,4,0,0,0,0,0,true,,0,0,
+11155770,bassevelde,9968,349000,house,house,for sale,3,0,1,0,0,0,0,,0,0,TO_BE_DONE_UP
+11155769,mons,7000,160000,house,house,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11155764,charleville-m%C3%89zi%C3%88res,08000,265000,house,house,for sale,4,0,1,0,0,0,0,,0,0,AS_NEW
+11155767,bassevelde,9968,349000,house,house,for sale,3,0,1,0,0,0,0,,0,0,GOOD
+11155758,bierges,1301,449000,house,town_house,for sale,4,0,1,0,0,0,true,,0,0,
+11155751,pelt,3900,479000,apartment,duplex,for sale,3,0,0,0,0,0,true,,0,0,AS_NEW
+11155750,lommel,3920,289000,house,house,for sale,3,0,0,0,0,0,0,,0,0,TO_RENOVATE
+11155749,lommel,3920,189000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11155752,bocholt,3950,230000,house,house,for sale,4,0,0,0,0,0,true,,0,0,TO_RENOVATE
+11155743,zele,9240,429000,house,house,for sale,3,0,0,0,0,0,0,,0,0,
+11155747,lommel,3920,1187000,house,house,for sale,3,0,1,0,0,0,true,,0,0,GOOD
+11155744,pelt,3900,799000,house,house,for sale,7,0,1,0,0,0,true,,0,0,GOOD
+11140885,gavere,9890,285325,apartment,ground_floor,for sale,1,0,1,0,0,0,true,,0,0,AS_NEW
+11155742,pelt,3900,369000,house,house,for sale,3,0,0,0,0,0,true,,0,0,GOOD
+11155741,lokeren,9160,175000,apartment,apartment,for sale,2,0,0,0,0,0,0,,0,0,
+11140884,gavere,9890,347510,apartment,ground_floor,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11103658,gent,9000,295000,apartment,apartment,for sale,1,0,1,0,0,0,true,,0,0,AS_NEW
+11153612,brugge-sint-michiels,8200,395000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11153970,blankenberge,8370,419000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11138192,anderlecht,1070,155000,apartment,apartment,for sale,1,0,1,0,0,0,true,,0,0,GOOD
+11153483,uccle,1180,366500,apartment,apartment,for sale,2,0,1,0,0,0,0,,0,0,JUST_RENOVATED
+11139109,molenbeek-saint-jean,1080,195000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,TO_BE_DONE_UP
+11153301,de-haan,8420,1550000,apartment,apartment,for sale,2,0,1,0,0,0,0,,0,0,
+11137968,ronse,9600,219000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11139995,evere,1140,225000,apartment,apartment,for sale,2,0,1,0,0,0,0,,0,0,TO_BE_DONE_UP
+11137767,woluwe-saint-pierre,1150,400000,apartment,apartment,for sale,2,0,1,0,0,0,0,,0,0,JUST_RENOVATED
+11139161,woluwe-saint-lambert,1200,205000,apartment,flat_studio,for sale,0,0,1,0,0,0,0,,0,0,GOOD
+11149718,kortrijk,8500,475000,house,house,for sale,4,0,1,0,0,0,true,,0,0,GOOD
+11149661,bruxelles,1120,690000,house,house,for sale,6,0,0,0,0,150,true,,0,0,GOOD
+11149315,anderlecht,1070,445000,house,house,for sale,3,0,1,0,0,60,true,,0,0,AS_NEW
+11137853,gent,9000,585000,apartment,duplex,for sale,3,0,1,0,0,0,true,,0,0,GOOD
+11149566,laeken,1020,795000,house,apartment_block,for sale,6,0,1,0,0,40,true,,0,0,GOOD
+11139617,uccle,1180,489000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,JUST_RENOVATED
+11150855,flemalle,4400,205000,house,apartment_block,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11152288,herent,3020,425000,house,house,for sale,5,0,1,0,0,1200,true,,0,0,GOOD
+11150854,flemalle,4400,205000,house,house,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11152296,bonheiden,2820,485000,house,house,for sale,3,0,1,0,0,0,true,,0,0,GOOD
+11151490,mechelen,2800,485000,house,house,for sale,3,0,1,0,0,190,0,,0,0,GOOD
+11147427,tubize,1480,175000,apartment,apartment,for sale,1,0,1,0,0,0,true,,0,0,AS_NEW
+11146296,gent,9000,419000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,AS_NEW
+11147494,tubize,1480,233000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11146298,gent,9000,425000,apartment,penthouse,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11144528,berchem-sainte-agathe,1082,245000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11152762,sint-amandsberg,9040,295000,house,house,for sale,3,0,1,0,0,0,true,,0,0,TO_BE_DONE_UP
+11155538,pepinster,4860,335000,house,mixed_use_building,for sale,4,0,0,0,0,0,true,,0,0,TO_RENOVATE
+11155536,wichelen,9260,285000,house,house,for sale,3,0,1,0,0,358,true,,0,0,TO_RENOVATE
+11155532,stabroek,2940,275000,apartment,apartment,for sale,2,0,1,0,0,0,0,,0,0,
+11155515,zonnebeke,8980,239500 - 279500,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11155523,zeebrugge,8380,125000,apartment,flat_studio,for sale,1,0,1,0,0,0,0,,0,0,
+11155512,kinrooi,3640,295000,apartment,penthouse,for sale,2,0,1,0,0,0,true,,0,0,
+11155513,kinrooi,3640,325000,apartment,penthouse,for sale,2,0,1,0,0,0,true,,0,0,
+11155514,kinrooi,3640,212000 - 325000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11155506,kinrooi,3640,267000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,
+11155505,kinrooi,3640,282000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,
+11155501,kinrooi,3640,284000,apartment,ground_floor,for sale,2,0,1,0,0,15,true,,0,0,
+11155500,kinrooi,3640,298000,apartment,ground_floor,for sale,2,0,1,0,0,16,true,,0,0,
+11155503,kinrooi,3640,263000,apartment,ground_floor,for sale,2,0,1,0,0,42,true,,0,0,
+11155543,kortessem,3720,325000,house,house,for sale,4,0,0,0,0,0,0,,0,0,GOOD
+11155504,kinrooi,3640,212000,apartment,apartment,for sale,1,0,1,0,0,0,true,,0,0,
+11152416,as,3665,419000,house,house,for sale,4,0,1,0,0,0,0,,0,0,TO_BE_DONE_UP
+11155497,vilvoorde,1800,439000,house,house,for sale,3,0,0,0,0,0,0,,0,0,
+11155494,blankenberge,8370,299000,apartment,apartment,for sale,2,0,0,0,0,0,true,,0,0,
+11155493,mechelen,2800,322500,house,house,for sale,3,0,1,0,0,0,true,,0,0,TO_RENOVATE
+11155492,mechelen,2800,299000,house,house,for sale,7,0,1,0,0,0,0,,0,0,TO_RENOVATE
+11155491,wevelgem,8560,365000,house,house,for sale,4,0,0,0,0,0,0,,0,0,AS_NEW
+11155487,merksem,2170,360000,house,house,for sale,4,0,1,0,0,0,0,,0,0,TO_RENOVATE
+11155488,kortrijk,8500,235000,house,house,for sale,3,0,0,0,0,100,0,,0,0,TO_RENOVATE
+11155479,oostende,8400,235000,apartment,apartment,for sale,1,0,0,0,0,0,true,,0,0,
+11155480,bredene,8450,299000,apartment,apartment,for sale,1,0,0,0,0,0,true,,0,0,GOOD
+11155470,brasschaat,2930,695000,house,house,for sale,3,0,0,0,0,0,0,,0,0,
+11155469,rumst,2840,268000,house,house,for sale,2,0,0,0,0,0,true,,0,0,
+11155465,hamme,9220,379000,house,house,for sale,4,0,1,0,0,0,true,,0,0,TO_BE_DONE_UP
+11155464,aalst%20%289300%29,9300,209000,house,house,for sale,2,0,0,0,0,0,0,,0,0,
+10408959,temse,9140,289000 - 374000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11139767,blankenberge,8370,275000 - 795000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11137856,deinze,9800,270000 - 420000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11139537,herenthout,2270,265000 - 308000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11137662,wavre,1300,298000 - 298000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11139621,bruxelles,1000,325000 - 386000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11139589,bruxelles,1000,308000 - 354000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11139568,bruxelles,1000,355000 - 374000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11137907,wetteren,9230,328500 - 342000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+10991459,woluwe-st-lambert,1200,375000 - 980000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11139442,selange,6781,420000,house,house,for sale,5,0,1,0,0,0,true,,0,0,GOOD
+11138277,oudergem,1160,480000 - 655000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11137886,deinze-astene,9800,378500 - 599500,house group,house_group,for sale,,0,0,0,0,0,0,,0,0,
+11146297,gent,9000,419000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,AS_NEW
+11149134,etterbeek,1040,1190000,house,apartment_block,for sale,5,0,1,0,0,50,true,,0,0,TO_BE_DONE_UP
+11149726,uccle,1180,1000000,house,apartment_block,for sale,6,0,1,0,0,50,true,,0,0,TO_BE_DONE_UP
+11149131,forest,1190,690000,house,mixed_use_building,for sale,4,0,1,0,0,0,true,,0,0,TO_RENOVATE
+11144467,chenee,4032,85000,house,house,for sale,3,0,1,0,0,40,true,,0,0,TO_RENOVATE
+11138468,nieuwpoort,8620,499000,apartment,apartment,for sale,4,0,1,0,0,0,true,,0,0,AS_NEW
+11149725,woluwe-saint-pierre,1150,1399000,house,apartment_block,for sale,8,0,1,0,0,155,true,,0,0,GOOD
+11149707,etterbeek,1040,1399000,house,apartment_block,for sale,8,0,1,0,0,155,true,,0,0,GOOD
+11149527,knokke-heist,8300,2095000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,AS_NEW
+11148788,bruxelles,1020,199000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,TO_RENOVATE
+11148764,woluwe-saint-lambert,1200,355000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,GOOD
+11153308,evere,1140,525000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,AS_NEW
+11149708,uccle,1180,665000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,GOOD
+11153307,evere,1140,325000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11135459,berchem-sainte-agathe,1082,142000 - 418000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11155866,sambreville,5060,439000,house,villa,for sale,3,0,1,0,0,0,0,,0,0,JUST_RENOVATED
+11155865,waterloo,1410,440000,house,house,for sale,3,0,1,0,0,100,true,,0,0,AS_NEW
+11155868,eernegem,8480,279000,house,house,for sale,3,0,0,0,0,0,0,,0,0,
+11150504,saint-gilles,1060,975000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,AS_NEW
+11136973,hasselt,3500,136393 - 778515,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11155859,brugge,8000,345000,house,house,for sale,3,0,0,0,0,0,0,,0,0,
+11155855,beverlo,3581,183600,apartment,apartment,for sale,1,0,0,0,0,0,true,,0,0,
+11155856,beringen,3580,168700,apartment,apartment,for sale,1,0,0,0,0,0,true,,0,0,
+11155851,hasselt,3500,799000,house,house,for sale,7,0,1,0,0,0,0,,0,0,
+11155852,diest,3290,249900,apartment,apartment,for sale,2,0,0,0,0,0,0,,0,0,TO_BE_DONE_UP
+11155846,geraardsbergen,9500,360000,house,mixed_use_building,for sale,3,0,1,0,0,0,true,,0,0,
+11155847,overboelare,9500,300000,house,bungalow,for sale,3,0,1,0,0,0,true,,0,0,GOOD
+11155849,geraardsbergen,9500,319000,house,mixed_use_building,for sale,4,0,1,0,0,0,true,,0,0,GOOD
+11155845,schendelbeke,9506,449500,house,house,for sale,4,0,1,0,0,0,true,,0,0,GOOD
+11155839,overboelare,9500,300000,house,mixed_use_building,for sale,3,0,1,0,0,0,true,,0,0,GOOD
+11155837,geraardsbergen,9500,299000,house,house,for sale,3,0,1,0,0,0,true,,0,0,TO_BE_DONE_UP
+11155842,geraardsbergen,9500,175000,apartment,duplex,for sale,1,0,1,0,0,0,0,,0,0,GOOD
+11150573,antwerpen-borgerhout,2140,249900,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11155838,geraardsbergen,9500,350000,house,mixed_use_building,for sale,3,0,1,0,0,0,true,,0,0,
+11155841,geraardsbergen,9500,350000,house,house,for sale,3,0,1,0,0,0,true,,0,0,
+11155836,geraardsbergen,9500,175000,apartment,apartment,for sale,1,0,1,0,0,0,0,,0,0,GOOD
+11155834,geraardsbergen,9500,319000,house,house,for sale,4,0,1,0,0,0,true,,0,0,GOOD
+11155832,overboelare,9500,300000,house,house,for sale,3,0,1,0,0,0,true,,0,0,GOOD
+11155831,geraardsbergen,9500,170000,house,mixed_use_building,for sale,4,0,1,0,0,0,true,,0,0,TO_BE_DONE_UP
+11155827,geraardsbergen,9500,350000,house,mixed_use_building,for sale,3,0,1,0,0,0,true,,0,0,
+11155828,schendelbeke,9506,449500,house,mixed_use_building,for sale,4,0,1,0,0,0,true,,0,0,GOOD
+11155830,geraardsbergen,9500,449500,house,mixed_use_building,for sale,4,0,1,0,0,0,true,,0,0,GOOD
+11155826,geraardsbergen,9500,349500,house,house,for sale,4,0,1,0,0,0,0,,0,0,GOOD
+11155833,geraardsbergen,9500,299000,house,mixed_use_building,for sale,3,0,1,0,0,0,true,,0,0,TO_BE_DONE_UP
+11155829,geraardsbergen,9500,100000,house,mixed_use_building,for sale,2,0,1,0,0,0,0,,0,0,TO_BE_DONE_UP
+11155823,geraardsbergen,9500,170000,house,house,for sale,4,0,1,0,0,0,true,,0,0,TO_BE_DONE_UP
+11146263,berchem-sainte-agathe,1082,280000,apartment,apartment,for sale,1,0,1,0,0,0,true,,0,0,AS_NEW
+11155821,geraardsbergen,9500,350000,house,house,for sale,3,0,1,0,0,0,true,,0,0,
+11146265,berchem-sainte-agathe,1082,480000,apartment,apartment,for sale,4,0,1,0,0,0,true,,0,0,AS_NEW
+11149361,seraing,4100,179000,house,house,for sale,3,0,1,0,0,20,true,,0,0,GOOD
+11155820,geraardsbergen,9500,360000,house,house,for sale,3,0,1,0,0,0,true,,0,0,
+11144782,lokeren,9160,168000,apartment,apartment,for sale,2,0,1,0,0,0,0,,0,0,GOOD
+11144661,wilrijk,2610,149000,apartment,apartment,for sale,1,0,1,0,0,0,0,,0,0,AS_NEW
+11144611,berchem,2600,215000,apartment,apartment,for sale,2,0,1,0,0,0,0,,0,0,GOOD
+11143837,liedekerke,1770,319000,apartment,duplex,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11145842,bredene,8450,545000,apartment,apartment,for sale,2,0,1,0,0,0,0,,0,0,GOOD
+11151904,deurne,2100,800000,house,mixed_use_building,for sale,3,0,1,0,0,450,0,,0,0,JUST_RENOVATED
+11151756,braine-le-comte,7090,695000,house,villa,for sale,8,0,1,0,0,0,true,,0,0,GOOD
+11151732,soignies,7060,695000,house,house,for sale,8,0,1,0,0,0,true,,0,0,GOOD
+11150282,knokke-heist,8300,1250000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,AS_NEW
+11134157,tongeren,3700,169000,house,house,for sale,4,0,1,0,0,360,true,,0,0,GOOD
+11134158,oupeye,4684,199000,house,bungalow,for sale,2,0,1,0,0,100,true,,0,0,TO_BE_DONE_UP
+11134170,seraing,4101,209900,house,mixed_use_building,for sale,3,0,1,0,0,0,0,,0,0,JUST_RENOVATED
+11133910,berchem-sainte-agathe,1082,220000 - 480000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11134766,mortsel,2640,299000,apartment,apartment,for sale,3,0,1,0,0,0,0,,0,0,TO_BE_DONE_UP
+11134477,kessel,2560,313800 - 313800,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11050812,antwerp,2018,249900,apartment,apartment,for sale,2,0,1,0,0,0,0,,0,0,AS_NEW
+11133687,gavere,9890,356147.12 - 388789.12,house group,house_group,for sale,,0,0,0,0,0,0,,0,0,
+11133918,bruxelles,1000,265000,apartment,apartment,for sale,1,0,1,0,0,0,true,,0,0,GOOD
+11133706,gent,9000,356500,apartment,apartment,for sale,1,0,1,0,0,0,true,,0,0,AS_NEW
+11134217,harelbeke,8530,407000 - 435000,house group,house_group,for sale,,0,0,0,0,0,0,,0,0,
+11134745,beersel,1653,499000,house,town_house,for sale,3,0,1,0,0,360,true,,0,0,GOOD
+11134252,dilbeek,1700,469000,house,villa,for sale,2,0,1,0,0,455,true,,0,0,JUST_RENOVATED
+11133752,maldegem,9990,624000,house,villa,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11142084,antwerpen,2018,187000,house,mixed_use_building,for sale,1,0,1,0,0,0,true,,0,0,AS_NEW
+11133606,antwerpen-2000,2000,745000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11155694,wondelgem,9032,495000,house,house,for sale,4,0,1,0,0,0,0,,0,0,AS_NEW
+11140956,ronse,9600,265000,house,mixed_use_building,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11155691,oedelem,8730,459000,house,house,for sale,4,0,0,0,0,0,0,,0,0,
+11140957,brakel,9660,349000,house,house,for sale,3,0,1,0,0,667,true,,0,0,GOOD
+11155692,gent,9000,339000,house,house,for sale,4,0,1,0,0,0,0,,0,0,TO_BE_DONE_UP
+11155688,tournai,7500,229000,apartment,apartment,for sale,3,0,0,0,0,0,0,,0,0,
+11155689,betekom,3130,425000,house,house,for sale,4,0,1,0,0,0,true,,0,0,
+11155690,velzeke-ruddershove,9620,395000,house,villa,for sale,3,0,0,0,0,800,0,,0,0,TO_RENOVATE
+11155685,sint-pieters-leeuw,1600,219000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+10656140,sint-pieters-leeuw,1600,425000,house,bungalow,for sale,2,0,1,0,0,0,0,,0,0,
+10830542,warchin,7548,270000,house,villa,for sale,4,0,0,0,0,0,0,,0,0,
+11155693,gent,9000,459900,house,house,for sale,5,0,1,0,0,0,0,,0,0,TO_BE_DONE_UP
+11155683,antwerp,2060,179000,house,house,for sale,4,0,0,0,0,21,0,,0,0,TO_RENOVATE
+11155679,antwerpen%20%282000%29,2000,485000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11155682,dendermonde%20baasrode,9200,425000,house,house,for sale,4,0,1,0,0,0,0,,0,0,GOOD
+11155680,menen,8930,139000,house,house,for sale,2,0,1,0,0,0,0,,0,0,
+11155677,antwerpen%20%282000%29,2000,465000,apartment,apartment,for sale,1,0,1,0,0,0,true,,0,0,
+11155675,pittem,8740,285000,house,house,for sale,2,0,0,0,0,0,true,,0,0,
+11155673,moustier,5190,180000,apartment,apartment,for sale,3,0,0,0,0,0,0,,0,0,GOOD
+11155676,izegem,8870,172500,house,house,for sale,2,0,0,0,0,0,0,,0,0,
+11155678,antwerpen%20%282000%29,2000,475000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,
+11155672,moustier,5190,180000,apartment,apartment,for sale,2,0,0,0,0,0,0,,0,0,
+11155669,bredene,8450,373762 - 373762,house group,house_group,for sale,,0,0,0,0,0,0,,0,0,
+11155668,grand-reng,6560,79000,house,house,for sale,6,0,1,0,0,0,0,,0,0,TO_BE_DONE_UP
+11155664,roeselare,8800,302142,house,house,for sale,3,0,1,0,0,0,0,,0,0,GOOD
+11155660,sint-niklaas,9100,398500,house,house,for sale,5,0,0,0,0,0,true,,0,0,TO_BE_DONE_UP
+11155659,sint-niklaas,9100,449000,house,house,for sale,3,0,0,0,0,0,0,,0,0,
+11155655,tongeren,3700,249000,apartment,penthouse,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11155654,assebroek,8310,209000,house,house,for sale,3,0,0,0,0,0,0,,0,0,
+11155653,sint-gillis-bij-dendermonde,9200,290000,house,apartment_block,for sale,3,0,0,0,0,0,0,,0,0,
+11131488,blankenberge,8370,295000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11155650,zwevegem,8550,257000,house,house,for sale,2,0,0,0,0,0,0,,0,0,
+11155651,vichte,8570,428000,house,house,for sale,3,0,0,0,0,0,0,,0,0,GOOD
+11131905,dendermonde,9200,324900,house,house,for sale,2,0,1,0,0,147,true,,0,0,GOOD
+11132174,dessel,2480,330000 - 345000,house group,house_group,for sale,,0,0,0,0,0,0,,0,0,
+11131307,zaventem,1930,349000,house,house,for sale,4,0,1,0,0,120,true,,0,0,JUST_RENOVATED
+11131027,perwez,1360,309000 - 309000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11132749,zingem,9750,349990 - 429990,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11131933,erpe-mere,9420,375000 - 375000,house group,house_group,for sale,,0,0,0,0,0,0,,0,0,
+11130823,gavere,9890,360000 - 392000,house group,house_group,for sale,,0,0,0,0,0,0,,0,0,
+11131105,rotselaar,3110,359000 - 399000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11130835,gent-sint-denijs-westrem,9051,369000 - 490000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11130877,gent,9000,495000 - 1325000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11130813,lierde,9570,398175 - 431925,house group,house_group,for sale,,0,0,0,0,0,0,,0,0,
+11132404,court-saint-etienne,1490,595000,house,house,for sale,4,0,1,0,0,400,true,,0,0,JUST_RENOVATED
+11130722,brussels-city,1000,549000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11132593,herent,3020,775000,apartment,loft,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11130848,sint-martens-latem,9830,1016000 - 1372000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11130629,woluwe-saint-pierre,1150,681000 - 739000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11132324,knokke-heist,8300,1235000 - 1235000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11137923,gent-wondelgem,9032,418000,house,house,for sale,3,0,1,0,0,100,true,,0,0,AS_NEW
+11130863,gent,9000,1016000 - 1372000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11080049,anderlecht,1070,380000,house,house,for sale,5,0,1,0,0,0,true,,0,0,TO_BE_DONE_UP
+11137925,gavere,9890,510000,house,house,for sale,3,0,1,0,0,179,true,,0,0,TO_BE_DONE_UP
+11139697,uccle,1180,850000,house,house,for sale,5,0,1,0,0,165,true,,0,0,AS_NEW
+11139236,dendermonde,9200,449000,house,mansion,for sale,5,0,0,0,0,0,0,,0,0,TO_BE_DONE_UP
+11145309,ruisbroek,2870,394000,house,house,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11153358,oupeye,4680,153000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,TO_BE_DONE_UP
+11153260,lede,9340,195000,apartment,ground_floor,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11140886,gavere,9890,268700,apartment,ground_floor,for sale,1,0,1,0,0,0,true,,0,0,AS_NEW
+11155586,kortessem,3720,199000,house,house,for sale,2,0,1,0,0,0,true,,0,0,TO_RENOVATE
+11155583,lummen,3560,379000,house,house,for sale,3,0,1,0,0,0,true,,0,0,GOOD
+11155584,zonhoven,3520,395000,house,house,for sale,3,0,1,0,0,0,true,,0,0,GOOD
+11140878,gavere,9890,276075,apartment,ground_floor,for sale,1,0,1,0,0,0,true,,0,0,AS_NEW
+11153146,anderlecht,1070,269000,apartment,apartment,for sale,2,0,1,0,0,0,0,,0,0,AS_NEW
+11155582,alken,3570,499000,house,mixed_use_building,for sale,3,0,1,0,0,0,0,,0,0,TO_RENOVATE
+11155577,hasselt,3500,149000,apartment,ground_floor,for sale,1,0,1,0,0,0,0,,0,0,TO_BE_DONE_UP
+11155580,houthalen-helchteren,3530,339000,house,house,for sale,3,0,1,0,0,0,0,,0,0,GOOD
+11155581,hasselt,3511,285000,house,house,for sale,4,0,1,0,0,0,0,,0,0,TO_RENOVATE
+11155576,zonhoven,3520,439000,house,house,for sale,4,0,1,0,0,0,true,,0,0,TO_BE_DONE_UP
+11155578,hasselt,3510,359000,house,house,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11155573,buggenhout,9255,379000,house,house,for sale,3,0,0,0,0,0,0,,0,0,
+11155569,kinrooi,3640,327888,house,house,for sale,4,0,0,0,0,423,0,,0,0,
+11155572,dendermonde,9200,465000,house,house,for sale,3,0,0,0,0,0,0,,0,0,
+11155562,blankenberge,8370,369000,apartment,apartment,for sale,2,0,1,0,0,0,0,,0,0,GOOD
+11155561,blankenberge,8370,269000,house,town_house,for sale,3,0,0,0,0,0,0,,0,0,
+11155568,geraardsbergen,9500,175000,house,mixed_use_building,for sale,3,0,1,0,0,0,0,,0,0,TO_BE_DONE_UP
+11155566,geraardsbergen,9500,850000,house,mixed_use_building,for sale,3,0,1,0,0,0,0,,0,0,GOOD
+11155567,geraardsbergen,9500,850000,house,house,for sale,3,0,1,0,0,0,0,,0,0,GOOD
+11155560,antwerp,2018,289000,apartment,apartment,for sale,2,0,1,0,0,0,0,,0,0,GOOD
+11155558,vinkt,9800,368180,apartment,apartment,for sale,2,0,1,0,0,0,0,,0,0,
+11155556,menen,8930,89000,house,house,for sale,4,0,0,0,0,0,0,,0,0,TO_RENOVATE
+11155551,geraardsbergen,9500,250000,house,house,for sale,4,0,1,0,0,0,0,,0,0,JUST_RENOVATED
+11155549,geraardsbergen,9500,300000,house,mixed_use_building,for sale,3,0,1,0,0,0,0,,0,0,TO_RENOVATE
+11155554,geraardsbergen,9500,300000,house,house,for sale,3,0,1,0,0,0,0,,0,0,TO_RENOVATE
+11155565,geraardsbergen,9500,175000,house,house,for sale,3,0,1,0,0,0,0,,0,0,TO_BE_DONE_UP
+11155552,geraardsbergen,9500,320000,house,house,for sale,4,0,1,0,0,0,0,,0,0,GOOD
+11155550,geraardsbergen,9500,320000,house,mixed_use_building,for sale,4,0,1,0,0,0,0,,0,0,GOOD
+11155545,sint-kruis,8310,995000,house,villa,for sale,5,0,1,0,0,735,0,,0,0,GOOD
+11155544,kortessem,3720,325000,house,house,for sale,3,0,0,0,0,0,0,,0,0,GOOD
+11144624,ronse,9600,225000 - 315000,house group,house_group,for sale,,0,0,0,0,0,0,,0,0,
+11143793,evere,1140,240000,apartment,apartment,for sale,1,0,1,0,0,0,true,,0,0,AS_NEW
+11008747,hoevenen,2940,310000,house,town_house,for sale,3,0,1,0,0,90,0,,0,0,TO_BE_DONE_UP
+11144575,bruxelles,1130,215000 - 249500,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11155547,geraardsbergen,9500,250000,house,mixed_use_building,for sale,4,0,1,0,0,0,0,,0,0,JUST_RENOVATED
+11145390,genk,3600,251500 - 517500,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11144002,gent,9000,260000 - 260000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11144700,jambes,5100,285475 - 332881.19,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11143992,oudenaarde,9700,262000 - 329000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11145866,turnhout,2300,269000 - 549000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11144617,ronse,9600,315500 - 320500,house group,house_group,for sale,,0,0,0,0,0,0,,0,0,
+11144068,ixelles,1050,395000 - 4000000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11144814,gent,9000,325000,apartment,apartment,for sale,1,0,1,0,0,0,0,,0,0,GOOD
+9375778,brussels-city,1000,409000 - 885000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11143936,wijgmaal,3018,438000,house,house,for sale,4,0,1,0,0,65,true,,0,0,GOOD
+11143954,gentbrugge,9050,467000 - 547500,house group,house_group,for sale,,0,0,0,0,0,0,,0,0,
+11143726,maarkedal,9680,575000,house,villa,for sale,4,0,1,0,0,800,true,,0,0,GOOD
+11143713,burdinne,4210,450000,house,country_cottage,for sale,3,0,1,0,0,1600,true,,0,0,AS_NEW
+11120444,charleroi,6020,99000,house,house,for sale,3,0,1,0,0,0,true,,0,0,TO_RENOVATE
+11144057,uccle,1180,1295000 - 1295000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11144379,ixelles,1050,449000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,TO_BE_DONE_UP
+11151820,nieuwpoort,8620,165000,apartment,flat_studio,for sale,0,0,1,0,0,0,true,,0,0,GOOD
+11151111,uccle,1180,1000000,house,mansion,for sale,6,0,1,0,0,50,true,,0,0,TO_BE_DONE_UP
+11150716,overijse,3090,849000,house,villa,for sale,4,0,1,0,0,350,true,,0,0,AS_NEW
+11150560,grimbergen,1853,239000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11150509,aalst,9300,279000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11137657,bruxelles,1000,216500,apartment,kot,for sale,0,0,1,0,0,0,0,,0,0,AS_NEW
+11150896,ixelles,1050,330000,apartment,apartment,for sale,1,0,1,0,0,0,true,,0,0,GOOD
+11150619,ixelles,1050,495000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,GOOD
+11151844,anderlecht,1070,399000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,AS_NEW
+11150872,ixelles,1050,720000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,GOOD
+11156026,hoboken,2660,196000,apartment,ground_floor,for sale,1,0,1,0,0,0,0,,0,0,JUST_RENOVATED
+11156025,antwerp,2060,289000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,JUST_RENOVATED
+11156024,antwerp,2060,695000,house,apartment_block,for sale,6,0,1,0,0,0,0,,0,0,GOOD
+11156021,borgerhout,2140,225000,apartment,apartment,for sale,2,0,1,0,0,0,0,,0,0,GOOD
+11156022,borgerhout,2140,189000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11156023,antwerp,2020,189000,apartment,apartment,for sale,1,0,1,0,0,0,0,,0,0,
+11156019,antwerp,2060,179000,apartment,apartment,for sale,2,0,0,0,0,0,true,,0,0,GOOD
+11156020,antwerp,2060,315000,house,apartment_block,for sale,2,0,1,0,0,51,true,,0,0,TO_RENOVATE
+11156017,borgerhout,2140,169000,apartment,apartment,for sale,1,0,1,0,0,91,true,,0,0,GOOD
+11156018,antwerp,2020,369000,house,apartment_block,for sale,3,0,0,0,0,0,0,,0,0,TO_RENOVATE
+11144033,gent,9000,289000,house,house,for sale,3,0,1,0,0,8,0,,0,0,TO_BE_DONE_UP
+10939752,lennik,1750,565847,house,house,for sale,4,0,1,0,0,0,0,,0,0,GOOD
+11156013,berchem,2600,275000,house,house,for sale,4,0,1,0,0,0,0,,0,0,TO_RENOVATE
+11156011,antwerp,2018,199000,apartment,flat_studio,for sale,1,0,1,0,0,0,0,,0,0,AS_NEW
+11156014,berlaar,2590,369000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11156012,borgerhout,2140,215000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11156003,hemiksem,2620,349000,house,house,for sale,3,0,1,0,0,0,0,,0,0,JUST_RENOVATED
+11156009,borgerhout,2140,359000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,JUST_RENOVATED
+11156007,borgerhout,2140,199000,apartment,apartment,for sale,1,0,1,0,0,0,true,,0,0,JUST_RENOVATED
+11156006,antwerp,2018,300000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11156010,hoboken,2660,259000,house,house,for sale,2,0,1,0,0,0,0,,0,0,GOOD
+11156005,hemiksem,2620,299000,house,house,for sale,2,0,1,0,0,0,0,,0,0,TO_RENOVATE
+11156004,westende,8434,349000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,AS_NEW
+11156002,berchem,2600,335000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11155998,hoboken,2660,225000,house,house,for sale,3,0,1,0,0,115,true,,0,0,TO_RENOVATE
+11155999,borgerhout,2140,315000,apartment,apartment,for sale,4,0,1,0,0,0,true,,0,0,GOOD
+9979266,leuven,3000,561357 - 1883621,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11156001,antwerp,2020,379000,house,mansion,for sale,4,0,1,0,0,22,0,,0,0,GOOD
+11155995,antwerp,2140,395000,house,mixed_use_building,for sale,4,0,1,0,0,0,0,,0,0,TO_BE_DONE_UP
+11155992,hoboken,2660,195000,apartment,service_flat,for sale,1,0,1,0,0,0,true,,0,0,AS_NEW
+11155991,wilrijk,2610,249000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,GOOD
+11155988,wilrijk,2610,259000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,GOOD
+11076640,werchter,3118,605000 - 640000,house group,house_group,for sale,,0,0,0,0,0,0,,0,0,
+11153322,gent-sint-denijs-westrem,9051,1016000 - 1372000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11152298,brussels-city,1000,165000,apartment,flat_studio,for sale,0,0,1,0,0,0,0,,0,0,GOOD
+11151708,helecine,1357,136500 - 246500,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11150748,anderlecht,1070,184900,apartment,apartment,for sale,2,0,1,0,0,0,0,,0,0,TO_RENOVATE
+11151417,grivegnee,4030,139000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,TO_BE_DONE_UP
+11135884,blankenberge,8370,199000,apartment,apartment,for sale,2,0,1,0,0,0,0,,0,0,AS_NEW
+11152299,brussels-city,1000,195000,apartment,apartment,for sale,1,0,1,0,0,0,true,,0,0,GOOD
+11152551,gent,9000,255000 - 400000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11152550,gent,9000,255000 - 400000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11151762,forest,1190,275000,apartment,apartment,for sale,2,0,1,0,0,0,0,,0,0,AS_NEW
+11150545,gent,9000,260000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11152186,herentals,2200,205000 - 495000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+10699181,blankenberge,8370,279000,apartment,apartment,for sale,1,0,1,0,0,0,true,,0,0,GOOD
+11152549,wetteren,9230,260000 - 410000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11152248,bruxelles,1000,289000,apartment,apartment,for sale,1,0,1,0,0,0,0,,0,0,GOOD
+11152264,berlaar,2590,319500 - 319500,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11150522,gavere,9890,356147.12 - 388789.12,house group,house_group,for sale,,0,0,0,0,0,0,,0,0,
+11151743,laakdal,2430,380600 - 380600,house group,house_group,for sale,,0,0,0,0,0,0,,0,0,
+11064472,forest,1190,350000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+10739253,ranst-broechem,2520,384946 - 486068,house group,house_group,for sale,,0,0,0,0,0,0,,0,0,
+11152796,brasschaat,2930,529000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11151746,laakdal,2430,397660 - 397660,house group,house_group,for sale,,0,0,0,0,0,0,,0,0,
+11150513,gent-gentbrugge,9050,560000 - 640000,house group,house_group,for sale,,0,0,0,0,0,0,,0,0,
+11151131,steenokkerzeel,1820,475000,house,house,for sale,3,0,1,0,0,0,true,,0,0,GOOD
+11156135,brecht,2960,563500,house,house,for sale,4,0,1,0,0,0,true,,0,0,
+11150386,ghent,9000,398000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,AS_NEW
+11150926,knokke,8300,925000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,TO_RENOVATE
+11150480,gent,9000,625000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,TO_RENOVATE
+11148725,anderlecht,1070,289500,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11156132,schilde,2970,389000,house,house,for sale,3,0,1,0,0,0,true,,0,0,TO_RENOVATE
+11156134,zoersel,2980,365000,house,house,for sale,3,0,1,0,0,0,true,,0,0,GOOD
+11156131,brasschaat,2930,289000,apartment,apartment,for sale,3,0,0,0,0,0,0,,0,0,AS_NEW
+11156129,brasschaat,2930,330000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11156128,brecht,2960,499000,house,house,for sale,3,0,1,0,0,0,true,,0,0,TO_BE_DONE_UP
+11156124,brasschaat,2930,449000,house,house,for sale,3,0,1,0,0,0,true,,0,0,TO_BE_DONE_UP
+11156126,brasschaat,2930,269000,apartment,ground_floor,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11156123,brasschaat,2930,695000,apartment,duplex,for sale,3,0,1,0,0,0,true,,0,0,GOOD
+11156130,brasschaat,2930,698000,house,house,for sale,4,0,1,0,0,0,true,,0,0,AS_NEW
+11156127,brasschaat,2930,379000,house,house,for sale,2,0,1,0,0,0,true,,0,0,TO_BE_DONE_UP
+11156125,sint-lenaarts,2960,219000,house,house,for sale,3,0,0,0,0,0,0,,0,0,TO_RENOVATE
+11156122,aarschot,3200,396924,house,mixed_use_building,for sale,3,0,1,0,0,477,0,,0,0,GOOD
+11156120,schilde,2970,344000,house,house,for sale,3,0,1,0,0,0,0,,0,0,TO_RENOVATE
+11156118,brasschaat,2930,249000,apartment,apartment,for sale,3,0,0,0,0,0,true,,0,0,TO_RENOVATE
+11156119,sint-lenaarts,2960,325000,apartment,apartment,for sale,3,0,1,0,0,0,0,,0,0,GOOD
+11156112,brasschaat,2930,375000,apartment,apartment,for sale,3,0,1,0,0,37,true,,0,0,
+11156115,sint-job-in-%27t-goor,2960,649000,house,villa,for sale,3,0,1,0,0,0,true,,0,0,GOOD
+11156114,brasschaat,2930,379000,house,town_house,for sale,3,0,1,0,0,221,0,,0,0,GOOD
+11156111,oostende,8400,405000,house,house,for sale,3,0,1,0,0,250,true,,0,0,
+11156109,oostende,8400,104000,apartment,flat_studio,for sale,0,0,0,0,0,0,0,,0,0,
+11077115,ledegem,8880,899000,house,villa,for sale,5,0,1,0,0,0,0,,0,0,
+10905623,durbuy,6940,249000,house,house,for sale,4,0,0,0,0,0,0,,0,0,TO_BE_DONE_UP
+11156105,roeselare,8800,236000,house,house,for sale,5,0,0,0,0,0,true,,0,0,GOOD
+11156104,harelbeke,8530,180000,house,house,for sale,2,0,0,0,0,0,true,,0,0,TO_BE_DONE_UP
+11156106,stavelot,4970,209000,apartment,apartment,for sale,2,0,1,0,0,0,0,,0,0,
+11156108,zandhoven,2240,349000,house,house,for sale,3,0,0,0,0,0,0,,0,0,TO_RENOVATE
+11147420,montegnee,4420,204303,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+10802437,gent,9000,299000,apartment,apartment,for sale,3,0,0,0,0,0,0,,0,0,
+11156100,koersel,3582,349000,house,house,for sale,4,0,0,0,0,0,0,,0,0,
+11156097,bekkevoort,3460,519000,house,house,for sale,5,0,0,0,0,0,true,,0,0,
+11146189,bruxelles,1000,330000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11146190,woluwe-saint-lambert,1200,425000,apartment,apartment,for sale,2,0,1,0,0,50,0,,0,0,JUST_RENOVATED
+11146194,woluwe-saint-lambert,1200,875000,apartment,penthouse,for sale,2,0,1,0,0,0,true,,0,0,JUST_RENOVATED
+11146498,genval,1332,249000,apartment,flat_studio,for sale,0,0,1,0,0,0,true,,0,0,AS_NEW
+11146271,ixelles,1050,395000,apartment,apartment,for sale,2,0,1,0,0,0,0,,0,0,AS_NEW
+11153346,gentbrugge,9050,530000,house,house,for sale,3,0,1,0,0,400,true,,0,0,GOOD
+11147702,brussels-city,1000,395000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11154838,waterloo,1410,945000,house,villa,for sale,5,0,1,0,0,0,true,,0,0,GOOD
+11154831,braine-le-chateau,1440,945000,house,villa,for sale,5,0,1,0,0,0,true,,0,0,GOOD
+11147534,knokke-heist,8300,1015000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,JUST_RENOVATED
+11146193,woluwe-saint-lambert,1200,1150000,apartment,penthouse,for sale,3,0,1,0,0,0,true,,0,0,AS_NEW
+11150795,knokke-heist,8300,1195000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,AS_NEW
+11154508,waterloo,1410,1750000,house,villa,for sale,4,0,1,0,0,0,true,,0,0,AS_NEW
+11154758,braine-lalleud,1420,945000,house,villa,for sale,5,0,1,0,0,0,true,,0,0,GOOD
+11136016,deinze,9800,270000,apartment,apartment,for sale,1,0,1,0,0,0,true,,0,0,AS_NEW
+11136014,deinze,9800,375000,apartment,penthouse,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11136017,deinze,9800,395000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11135086,beersel,1653,379000,house,town_house,for sale,3,0,1,0,0,240,true,,0,0,GOOD
+11140876,gavere,9890,279200,apartment,apartment,for sale,1,0,1,0,0,0,true,,0,0,AS_NEW
+11136015,deinze,9800,400000,apartment,penthouse,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11153114,koekelberg,1081,260000,apartment,apartment,for sale,2,0,0,0,0,0,true,,0,0,TO_RENOVATE
+11154067,middelkerke,8430,450000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11135393,uccle,1180,850000,apartment,penthouse,for sale,5,0,1,0,0,0,true,,0,0,AS_NEW
+11143821,rixensart,1330,595000,house,house,for sale,4,0,1,0,0,0,true,,0,0,TO_BE_DONE_UP
+11024429,paliseul,6850,269000,house,house,for sale,3,0,1,0,0,0,true,,0,0,GOOD
+11138017,galmaarden,1570,199000,house,house,for sale,3,0,1,0,0,0,0,,0,0,TO_RENOVATE
+11135101,seraing,4100,329000,house,mixed_use_building,for sale,5,0,1,0,0,465,true,,0,0,TO_RENOVATE
+11143776,laeken,1020,750000,house,house,for sale,6,0,1,0,0,120,true,,0,0,AS_NEW
+11144209,la-hulpe,1310,645000,house,house,for sale,5,0,1,0,0,0,true,,0,0,GOOD
+11155740,aalst%20%289300%29,9300,429000,house,house,for sale,2,0,0,0,0,0,0,,0,0,
+11155736,brugge,8000,339000,apartment,apartment,for sale,2,0,0,0,0,0,0,,0,0,
+11155735,hamont-achel,3930,399000,house,house,for sale,3,0,1,0,0,1500,0,,0,0,JUST_RENOVATED
+11155732,ham,3945,369000,house,house,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11155737,wijchmaal,3990,285000,house,house,for sale,3,0,0,0,0,0,true,,0,0,GOOD
+11155730,eksel,3941,350000,house,house,for sale,4,0,1,0,0,0,true,,0,0,GOOD
+11155738,peer,3990,359000,house,house,for sale,3,0,1,0,0,0,0,,0,0,TO_BE_DONE_UP
+11155728,pelt,3900,795000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,AS_NEW
+11155721,lommel,3920,990000,house,villa,for sale,3,0,1,0,0,0,true,,0,0,
+11155733,neerpelt,3910,189000,apartment,apartment,for sale,2,0,0,0,0,0,true,,0,0,GOOD
+11155722,bocholt,3950,285000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11155725,lommel,3920,389000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,AS_NEW
+11155719,lommel,3920,315000,house,house,for sale,3,0,1,0,0,102,0,,0,0,GOOD
+11155718,heppen,3971,165000,apartment,ground_floor,for sale,1,0,1,0,0,0,0,,0,0,GOOD
+11155717,lommel,3920,595000,house,house,for sale,6,0,1,0,0,0,0,,0,0,AS_NEW
+11155720,eksel,3941,515000,house,house,for sale,3,0,1,0,0,0,true,,0,0,GOOD
+11155726,bocholt,3950,230000,house,bungalow,for sale,4,0,0,0,0,0,true,,0,0,TO_RENOVATE
+11155716,leopoldsburg,3970,297000,house,house,for sale,3,0,1,0,0,0,true,,0,0,GOOD
+11155714,leopoldsburg,3971,199000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,TO_RENOVATE
+11155715,pelt,3900,479000,apartment,apartment,for sale,3,0,0,0,0,0,true,,0,0,AS_NEW
+11155713,eksel,3941,329000,house,bungalow,for sale,3,0,0,0,0,0,0,,0,0,GOOD
+11155711,lommel,3920,409000,house,house,for sale,4,0,1,0,0,581,0,,0,0,GOOD
+11155710,lommel,3920,405000,house,house,for sale,4,0,1,0,0,1200,true,,0,0,GOOD
+11155706,lommel,3920,370000,house,house,for sale,3,0,1,0,0,0,true,,0,0,GOOD
+11155703,leopoldsburg,3970,230000,house,house,for sale,3,0,0,0,0,0,0,,0,0,TO_RENOVATE
+11155701,tournai,7540,30000,house,house,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11057719,westerlo,2260,215000,house,house,for sale,2,0,0,0,0,0,0,,0,0,TO_RENOVATE
+11155702,lommel,3920,672500,house,villa,for sale,5,0,1,0,0,0,true,,0,0,AS_NEW
+11050526,evere,1140,325000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+10957630,grobbendonk,2280,1475000,house,villa,for sale,3,0,0,0,0,0,0,,0,0,GOOD
+11008907,westende,8434,140000,apartment,apartment,for sale,1,0,1,0,0,0,0,,0,0,
+11012764,evere,1140,525000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,AS_NEW
+11044025,namur,5000,208000 - 355000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+10730837,soignies,7060,228000 - 345000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+10998947,jambes,5100,225000 - 495000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+10630994,mons,7000,236000 - 348000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11153826,hoboken,2660,210000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,JUST_RENOVATED
+11155394,deinze,9800,213000 - 465000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11056242,nivelles,1400,239000 - 395000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+10332223,maisieres,7020,236000 - 339000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11049892,braine-lalleud,1420,239000 - 395000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11153142,ixelles,1050,247500,apartment,flat_studio,for sale,0,0,1,0,0,0,true,,0,0,AS_NEW
+11046719,lillois-witterzee,1428,239000 - 395000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+9466117,beveren-leie,8791,290500 - 464000,house group,house_group,for sale,,0,0,0,0,0,0,,0,0,
+11124681,mons,7000,255000 - 299000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11140880,gavere,9890,275450,apartment,apartment,for sale,1,0,1,0,0,0,true,,0,0,AS_NEW
+11140881,gavere,9890,269700,apartment,apartment,for sale,1,0,1,0,0,0,true,,0,0,AS_NEW
+10947087,saint-symphorien,7030,255000 - 296000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11153848,uccle,1180,340000,apartment,apartment,for sale,1,0,1,0,0,0,0,,0,0,AS_NEW
+10946278,arlon,6700,345000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11153221,ixelles,1050,395000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+10919288,wilsele,3012,405000 - 490000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11140877,gavere,9890,419760,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11140887,gavere,9890,373650,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+10882093,godinne,5530,385000 - 399000,house group,house_group,for sale,,0,0,0,0,0,0,,0,0,
+11155146,mariakerke,9030,429250 - 439750,house group,house_group,for sale,,0,0,0,0,0,0,,0,0,
+11140882,gavere,9890,442375,apartment,duplex,for sale,3,0,1,0,0,0,true,,0,0,AS_NEW
+11153335,gentbrugge,9050,467000 - 547500,house group,house_group,for sale,,0,0,0,0,0,0,,0,0,
+11156192,kontich,2550,875000,house,house,for sale,4,0,1,0,0,0,true,,0,0,GOOD
+11140883,gavere,9890,438875,apartment,duplex,for sale,3,0,1,0,0,0,true,,0,0,AS_NEW
+11140879,gavere,9890,377150,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,AS_NEW
+11156187,merksem,2170,229000,apartment,apartment,for sale,2,0,0,0,0,0,true,,0,0,
+11156189,lokeren,9160,249000,house,house,for sale,3,0,0,0,0,0,0,,0,0,TO_RENOVATE
+11156190,beernem,8730,436000,house,house,for sale,4,0,0,0,0,0,0,,0,0,GOOD
+11156177,lokeren%20eksaarde,9160,299000,house,house,for sale,2,0,0,0,0,400,true,,0,0,GOOD
+11156186,schelle,2627,389000,house,house,for sale,3,0,0,0,0,0,true,,0,0,
+11156182,izegem,8870,309000,house,house,for sale,3,0,0,0,0,0,0,,0,0,
+11156173,oostende,8400,225000,apartment,flat_studio,for sale,0,0,0,0,0,0,0,,0,0,
+11156183,aartselaar,2630,195000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,
+11156166,dendermonde,9200,198000,apartment,apartment,for sale,1,0,1,0,0,0,true,,0,0,AS_NEW
+11156180,knokke-heist,8300,1400000,house,villa,for sale,4,0,0,0,0,0,0,,0,0,
+11156165,brasschaat,2930,650000,house,house,for sale,3,0,1,0,0,870,true,,0,0,TO_RENOVATE
+11156157,meerhout,2450,199000,apartment,apartment,for sale,1,0,0,0,0,0,0,,0,0,
+11156162,dentergem,8720,235000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,
+11132090,nivelles,1400,349900,house,villa,for sale,3,0,1,0,0,750,true,,0,0,GOOD
+11111651,buzet,6230,349900,house,villa,for sale,3,0,1,0,0,750,true,,0,0,GOOD
+11156152,roeselare,8800,155000,apartment,apartment,for sale,1,0,1,0,0,0,0,,0,0,
+11156153,keerbergen,3140,558000,house,house,for sale,3,0,0,0,0,0,0,,0,0,
+11156151,desselgem,8792,179000,house,house,for sale,1,0,0,0,0,0,0,,0,0,TO_BE_DONE_UP
+11156150,boom,2850,299000,house,house,for sale,4,0,0,0,0,0,0,,0,0,TO_BE_DONE_UP
+11156149,flobecq,7880,139000,apartment,apartment,for sale,2,0,0,0,0,0,0,,0,0,
+11156154,haacht,3150,360000,house,house,for sale,3,0,0,0,0,0,0,,0,0,
+11156146,kemzeke,9190,269000,house,house,for sale,2,0,1,0,0,0,true,,0,0,TO_RENOVATE
+11156144,zwijndrecht,2070,349000,house,town_house,for sale,3,0,1,0,0,200,true,,0,0,TO_RENOVATE
+11156145,zwijndrecht,2070,525000,house,house,for sale,3,0,1,0,0,248,0,,0,0,GOOD
+11156141,brasschaat,2930,359000,house,house,for sale,3,0,1,0,0,0,true,,0,0,
+11156147,sint-niklaas,9100,779000,house,house,for sale,4,0,1,0,0,0,0,,0,0,GOOD
+11156140,massemen,9230,399000,house,villa,for sale,3,0,1,0,0,0,0,,0,0,
+11156137,brasschaat,2930,369000,house,house,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11150505,etterbeek,1040,749000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,AS_NEW
+11156139,brasschaat,2930,295000,apartment,apartment,for sale,2,0,0,0,0,0,true,,0,0,GOOD
+11140941,le-roeulx,7070,185000,apartment,apartment,for sale,1,0,1,0,0,0,0,,0,0,GOOD
+11140971,uccle,1180,150000 - 980000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11142083,antwerpen,2018,187000,apartment,flat_studio,for sale,1,0,1,0,0,0,true,,0,0,AS_NEW
+11143240,deinze,9800,195000 - 445000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11143532,turnhout,2300,232900 - 408900,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11141681,berchem-sainte-agathe,1082,148000 - 382000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11141932,arlon,6700,206000 - 342000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11141650,evere,1140,251000 - 380000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11103715,berchem-sainte-agathe,1082,245000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11141321,auderghem,1160,257500 - 523500,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11143236,deinze,9800,255000 - 550000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11140649,forest,1190,199000 - 399000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11140889,gavere,9890,268700 - 368500,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11140621,schaerbeek,1030,259000 - 529000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11140841,gavere,9890,268700 - 442375,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11142762,evere,1140,285000,apartment,apartment,for sale,1,0,1,0,0,0,true,,0,0,AS_NEW
+11140816,berchem-sainte-agathe,1082,275000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,GOOD
+11143491,vosselaar,2350,289000 - 685000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11141245,anderlecht,1070,289500 - 372500,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11140817,berchem-sainte-agathe,1082,290000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,GOOD
+11141563,bruxelles,1000,312000 - 746000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11141224,herstal,4040,299000,house,house,for sale,4,0,1,0,0,98,true,,0,0,AS_NEW
+11141665,ixelles,1050,320000 - 810000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11140901,nazareth,9810,335600 - 438200,house group,house_group,for sale,,0,0,0,0,0,0,,0,0,
+11140587,uccle,1180,335000 - 945000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11143239,astene,9800,340000 - 1600000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11141654,brussels,1000,339000 - 535000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11141759,braine-lalleud,1420,349000,house,house,for sale,3,0,1,0,0,156,true,,0,0,JUST_RENOVATED
+11155980,borgerhout,2140,285000,house,house,for sale,5,0,1,0,0,0,0,,0,0,JUST_RENOVATED
+11155978,antwerp,2000,239000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,TO_BE_DONE_UP
+11155979,antwerp,2020,205000,house,house,for sale,4,0,1,0,0,0,true,,0,0,TO_RENOVATE
+11141393,bruxelles,1000,350000 - 410000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11155975,antwerp,2018,229000,house,house,for sale,4,0,1,0,0,0,0,,0,0,TO_RENOVATE
+11155986,antwerp,2060,145000,apartment,apartment,for sale,2,0,0,0,0,0,true,,0,0,TO_RENOVATE
+11155977,borgerhout,2140,259000,house,house,for sale,4,0,1,0,0,0,0,,0,0,GOOD
+11155973,antwerp,2018,350000,apartment,apartment,for sale,1,0,0,0,0,0,true,,0,0,AS_NEW
+11155974,antwerp,2018,350000,apartment,apartment,for sale,1,0,1,0,0,0,true,,0,0,AS_NEW
+11155970,antwerp,2060,369000,house,town_house,for sale,2,0,1,0,0,0,0,,0,0,AS_NEW
+11155969,niel,2845,339000,house,house,for sale,3,0,0,0,0,0,0,,0,0,
+11155971,antwerp,2000,229000,apartment,apartment,for sale,1,0,1,0,0,0,0,,0,0,TO_BE_DONE_UP
+11155972,antwerp,2000,229000,apartment,apartment,for sale,1,0,1,0,0,0,true,,0,0,TO_BE_DONE_UP
+11155967,berchem,2600,389000,house,house,for sale,4,0,1,0,0,0,0,,0,0,GOOD
+11155966,antwerp,2000,225000,apartment,apartment,for sale,1,0,1,0,0,0,true,,0,0,GOOD
+11155965,berchem,2600,359000,apartment,ground_floor,for sale,2,0,1,0,0,0,0,,0,0,GOOD
+11155964,antwerp,2020,169000,apartment,apartment,for sale,2,0,0,0,0,0,true,,0,0,GOOD
+11155962,wilrijk,2610,379000,house,house,for sale,4,0,1,0,0,0,true,,0,0,GOOD
+11155963,antwerp,2060,395000,house,house,for sale,6,0,0,0,0,0,0,,0,0,
+11155961,antwerp,2018,299000,house,house,for sale,4,0,1,0,0,0,0,,0,0,TO_RENOVATE
+11155960,niel,2845,339000,apartment,apartment,for sale,5,0,0,0,0,0,0,,0,0,
+11155959,antwerp,2020,219000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11155958,antwerp,2000,349000,apartment,apartment,for sale,1,0,1,0,0,0,0,,0,0,GOOD
+11155957,antwerp,2018,199000,apartment,flat_studio,for sale,1,0,1,0,0,0,0,,0,0,JUST_RENOVATED
+10808109,dilbeek,1700,678880,house,house,for sale,3,0,1,0,0,0,0,,0,0,GOOD
+11155955,geraardsbergen,9500,298000,house,house,for sale,3,0,0,0,0,0,0,,0,0,TO_BE_DONE_UP
+11155956,antwerp,2018,255000,apartment,apartment,for sale,1,0,1,0,0,0,0,,0,0,JUST_RENOVATED
+11155948,wenduine,8420,265000,apartment,apartment,for sale,2,0,0,0,0,0,0,,0,0,
+11148115,sint-denijs-westrem,9051,255000 - 400000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11155954,antwerp,2060,215000,house,house,for sale,3,0,1,0,0,0,0,,0,0,TO_RENOVATE
+11146165,laeken,1020,259000 - 529000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11155949,gent,9000,675000,apartment,apartment,for sale,2,0,1,0,0,0,0,,0,0,GOOD
+10658716,blankenberge,8370,269000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,TO_BE_DONE_UP
+11146258,jette,1090,269000 - 535000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11147883,auderghem,1160,290000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11146008,waterloo,1410,297000 - 840000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11155947,halle,1500,449000,house,house,for sale,3,0,1,0,0,0,true,,0,0,AS_NEW
+11148120,bachte-maria-leerne,9800,298000 - 379000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11146345,deinze,9800,346000 - 390000,house group,house_group,for sale,,0,0,0,0,0,0,,0,0,
+11148338,nivelles,1400,330000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11148121,deinze,9800,405500 - 500000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11147509,amay,4540,375000,house,house,for sale,3,0,1,0,0,2125,true,,0,0,GOOD
+11146292,gent,9000,419000 - 425000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11146314,gent-zwijnaarde,9052,367726 - 556453,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11146418,braives,4260,780000,house,exceptional_property,for sale,6,0,1,0,0,1700,true,,0,0,AS_NEW
+11146243,bruxelles,1130,521000 - 561000,house group,house_group,for sale,,0,0,0,0,0,0,,0,0,
+11153143,woluwe-saint-pierre,1150,1895000,house,house,for sale,6,0,1,0,0,700,true,,0,0,GOOD
+10994408,bruxelles,1000,497000,house,mixed_use_building,for sale,3,0,1,0,0,0,0,,0,0,AS_NEW
+11153495,leuven,3000,155000,apartment,flat_studio,for sale,0,0,1,0,0,0,true,,0,0,AS_NEW
+11148717,molenbeek-saint-jean,1080,229000,apartment,apartment,for sale,1,0,1,0,0,0,true,,0,0,AS_NEW
+11153901,hoboken,2660,249900,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11155179,woluwe-saint-lambert,1200,325000,apartment,apartment,for sale,1,0,1,0,0,0,true,,0,0,JUST_RENOVATED
+11154864,blankenberge,8370,349000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11153088,brussels,1000,795000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,GOOD
+11153149,schaerbeek,1030,400000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11154549,uccle,1180,450000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,GOOD
+11144586,schaerbeek,1030,165000,apartment,flat_studio,for sale,0,0,1,0,0,0,true,,0,0,GOOD
+11155018,ixelles,1050,795000,apartment,apartment,for sale,3,0,1,0,0,0,0,,0,0,TO_BE_DONE_UP
+11144455,angleur,4031,139000,house,house,for sale,3,0,1,0,0,0,true,,0,0,GOOD
+11156059,antwerp,2020,219000,apartment,apartment,for sale,2,0,0,0,0,0,true,,0,0,GOOD
+11143714,villers-le-bouillet,4530,180000,house,country_cottage,for sale,3,0,1,0,0,0,0,,0,0,TO_RENOVATE
+11156056,antwerp,2050,345000,apartment,apartment,for sale,3,0,0,0,0,0,true,,0,0,
+11156058,hoboken,2660,398500,house,town_house,for sale,3,0,1,0,0,0,0,,0,0,GOOD
+11156053,lier,2500,575000,apartment,duplex,for sale,2,0,1,0,0,0,0,,0,0,
+11156052,deurne%20%282100%29,2100,298000,house,house,for sale,3,0,1,0,0,84,true,,0,0,
+11156054,antwerp,2600,295000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,TO_BE_DONE_UP
+11156051,borgerhout,2140,329000,house,house,for sale,3,0,0,0,0,0,true,,0,0,TO_RENOVATE
+11156050,antwerp,2060,299000,house,house,for sale,3,0,1,0,0,0,0,,0,0,GOOD
+11156049,antwerp,2020,317000,apartment,apartment,for sale,3,0,0,0,0,0,true,,0,0,
+11156043,antwerp,2060,285000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,GOOD
+11156047,borgerhout,2140,219000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,TO_BE_DONE_UP
+11156044,antwerp,2060,150000,house,apartment_block,for sale,3,0,0,0,0,122,0,,0,0,AS_NEW
+11156048,antwerp,2000,189000,apartment,apartment,for sale,1,0,1,0,0,0,0,,0,0,TO_BE_DONE_UP
+11156046,antwerp,2000,325000,apartment,apartment,for sale,2,0,1,0,0,0,0,,0,0,JUST_RENOVATED
+11156042,berchem,2600,215000,apartment,apartment,for sale,1,0,1,0,0,25,true,,0,0,GOOD
+11156045,antwerp,2020,209000,apartment,ground_floor,for sale,2,0,1,0,0,0,0,,0,0,TO_BE_DONE_UP
+11156041,antwerp,2140,149000,apartment,apartment,for sale,1,0,1,0,0,0,true,,0,0,TO_RENOVATE
+11156039,westkerke,8460,329000,house,house,for sale,4,0,1,0,0,0,true,,0,0,TO_BE_DONE_UP
+11156038,antwerp,2060,142500,apartment,apartment,for sale,1,0,1,0,0,0,true,,0,0,TO_RENOVATE
+11156036,borgerhout,2140,269000,house,town_house,for sale,3,0,0,0,0,0,0,,0,0,TO_RENOVATE
+11156034,hoboken,2660,237500,apartment,apartment,for sale,3,0,0,0,0,0,true,,0,0,GOOD
+11156035,antwerp,2020,249000,apartment,ground_floor,for sale,2,0,0,0,0,0,0,,0,0,GOOD
+11156032,antwerp,2060,139000,apartment,apartment,for sale,1,0,1,0,0,0,true,,0,0,TO_RENOVATE
+11156040,borgerhout,2140,276500,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,JUST_RENOVATED
+11156037,antwerp,2000,165000,house,house,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11140536,dilbeek,1700,449000,house,villa,for sale,4,0,1,0,0,60,true,,0,0,TO_RENOVATE
+11142295,anderlecht,1070,389000,house,house,for sale,6,0,1,0,0,10,0,,0,0,TO_RENOVATE
+11140920,gent,9000,550000,house,house,for sale,7,0,1,0,0,0,true,,0,0,GOOD
+11156031,antwerp,2060,149000,apartment,apartment,for sale,1,0,1,0,0,0,true,,0,0,JUST_RENOVATED
+11156028,antwerp,2610,249000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,TO_BE_DONE_UP
+11156029,borgerhout,2140,239000,house,town_house,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11156027,hoboken,2660,175000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11156030,borgerhout,2140,239000,house,house,for sale,2,0,1,0,0,0,0,,0,0,TO_RENOVATE
+11140919,geraardsbergen-grimminge,9506,699000,house,villa,for sale,5,0,1,0,0,3661,true,,0,0,AS_NEW
+11146420,ronse,9600,249000,house,villa,for sale,3,0,1,0,0,330,true,,0,0,TO_RENOVATE
+11143849,woluwe-saint-pierre,1150,739000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,AS_NEW
+11140559,forest,1190,270000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11077335,etterbeek,1040,525000,apartment,penthouse,for sale,3,0,1,0,0,0,true,,0,0,AS_NEW
+11141758,knokke-heist,8300,2295000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,JUST_RENOVATED
+11142844,evere,1140,299000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,GOOD
+11140636,woluwe-saint-pierre,1150,195000,apartment,apartment,for sale,1,0,1,0,0,0,true,,0,0,AS_NEW
+11153604,beyne-heusay,4610,159000,house,house,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11153359,liege,4000,290000,house,house,for sale,3,0,1,0,0,140,true,,0,0,GOOD
+11146625,molenbeek-saint-jean,1080,265000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11146108,auderghem,1160,420000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11114313,gent,9032,395000,house,house,for sale,3,0,1,0,0,100,0,,0,0,JUST_RENOVATED
+11153109,tervuren,3080,825000,house,villa,for sale,6,0,1,0,0,0,true,,0,0,GOOD
+11149064,gent-wondelgem,9032,349000,apartment,penthouse,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11147101,ville-de-bruxelles,1000,450000,apartment,apartment,for sale,3,0,1,0,0,0,0,,0,0,GOOD
+11132277,deurne,2100,189000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,GOOD
+11132105,borgerhout,2140,239000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11132255,borgerhout,2140,264000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,JUST_RENOVATED
+11130919,ronse,9600,265000,house,house,for sale,3,0,1,0,0,0,true,,0,0,AS_NEW
+11132583,neupre,4121,259000,house,house,for sale,3,0,1,0,0,500,true,,0,0,GOOD
+11130920,ronse,9600,249000,house,house,for sale,3,0,1,0,0,350,0,,0,0,TO_BE_DONE_UP
+11130804,bertrix,6880,266500 - 299600,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11130759,evere,1140,269000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11131978,aalst,9300,275250 - 319000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11131936,liedekerke,1770,286000 - 495000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11155647,hamme%20%289220%29,9220,349000,house,mixed_use_building,for sale,4,0,1,0,0,0,0,,0,0,TO_BE_DONE_UP
+11155638,knokke-heist,8300,749000,house,house,for sale,3,0,0,0,0,0,0,,0,0,GOOD
+11155636,brakel,9660,280000,house,house,for sale,3,0,1,0,0,0,true,,0,0,GOOD
+11155635,brakel,9660,280000,house,mixed_use_building,for sale,3,0,1,0,0,0,true,,0,0,GOOD
+11131127,herent,3020,275000 - 848000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11155634,galmaarden,1570,249000,house,mixed_use_building,for sale,3,0,1,0,0,0,0,,0,0,JUST_RENOVATED
+11155633,geraardsbergen,9500,499000,house,house,for sale,7,0,1,0,0,0,true,,0,0,GOOD
+11155631,deftinge,9570,240000,house,mixed_use_building,for sale,5,0,1,0,0,0,0,,0,0,TO_RENOVATE
+11155632,brakel,9660,275000,house,mixed_use_building,for sale,4,0,1,0,0,0,0,,0,0,TO_BE_DONE_UP
+11155630,geraardsbergen,9500,499000,house,mixed_use_building,for sale,7,0,1,0,0,0,true,,0,0,GOOD
+11155627,brakel,9660,275000,house,house,for sale,4,0,1,0,0,0,0,,0,0,TO_BE_DONE_UP
+11155626,deftinge,9570,240000,house,house,for sale,5,0,1,0,0,0,0,,0,0,TO_RENOVATE
+11155628,galmaarden,1570,249000,house,house,for sale,3,0,1,0,0,0,0,,0,0,JUST_RENOVATED
+11155615,houthalen-helchteren,3530,379000,apartment,ground_floor,for sale,3,0,1,0,0,125,0,,0,0,GOOD
+11155614,hasselt,3500,675000,house,house,for sale,3,0,1,0,0,0,true,,0,0,AS_NEW
+11155613,hasselt,3500,278000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11155609,zedelgem,8210,325000,house,apartment_block,for sale,2,0,0,0,0,0,true,,0,0,
+11155607,zonhoven,3520,199000,apartment,apartment,for sale,2,0,0,0,0,0,true,,0,0,
+11155612,hasselt,3500,155000,apartment,apartment,for sale,1,0,1,0,0,0,0,,0,0,GOOD
+11155608,mechelen-bovelingen,3870,199000,house,house,for sale,2,0,0,0,0,0,0,,0,0,TO_BE_DONE_UP
+11155610,aalst,9300,360000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11155606,hasselt,3500,295000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11155602,as,3665,328000,house,house,for sale,3,0,0,0,0,0,0,,0,0,
+11155595,lummen,3560,259000,house,house,for sale,2,0,1,0,0,0,true,,0,0,TO_RENOVATE
+11155596,heusden-zolder,3550,255000,house,house,for sale,3,0,1,0,0,0,0,,0,0,TO_BE_DONE_UP
+11155604,heusden-zolder,3550,619000,house,house,for sale,5,0,1,0,0,0,true,,0,0,AS_NEW
+11155592,schalkhoven,3732,535000,house,house,for sale,3,0,1,0,0,0,true,,0,0,GOOD
+11155589,houthalen-helchteren,3530,279000,house,house,for sale,2,0,1,0,0,0,0,,0,0,TO_BE_DONE_UP
+11155597,kuringen,3511,325000,house,bungalow,for sale,3,0,1,0,0,0,0,,0,0,TO_BE_DONE_UP
+11155591,hasselt,3500,269000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11155587,zonhoven,3520,415000,house,house,for sale,3,0,1,0,0,0,0,,0,0,GOOD
+11149898,destelbergen,9070,565000 - 585000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11149911,gent,9000,634946.59 - 1047510,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11150049,anderlecht,1070,415000,house,house,for sale,3,0,1,0,0,18,true,,0,0,JUST_RENOVATED
+11146191,woluwe-saint-pierre,1150,635000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11020971,waregem,8790,115000,apartment,flat_studio,for sale,1,0,1,0,0,0,0,,0,0,JUST_RENOVATED
+11146192,woluwe-saint-lambert,1200,635000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+10971611,waregem,8790,115000,apartment,flat_studio,for sale,1,0,1,0,0,0,0,,0,0,JUST_RENOVATED
+11149067,sint-denijs-westrem,9051,165000,apartment,service_flat,for sale,1,0,1,0,0,0,true,,0,0,GOOD
+11148720,forest,1190,199000 - 399000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11149014,sleidinge,9940,265000 - 445000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11149338,molenbeek-saint-jean,1080,299000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11148958,nazareth,9810,366000 - 601000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11149593,merksem,2170,249000,apartment,apartment,for sale,3,0,1,0,0,0,0,,0,0,GOOD
+11148962,evergem,9940,265000 - 445000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11149565,knokke,8300,925000,apartment,penthouse,for sale,2,0,1,0,0,0,true,,0,0,TO_RENOVATE
+11153218,waimes,4950,299000,apartment,apartment,for sale,3,0,0,0,0,0,true,,0,0,AS_NEW
+11146421,ronse,9600,129000,apartment,apartment,for sale,1,0,1,0,0,0,0,,0,0,TO_BE_DONE_UP
+11148735,bruxelles,1000,595000,apartment,apartment,for sale,3,0,1,0,0,0,0,,0,0,AS_NEW
+11147395,antwerpen,2000,167000,house,mixed_use_building,for sale,1,0,1,0,0,0,true,,0,0,JUST_RENOVATED
+11147393,antwerpen,2000,167000,apartment,apartment,for sale,1,0,1,0,0,0,true,,0,0,JUST_RENOVATED
+11147394,antwerpen,2000,167000,apartment,flat_studio,for sale,1,0,1,0,0,0,true,,0,0,JUST_RENOVATED
+11146581,berloz,4257,174000,house,house,for sale,2,0,1,0,0,490,true,,0,0,TO_RENOVATE
+11146621,seraing,4100,189000,house,house,for sale,2,0,1,0,0,135,true,,0,0,GOOD
+11148118,deinze,9800,247500 - 355000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11147196,leopoldsburg,3970,247000 - 297000,house group,house_group,for sale,,0,0,0,0,0,0,,0,0,
+11146251,anderlecht,1070,250000 - 352500,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11147561,lier,2500,229351.7 - 394026,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11148116,sint-denijs-westrem,9051,255000 - 400000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11068428,middelkerke,8430,740587,house,house,for sale,3,0,1,0,0,0,0,,0,0,GOOD
+11156095,kortrijk,8500,193000,apartment,apartment,for sale,2,0,0,0,0,0,0,,0,0,
+11156096,wevelgem,8560,190000,house,house,for sale,2,0,0,0,0,0,0,,0,0,
+11147112,berchem,2600,189000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11028520,avelgem,8580,640337,house,house,for sale,4,0,1,0,0,0,0,,0,0,GOOD
+11156093,ch%C3%82telineau,6200,166050,house,apartment_block,for sale,2,0,1,0,0,0,0,,0,0,GOOD
+11147796,turnhout,2300,221600 - 320700,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11156092,roisin,7387,145000,house,house,for sale,2,0,0,0,0,0,true,,0,0,
+11156084,antwerp,2000,163555,apartment,flat_studio,for sale,1,0,0,0,0,0,0,,0,0,GOOD
+11156091,souvret,6182,380000,house,villa,for sale,0,0,0,0,0,0,0,,0,0,
+11156082,wilrijk,2610,319000,house,house,for sale,2,0,1,0,0,0,0,,0,0,GOOD
+11156088,niel,2845,339000,house,house,for sale,5,0,0,0,0,0,0,,0,0,
+11156080,antwerp,2050,219000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11156083,hoboken,2660,279000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11006578,ninove,9400,546625,house,house,for sale,3,0,1,0,0,0,0,,0,0,GOOD
+11156081,antwerp,2018,375000,house,town_house,for sale,2,0,1,0,0,0,0,,0,0,GOOD
+11156079,antwerp,2060,374000,house,mansion,for sale,3,0,0,0,0,0,0,,0,0,AS_NEW
+11156076,antwerp,2060,349000,house,house,for sale,4,0,1,0,0,54,0,,0,0,GOOD
+11156077,antwerp,2050,239000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11156078,antwerp,2000,289000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,TO_BE_DONE_UP
+11006552,oostkamp,8020,824980,house,house,for sale,3,0,1,0,0,0,0,,0,0,GOOD
+11156075,borgerhout,2140,279000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,JUST_RENOVATED
+11156073,borgerhout,2140,190000,apartment,apartment,for sale,2,0,0,0,0,0,true,,0,0,
+11156074,borgerhout,2140,299000,house,house,for sale,3,0,1,0,0,0,0,,0,0,GOOD
+11156067,antwerp,2020,309000,house,house,for sale,4,0,1,0,0,0,true,,0,0,GOOD
+11156072,antwerp,2060,229000,house,house,for sale,3,0,1,0,0,0,0,,0,0,TO_RENOVATE
+11156071,antwerp,2060,259000,house,house,for sale,1,0,1,0,0,0,true,,0,0,TO_RENOVATE
+11156064,antwerp,2060,109000,apartment,flat_studio,for sale,1,0,1,0,0,0,true,,0,0,TO_RENOVATE
+11156063,wilrijk,2610,215000,apartment,apartment,for sale,3,0,1,0,0,0,0,,0,0,GOOD
+11156060,antwerp,2060,249000,house,town_house,for sale,2,0,1,0,0,40,true,,0,0,TO_RENOVATE
+11156065,antwerp,2060,369000,house,town_house,for sale,4,0,1,0,0,0,true,,0,0,JUST_RENOVATED
+11141446,brussels-city,1000,362000 - 375000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11141490,bruxelles,1000,367000 - 444000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11156061,borgerhout,2140,189000,apartment,apartment,for sale,2,0,0,0,0,0,0,,0,0,
+11143242,deinze,9800,363825 - 363825,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11141470,bruxelles,1000,364000 - 377000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11140831,gent-mariakerke,9030,429250 - 439750,house group,house_group,for sale,,0,0,0,0,0,0,,0,0,
+11141537,bruxelles,1000,432000 - 484000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11142044,arlon,6700,495000 - 495000,house group,house_group,for sale,,0,0,0,0,0,0,,0,0,
+11142346,merelbeke,9820,495000 - 715000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11140726,auderghem,1160,520000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11143235,bachte-maria-leerne,9800,524987 - 635187,house group,house_group,for sale,,0,0,0,0,0,0,,0,0,
+11140830,gent,9000,735000,house,villa,for sale,4,0,1,0,0,0,true,,0,0,TO_BE_DONE_UP
+11140638,woluwe-saint-pierre,1150,745000,apartment,penthouse,for sale,4,0,1,0,0,0,true,,0,0,AS_NEW
+11142911,ixelles,1050,625000 - 1995000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11149928,sint-martens-latem,9830,595000,house,house,for sale,2,0,1,0,0,188,0,,0,0,JUST_RENOVATED
+11140491,edegem,2650,1545000,house,house,for sale,4,0,1,0,0,315,0,,0,0,JUST_RENOVATED
+11141660,ixelles,1050,1200000 - 1375000,house group,house_group,for sale,,0,0,0,0,0,0,,0,0,
+11149932,wetteren,9230,339000,apartment,duplex,for sale,3,0,1,0,0,180,true,,0,0,GOOD
+11149965,waremme,4300,220000,apartment,apartment,for sale,3,0,0,0,0,0,true,,0,0,GOOD
+11153822,berchem,2600,175000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11150061,ixelles,1050,495000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11139208,anderlecht,1070,171717,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,TO_RENOVATE
+11153121,jette,1090,289000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,GOOD
+10623824,diegem,1831,210000 - 359000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+9881253,brussels-city,1000,195500 - 265500,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11137641,mortsel,2640,249000,apartment,apartment,for sale,1,0,1,0,0,0,true,,0,0,GOOD
+11137668,schaerbeek,1030,250000,apartment,duplex,for sale,1,0,1,0,0,0,0,,0,0,AS_NEW
+11139941,deinze,9800,249000,apartment,apartment,for sale,4,0,1,0,0,0,true,,0,0,TO_BE_DONE_UP
+11138237,braine-lalleud,1420,255000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+10982614,woluwe-st-lambert,1200,265000 - 845000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11138323,evere,1140,259000 - 529000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11145480,dalhem,4607,250000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11128403,ronse,9600,245000,house,house,for sale,3,0,1,0,0,25,true,,0,0,AS_NEW
+11129177,aalst,9300,220851 - 220851,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11143870,ixelles,1050,595000,apartment,apartment,for sale,2,0,1,0,0,0,0,,0,0,AS_NEW
+11129290,deinze,9800,234000 - 339000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11128858,liege,4020,139000,house,house,for sale,2,0,1,0,0,0,true,,0,0,TO_BE_DONE_UP
+11128093,berchem,2600,249000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,TO_BE_DONE_UP
+11128365,deinze,9800,270000 - 420000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11129211,wavre,1300,269000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11128213,wetteren,9230,249000,house,house,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11128597,neupre,4120,279000,apartment,apartment,for sale,3,0,1,0,0,0,0,,0,0,GOOD
+11129677,blankenberge,8370,295000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11128936,walhain,1457,399000,house,villa,for sale,3,0,1,0,0,0,true,,0,0,TO_BE_DONE_UP
+11129774,braine-le-chateau,1440,445000,house,house,for sale,4,0,1,0,0,600,true,,0,0,GOOD
+11128275,antwerpen-merksem,2170,429900,house,mixed_use_building,for sale,3,0,1,0,0,0,0,,0,0,GOOD
+11128350,gent-mariakerke,9030,468532.38 - 474002,house group,house_group,for sale,,0,0,0,0,0,0,,0,0,
+11128828,antwerpen,2000,379000,apartment,apartment,for sale,2,0,1,0,0,0,0,,0,0,GOOD
+11128342,gent-gentbrugge,9050,560000 - 640000,house group,house_group,for sale,,0,0,0,0,0,0,,0,0,
+11129291,gent,9000,495000 - 1325000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11128144,uccle,1180,595000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,TO_RENOVATE
+11128325,gent,9000,634946.59 - 1047510,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11135894,nessonvaux,4870,199000,house,house,for sale,4,0,1,0,0,0,true,,0,0,AS_NEW
+11136941,kluisbergen,9690,245000,house,house,for sale,3,0,1,0,0,0,true,,0,0,TO_RENOVATE
+11128291,uccle,1180,650000,house,house,for sale,4,0,1,0,0,40,true,,0,0,AS_NEW
+11136937,moerbeke,9500,259000,house,house,for sale,3,0,1,0,0,0,true,,0,0,TO_RENOVATE
+11128434,ixelles,1050,1150000,apartment,duplex,for sale,3,0,1,0,0,0,true,,0,0,AS_NEW
+11136542,braine-lalleud,1420,420000,house,house,for sale,3,0,1,0,0,200,true,,0,0,GOOD
+11136541,braine-lalleud,1420,420000,house,apartment_block,for sale,3,0,1,0,0,200,true,,0,0,GOOD
+11140955,ronse,9600,109000,house,house,for sale,3,0,1,0,0,20,0,,0,0,TO_RENOVATE
+11143179,schellebelle,9260,305000,house,exceptional_property,for sale,3,0,1,0,0,685,true,,0,0,TO_RENOVATE
+11155458,sint-denijs-westrem,9051,150000,apartment,apartment,for sale,1,0,1,0,0,0,true,,0,0,
+11155459,uccle,1180,1000000,house,mixed_use_building,for sale,4,0,1,0,0,0,0,,0,0,AS_NEW
+11155461,harelbeke,8530,299000,house,house,for sale,3,0,0,0,0,0,0,,0,0,GOOD
+11155444,orp-jauche,1350,474900,house,house,for sale,3,0,1,0,0,279,0,,0,0,AS_NEW
+11155433,orp-jauche,1350,319900,apartment,apartment,for sale,2,0,1,0,0,242,0,,0,0,AS_NEW
+11155437,orp-jauche,1350,349900,apartment,apartment,for sale,2,0,1,0,0,347,0,,0,0,AS_NEW
+11155424,orp-jauche,1350,314900,apartment,apartment,for sale,2,0,1,0,0,65,0,,0,0,AS_NEW
+11155420,orp-jauche,1350,379900,apartment,duplex,for sale,3,0,1,0,0,0,true,,0,0,AS_NEW
+11155441,orp-jauche,1350,499900,house,house,for sale,3,0,1,0,0,298,0,,0,0,AS_NEW
+11155422,orp-jauche,1350,269900,apartment,apartment,for sale,1,0,1,0,0,39,0,,0,0,AS_NEW
+11155418,orp-jauche,1350,349900,apartment,duplex,for sale,3,0,1,0,0,0,true,,0,0,AS_NEW
+11155429,orp-jauche,1350,329900,apartment,apartment,for sale,2,0,1,0,0,251,0,,0,0,AS_NEW
+11155388,waregem,8790,445000,house,villa,for sale,3,0,1,0,0,390,0,,0,0,AS_NEW
+11155416,orp-jauche,1350,369900,apartment,duplex,for sale,3,0,1,0,0,0,true,,0,0,AS_NEW
+11155386,deerlijk,8540,445000,house,villa,for sale,3,0,1,0,0,390,0,,0,0,AS_NEW
+11155412,orp-jauche,1350,269900,apartment,apartment,for sale,1,0,1,0,0,0,true,,0,0,AS_NEW
+11155413,orp-jauche,1350,349900,apartment,duplex,for sale,3,0,1,0,0,0,true,,0,0,AS_NEW
+11155384,zwijnaarde,9052,498000 - 595000,house group,house_group,for sale,,0,0,0,0,0,0,,0,0,
+11155385,beveren-leie,8791,445000,house,villa,for sale,3,0,1,0,0,390,0,,0,0,AS_NEW
+11155381,londerzeel,1840,499000,house,house,for sale,5,0,1,0,0,0,true,,0,0,TO_RENOVATE
+11155382,gent,9000,498000 - 595000,house group,house_group,for sale,,0,0,0,0,0,0,,0,0,
+11155383,zwijnaarde,9052,312000 - 685000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11155360,oostrozebeke,8780,389000,house,house,for sale,4,0,1,0,0,0,0,,0,0,TO_RENOVATE
+11155357,gent,9000,249000,house,house,for sale,4,0,0,0,0,0,0,,0,0,TO_BE_DONE_UP
+11155356,gent,9000,310000,house,house,for sale,3,0,0,0,0,0,0,,0,0,
+11155359,jette,1090,269000,apartment,apartment,for sale,3,0,0,0,0,0,true,,0,0,TO_RENOVATE
+11155362,oostduinkerke,8670,395000 - 795000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11125650,liege,4000,179000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11155372,middelkerke,8430,168000,apartment,apartment,for sale,1,0,0,0,0,0,0,,0,0,
+11126832,seraing,4100,157000 - 335000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11127856,aalst,9300,211950 - 498750,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11155355,wielsbeke,8710,270000,apartment,apartment,for sale,2,0,1,0,0,0,0,,0,0,
+11125628,antwerpen-berchem,2600,379500,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,JUST_RENOVATED
+11126262,lier,2500,279000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11126024,ixelles,1050,419000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,TO_BE_DONE_UP
+11127025,gooik,1755,269000,apartment,apartment,for sale,2,0,1,0,0,0,0,,0,0,JUST_RENOVATED
+11126529,kortrijk,8500,465000,apartment,loft,for sale,2,0,1,0,0,0,0,,0,0,GOOD
+11126550,etterbeek,1040,426000,apartment,apartment,for sale,2,0,1,0,0,0,0,,0,0,JUST_RENOVATED
+11147996,kortrijk,8500,185000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11147418,montegnee,4420,203683,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11125788,destelbergen,9070,565000 - 585000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11147736,middelkerke,8430,335000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11147415,montegnee,4420,210199,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11127467,uccle,1180,750000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,GOOD
+11146375,melle,9090,375000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11147354,forest,1190,435000,apartment,apartment,for sale,2,0,0,0,0,0,0,,0,0,GOOD
+11153219,herve,4650,325000,house,house,for sale,3,0,0,0,0,0,true,,0,0,AS_NEW
+11153345,wetteren,9230,376032,house,house,for sale,3,0,1,0,0,70,true,,0,0,AS_NEW
+11149948,berchem,2600,239000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,JUST_RENOVATED
+10820901,ciney,5590,370000,house,villa,for sale,4,0,1,0,0,0,true,,0,0,AS_NEW
+11138005,paliseul,6850,349000,house,house,for sale,6,0,1,0,0,0,true,,0,0,GOOD
+11135512,assenede,9960,265500,apartment,penthouse,for sale,1,0,1,0,0,0,true,,0,0,AS_NEW
+11136021,deinze,9800,325000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+10209483,saint-ghislain,7333,230455,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11136020,deinze,9800,420000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11030892,bruxelles,1000,223500,apartment,kot,for sale,0,0,1,0,0,0,0,,0,0,AS_NEW
+11136018,deinze,9800,375000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+10681373,dilbeek,1700,239500,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+10566159,saint-ghislain,7333,234455,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11155240,temse,9140,214000,house,house,for sale,2,0,1,0,0,0,0,,0,0,JUST_RENOVATED
+11155236,bruxelles,1000,360000,apartment,ground_floor,for sale,2,0,1,0,0,21,0,,0,0,AS_NEW
+11155239,blankenberge,8370,179000,apartment,apartment,for sale,2,0,0,0,0,0,0,,0,0,
+11155231,stembert,4801,315000,house,house,for sale,3,0,1,0,0,0,true,,0,0,
+11155241,ixelles,1050,179000,apartment,apartment,for sale,1,0,1,0,0,0,true,,0,0,TO_RENOVATE
+11155234,rixensart,1330,360000,house,house,for sale,3,0,1,0,0,100,true,,0,0,TO_BE_DONE_UP
+11155235,saint-josse-ten-noode,1210,360000,apartment,ground_floor,for sale,2,0,1,0,0,21,0,,0,0,AS_NEW
+11155232,mortier,4670,270000,house,house,for sale,4,0,0,0,0,0,true,,0,0,
+11155217,oud-heverlee%20haasrode,3053,474000,house,house,for sale,4,0,1,0,0,1000,true,,0,0,TO_RENOVATE
+11155228,mortier,4670,360000,house,house,for sale,4,0,0,0,0,0,true,,0,0,
+11155222,geraardsbergen,9500,172500,house,house,for sale,3,0,0,0,0,11,true,,0,0,JUST_RENOVATED
+11155227,brugge,8000,270000,house,house,for sale,3,0,1,0,0,0,0,,0,0,TO_RENOVATE
+11155204,drongen,9031,499000,house,house,for sale,4,0,1,0,0,600,0,,0,0,GOOD
+11155205,oudenaarde,9700,279000,apartment,apartment,for sale,1,0,1,0,0,54,true,,0,0,GOOD
+11079184,roeselare,8800,215143.65 - 261989.9,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11155201,roeselare,8800,259000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11155192,mouscron,7700,169000,house,house,for sale,4,0,1,0,0,40,true,,0,0,GOOD
+11155184,menen,8930,159000,house,house,for sale,4,0,0,0,0,0,0,,0,0,GOOD
+11155197,sint-idesbald,8670,385000,apartment,apartment,for sale,2,0,1,0,0,0,0,,0,0,GOOD
+11155185,h%C3%A9ron,4217,695000,house,house,for sale,2,0,0,0,0,0,0,,0,0,
+11155183,lendelede,8860,675000,house,house,for sale,4,0,0,0,0,0,0,,0,0,GOOD
+11155187,molenbeek-saint-jean,1080,219000 - 229000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11155195,gent,9000,449000,house,house,for sale,3,0,0,0,0,120,0,,0,0,GOOD
+11155180,ovifat%20-%20waimes,4950,285000,house,house,for sale,3,0,1,0,0,0,true,,0,0,TO_BE_DONE_UP
+10976843,ganshoren,1083,215000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,
+11135023,ixelles,1050,245000,apartment,apartment,for sale,1,0,1,0,0,0,0,,0,0,GOOD
+11155176,jette,1090,327000,house,house,for sale,3,0,1,0,0,0,true,,0,0,
+11050524,woluwe-saint-lambert,1200,245000,apartment,flat_studio,for sale,0,0,1,0,0,0,0,,0,0,AS_NEW
+11155175,gent,9000,524702,house,house,for sale,5,0,0,0,0,0,true,,0,0,GOOD
+11115396,anderlecht,1070,250000,apartment,apartment,for sale,1,0,1,0,0,0,true,,0,0,AS_NEW
+11155177,lendelede,8860,199000,house,house,for sale,4,0,0,0,0,539,0,,0,0,TO_RENOVATE
+11075591,evere,1140,269000,apartment,flat_studio,for sale,1,0,1,0,0,0,true,,0,0,AS_NEW
+10956596,evere,1140,259000,apartment,flat_studio,for sale,1,0,1,0,0,0,true,,0,0,AS_NEW
+10946836,woluwe-saint-lambert,1200,264000,apartment,flat_studio,for sale,0,0,1,0,0,0,0,,0,0,AS_NEW
+10955991,wavre,1300,298000,apartment,apartment,for sale,1,0,1,0,0,0,true,,0,0,AS_NEW
+10985415,waterloo,1410,297000,apartment,apartment,for sale,1,0,1,0,0,0,true,,0,0,AS_NEW
+10946835,woluwe-saint-lambert,1200,320000,apartment,apartment,for sale,1,0,1,0,0,0,0,,0,0,AS_NEW
+10794211,linter,3350,179000,house,house,for sale,3,0,0,0,0,406,true,,0,0,TO_RENOVATE
+10851160,ixelles,1050,323000,apartment,flat_studio,for sale,0,0,1,0,0,0,0,,0,0,AS_NEW
+11109502,bruxelles,1000,325000,apartment,apartment,for sale,2,0,1,0,0,0,0,,0,0,AS_NEW
+10201117,jambes,5100,323851,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,AS_NEW
+10905960,woluwe-saint-lambert,1200,330000,apartment,flat_studio,for sale,0,0,1,0,0,0,true,,0,0,AS_NEW
+11079147,evere,1140,349000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+10760351,jette,1090,355000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+10982551,braine-lalleud,1420,335000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+10428210,wavre,1300,345455,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11109501,bruxelles,1000,364000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11109500,bruxelles,1000,365000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11112291,anderlecht,1070,370000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,AS_NEW
+11050101,deinze,9800,363825,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11033003,woluwe-saint-lambert,1200,374000,apartment,apartment,for sale,1,0,1,0,0,0,true,,0,0,AS_NEW
+11075657,evere,1140,459000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,AS_NEW
+11012923,woluwe-saint-lambert,1200,436000,apartment,penthouse,for sale,1,0,1,0,0,0,true,,0,0,AS_NEW
+10894885,genappe,1470,440000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,AS_NEW
+10839928,woluwe-saint-lambert,1200,405000,apartment,apartment,for sale,1,0,1,0,0,0,true,,0,0,AS_NEW
+10918704,ixelles,1050,482000,apartment,loft,for sale,0,0,1,0,0,0,0,,0,0,AS_NEW
+11075660,evere,1140,469000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,AS_NEW
+11155173,knokke-heist,8300,649000,apartment,apartment,for sale,3,0,0,0,0,25,0,,0,0,GOOD
+11031814,halanzy,6792,499000,house,house,for sale,5,0,0,0,0,0,0,,0,0,TO_BE_DONE_UP
+11155162,beveren,9130,285000,apartment,ground_floor,for sale,2,0,0,0,0,450,0,,0,0,GOOD
+11155174,knokke-heist,8300,739000,apartment,apartment,for sale,2,0,0,0,0,0,0,,0,0,
+11155166,jambes,5100,469000,house,house,for sale,4,0,0,0,0,149,0,,0,0,TO_RENOVATE
+11155163,de%20haan,8420,95000,apartment,apartment,for sale,1,0,0,0,0,0,0,,0,0,GOOD
+10428214,wavre,1300,405455,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11155169,knokke,8300,1035000,apartment,duplex,for sale,2,0,0,0,0,0,0,,0,0,GOOD
+11155161,bree,3960,285000,house,house,for sale,3,0,0,0,0,0,0,,0,0,GOOD
+10865151,tiegem,8573,267500 - 370000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11155152,blankenberge,8370,199000,apartment,apartment,for sale,1,0,0,0,0,0,0,,0,0,GOOD
+11155151,gistel,8470,279000,house,house,for sale,3,0,0,0,0,0,0,,0,0,GOOD
+11155148,de%20haan,8420,215000,apartment,apartment,for sale,1,0,0,0,0,0,0,,0,0,GOOD
+11155145,bredene,8450,395000,house,house,for sale,2,0,0,0,0,0,true,,0,0,GOOD
+11155141,leuven,3000,175000,apartment,flat_studio,for sale,1,0,1,0,0,0,0,,0,0,GOOD
+11155144,de%20panne,8660,585000,house,house,for sale,3,0,0,0,0,0,true,,0,0,GOOD
+11155140,hoegaarden,3320,349000,house,house,for sale,3,0,1,0,0,0,0,,0,0,JUST_RENOVATED
+11155130,herenthout,2270,495000,house,apartment_block,for sale,4,0,1,0,0,0,true,,0,0,GOOD
+11155132,vorselaar,2290,165000,house,house,for sale,2,0,1,0,0,0,true,,0,0,TO_RESTORE
+11155139,hoegaarden,3320,339000,house,house,for sale,3,0,1,0,0,0,true,,0,0,JUST_RENOVATED
+11155131,vorselaar,2290,249000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11155138,burst,9420,190000,house,house,for sale,3,0,1,0,0,0,true,,0,0,TO_RESTORE
+11155127,sint-truiden,3800,275000,house,house,for sale,2,0,0,0,0,0,0,,0,0,
+11155129,herenthout,2270,349000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,AS_NEW
+11155102,boussu%20hornu,7301,220000,house,house,for sale,4,0,0,0,0,1050,true,,0,0,GOOD
+11155098,haaltert%20denderhoutem,9450,3295000,house,apartment_block,for sale,16,0,0,0,0,0,0,,0,0,TO_RENOVATE
+11155097,enghien,7850,270000,apartment,ground_floor,for sale,1,0,0,0,0,80,true,,0,0,
+11155072,rebecq,1430,495000,house,apartment_block,for sale,4,0,0,0,0,0,true,,0,0,
+11155061,mouscron,7700,560000,house,villa,for sale,4,0,0,0,0,0,true,,0,0,
+11155100,uccle,1180,275000,apartment,apartment,for sale,1,0,1,0,0,0,true,,0,0,AS_NEW
+11155056,jemeppe%20sur%20meuse,4101,368000,house,villa,for sale,6,0,0,0,0,0,0,,0,0,GOOD
+11050520,auderghem,1160,514500,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+10953424,blankenberge,8370,499000,apartment,duplex,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11109851,ixelles,1050,528000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+10985414,waterloo,1410,530000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+10830007,evere,1140,545000,apartment,apartment,for sale,3,0,1,0,0,0,0,,0,0,AS_NEW
+11015829,auderghem,1160,523500,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+10966239,evere,1140,529000,apartment,penthouse,for sale,3,0,1,0,0,0,true,,0,0,AS_NEW
+11099678,rhode-saint-genese,1640,556000,apartment,penthouse,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+10894886,genappe,1470,590000,apartment,duplex,for sale,4,0,1,0,0,0,true,,0,0,AS_NEW
+10839929,woluwe-saint-lambert,1200,610000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11012774,bruxelles,1000,595000,apartment,penthouse,for sale,1,0,1,0,0,0,true,,0,0,AS_NEW
+11010635,rhode-saint-genese,1640,695000,apartment,penthouse,for sale,3,0,1,0,0,0,true,,0,0,AS_NEW
+10946837,woluwe-saint-lambert,1200,619000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,AS_NEW
+10826308,waterloo,1410,658000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,AS_NEW
+11144326,sint-pieters-woluwe,1150,649000,house,house,for sale,4,0,1,0,0,25,true,,0,0,GOOD
+10850332,bruxelles,1000,600000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,AS_NEW
+11113353,leuven,3000,949000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+10853285,ixelles,1050,1795000,apartment,penthouse,for sale,3,0,1,0,0,0,true,,0,0,AS_NEW
+10863619,woluwe-saint-lambert,1200,780000,apartment,penthouse,for sale,3,0,1,0,0,0,true,,0,0,AS_NEW
+11015827,ixelles,1050,1195000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,AS_NEW
+10600053,uccle,1180,1360000,apartment,penthouse,for sale,3,0,1,0,0,0,true,,0,0,AS_NEW
+11113388,leuven,3000,895000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+10828566,auderghem,1160,1495000,apartment,penthouse,for sale,3,0,1,0,0,0,true,,0,0,AS_NEW
+11135245,knokke-heist,8300,2375000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,JUST_RENOVATED
+10772848,antwerpen,2000,2850000,apartment,penthouse,for sale,3,0,1,0,0,0,0,,0,0,AS_NEW
+11149072,courcelles,6180,249000,house,house,for sale,3,0,1,0,0,200,true,,0,0,GOOD
+11111910,ixelles,1050,3297000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,AS_NEW
+11149362,flemalle,4400,139000,house,house,for sale,4,0,1,0,0,25,true,,0,0,TO_RENOVATE
+11149500,marke,8510,545000,house,villa,for sale,3,0,1,0,0,0,true,,0,0,GOOD
+11148841,lennik,1750,375000,house,bungalow,for sale,2,0,1,0,0,500,0,,0,0,TO_BE_DONE_UP
+11155055,geraardsbergen,9500,398975,house,house,for sale,5,0,0,0,0,0,0,,0,0,GOOD
+11155054,veurne,8630,287500,house,house,for sale,3,0,0,0,0,0,0,,0,0,GOOD
+11155052,jambes,5100,199000,apartment,apartment,for sale,2,0,1,0,0,0,0,,0,0,JUST_RENOVATED
+10804654,lochristi,9080,642008,house,house,for sale,4,0,0,0,0,0,0,,0,0,
+11155053,aartrijke,8211,569995,house,country_cottage,for sale,3,0,0,0,0,0,0,,0,0,GOOD
+11155050,la%20louvi%C3%A8re%20haine-saint-pierre,7100,330000,house,villa,for sale,3,0,1,0,0,0,true,,0,0,
+11155051,sint-idesbald,8670,119500,apartment,apartment,for sale,1,0,1,0,0,0,true,,0,0,AS_NEW
+11155036,gent,9000,339000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,JUST_RENOVATED
+11155049,grimbergen,1853,250000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11155034,on,6900,329000,house,house,for sale,4,0,0,0,0,964,true,,0,0,GOOD
+11155027,falaen,5522,595000,house,exceptional_property,for sale,6,0,1,0,0,0,true,,0,0,JUST_RENOVATED
+11155031,temploux,5020,465000,house,villa,for sale,4,0,1,0,0,0,true,,0,0,GOOD
+10904920,limbourg,4830,270000,house,house,for sale,7,0,0,0,0,0,0,,0,0,AS_NEW
+11154996,berchem-sainte-agathe,1082,260000,apartment,penthouse,for sale,1,0,1,0,0,0,true,,0,0,
+11155022,dour,7370,185000,house,house,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11155008,izegem,8870,125000,house,house,for sale,3,0,0,0,0,0,true,,0,0,GOOD
+11154995,berchem-sainte-agathe,1082,260000,apartment,apartment,for sale,1,0,1,0,0,0,true,,0,0,
+11154994,hasti%C3%A8re,5540,225000,house,house,for sale,2,0,0,0,0,500,0,,0,0,
+11154990,dison,4820,349000,house,villa,for sale,4,0,1,0,0,0,true,,0,0,TO_BE_DONE_UP
+11154991,malle,2390,449900,house,house,for sale,5,0,0,0,0,500,0,,0,0,JUST_RENOVATED
+11154993,hasti%C3%A8re,5540,225000,house,house,for sale,2,0,0,0,0,500,0,,0,0,
+11154988,waimes,4950,175000,house,house,for sale,2,0,1,0,0,0,true,,0,0,JUST_RENOVATED
+11154987,evere,1140,279000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,GOOD
+11154986,ekeren,2180,2917416,house,apartment_block,for sale,15,0,1,0,0,0,0,,0,0,
+10718987,aubange,6790,465000,house,house,for sale,4,0,1,0,0,70,true,,0,0,
+11155024,frameries,7080,130000,house,house,for sale,3,0,1,0,0,100,true,,0,0,TO_BE_DONE_UP
+11154980,colfontaine,7340,129000,house,house,for sale,4,0,1,0,0,70,true,,0,0,TO_BE_DONE_UP
+11153103,berchem,2600,269000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11154976,saint-nicolas,4420,205000,house,house,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11154982,bruxelles,1000,399000,apartment,duplex,for sale,2,0,0,0,0,0,0,,0,0,AS_NEW
+11138570,forest,1190,275000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11137880,deinze,9800,439000,house,villa,for sale,3,0,1,0,0,0,true,,0,0,AS_NEW
+11137881,deinze,9800,439000,house,villa,for sale,3,0,1,0,0,0,true,,0,0,AS_NEW
+11137882,deinze,9800,399500,house,villa,for sale,3,0,1,0,0,0,true,,0,0,AS_NEW
+11151436,braine-lalleud,1420,1995000,house,villa,for sale,6,0,1,0,0,0,true,,0,0,AS_NEW
+11151580,lillois-witterzee,1428,1995000,house,villa,for sale,6,0,1,0,0,0,true,,0,0,AS_NEW
+11124085,willebroek,2830,275000,apartment,apartment,for sale,2,0,1,0,0,0,0,,0,0,GOOD
+11123963,de-panne,8660,187000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,TO_RESTORE
+11124309,geest-gerompont-petit-rosiere,1367,370000 - 470000,house group,house_group,for sale,,0,0,0,0,0,0,,0,0,
+11123021,sprimont,4140,379900,house,house,for sale,3,0,1,0,0,367,true,,0,0,AS_NEW
+11122935,auderghem,1160,480000 - 655000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11123006,koekelberg,1081,215000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,TO_BE_DONE_UP
+11122971,waterloo,1410,495000,house,bungalow,for sale,3,0,1,0,0,0,true,,0,0,GOOD
+11124372,woluwe-saint-pierre,1150,681000 - 739000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11150518,gavere,9890,356147,house,house,for sale,3,0,1,0,0,131,true,,0,0,AS_NEW
+11133640,anderlecht,1070,399000,house,house,for sale,3,0,1,0,0,125,true,,0,0,GOOD
+11144100,ixelles,1050,150000,apartment,flat_studio,for sale,0,0,1,0,0,0,0,,0,0,GOOD
+11134159,esneux,4130,349000,house,house,for sale,5,0,1,0,0,160,true,,0,0,TO_RENOVATE
+11133901,uccle,1180,499000,house,house,for sale,2,0,1,0,0,0,0,,0,0,AS_NEW
+11150517,gavere,9890,364163,house,house,for sale,3,0,1,0,0,158,true,,0,0,AS_NEW
+11150520,gavere,9890,386889,house,house,for sale,3,0,1,0,0,49,true,,0,0,AS_NEW
+11150521,gavere,9890,369173,house,house,for sale,3,0,1,0,0,172,true,,0,0,AS_NEW
+11150519,gavere,9890,388789,house,house,for sale,3,0,1,0,0,53,true,,0,0,AS_NEW
+11149318,liege,4000,189000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,GOOD
+11149740,laken,1020,274000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11149174,rochefort,5580,189000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11149382,brugge,8000,395000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11154974,bruxelles%20%208,1080,199000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,
+11148736,ixelles,1050,595000,apartment,apartment,for sale,3,0,1,0,0,0,0,,0,0,AS_NEW
+11133788,woluwe-saint-pierre,1150,335000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,TO_BE_DONE_UP
+11154971,antwerpen,2140,252000,apartment,apartment,for sale,1,0,1,0,0,0,true,,0,0,
+11154960,haasdonk,9120,269000,house,house,for sale,3,0,1,0,0,166,0,,0,0,GOOD
+11154959,heusy,4802,248000,house,house,for sale,4,0,0,0,0,0,0,,0,0,
+11154964,zele,9240,495000,apartment,apartment,for sale,3,0,0,0,0,0,true,,0,0,
+11154955,beyne-heusay%20queue-du-bois,4610,450000,house,house,for sale,4,0,1,0,0,400,true,,0,0,AS_NEW
+11154961,zwevezele,8750,950000,house,house,for sale,4,0,0,0,0,0,true,,0,0,
+11154913,oud-turnhout,2360,272000 - 513190,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11138827,lint,2547,549000,house,house,for sale,3,0,1,0,0,380,0,,0,0,
+11154903,oud-turnhout,2360,499000,house,house,for sale,5,0,1,0,0,60,true,,0,0,
+11154902,turnhout,2300,288900,apartment,ground_floor,for sale,2,0,1,0,0,0,true,,0,0,
+11039328,uccle,1180,545000,apartment,penthouse,for sale,2,0,1,0,0,0,true,,0,0,
+11154904,oud-turnhout,2360,450000,house,house,for sale,5,0,1,0,0,60,true,,0,0,
+11154896,dessel,2480,345000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,GOOD
+11154906,oud-turnhout,2360,450000 - 499000,house group,house_group,for sale,,0,0,0,0,0,0,,0,0,
+11154901,kain,7540,280000,house,house,for sale,3,0,1,0,0,850,true,,0,0,GOOD
+11154899,turnhout,2300,409000,house,house,for sale,4,0,1,0,0,0,true,,0,0,GOOD
+11154895,ny,6990,75000,apartment,penthouse,for sale,1,0,1,0,0,0,true,,0,0,GOOD
+11154893,ekeren,2180,550000,house,apartment_block,for sale,3,0,0,0,0,100,0,,0,0,TO_RENOVATE
+11154885,wemmel,1780,505000,house,house,for sale,3,0,0,0,0,0,true,,0,0,
+11154894,haaltert,9450,240000,apartment,ground_floor,for sale,2,0,1,0,0,0,true,,0,0,
+11154886,wemmel,1780,525000,house,house,for sale,3,0,0,0,0,0,true,,0,0,
+11154891,antwerp,2000,326000,apartment,apartment,for sale,2,0,0,0,0,0,true,,0,0,
+11154887,erpe-mere,9420,499000,house,villa,for sale,4,0,0,0,0,0,0,,0,0,
+11154879,herstal,4040,145000,apartment,apartment,for sale,1,0,1,0,0,0,true,,0,0,GOOD
+11154892,antwerp,2000,425000,house,house,for sale,3,0,1,0,0,0,0,,0,0,TO_RENOVATE
+11154882,koksijde,8670,469000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,AS_NEW
+11154883,schaerbeek,1030,390000,house,house,for sale,4,0,1,0,0,0,0,,0,0,GOOD
+11154878,molenbeek-saint-jean,1080,215000,apartment,apartment,for sale,2,0,1,0,0,0,0,,0,0,GOOD
+11154884,waregem,8790,265000,house,house,for sale,2,0,0,0,0,0,0,,0,0,
+11050526,evere,1140,325000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11154663,uccle,1180,1295000,apartment,penthouse,for sale,3,0,1,0,0,0,true,,0,0,AS_NEW
+11140881,gavere,9890,269700,apartment,apartment,for sale,1,0,1,0,0,0,true,,0,0,AS_NEW
+11155394,deinze,9800,213000 - 465000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11140880,gavere,9890,275450,apartment,apartment,for sale,1,0,1,0,0,0,true,,0,0,AS_NEW
+11153142,ixelles,1050,247500,apartment,flat_studio,for sale,0,0,1,0,0,0,true,,0,0,AS_NEW
+9466117,beveren-leie,8791,290500 - 464000,house group,house_group,for sale,,0,0,0,0,0,0,,0,0,
+11012764,evere,1140,525000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,AS_NEW
+11140883,gavere,9890,438875,apartment,duplex,for sale,3,0,1,0,0,0,true,,0,0,AS_NEW
+11140882,gavere,9890,442375,apartment,duplex,for sale,3,0,1,0,0,0,true,,0,0,AS_NEW
+11153335,gentbrugge,9050,467000 - 547500,house group,house_group,for sale,,0,0,0,0,0,0,,0,0,
+11153221,ixelles,1050,395000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11155146,mariakerke,9030,429250 - 439750,house group,house_group,for sale,,0,0,0,0,0,0,,0,0,
+11140887,gavere,9890,373650,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11153322,gent-sint-denijs-westrem,9051,1016000 - 1372000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11140879,gavere,9890,377150,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,AS_NEW
+11151708,helecine,1357,136500 - 246500,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11152298,brussels-city,1000,165000,apartment,flat_studio,for sale,0,0,1,0,0,0,0,,0,0,GOOD
+11152299,brussels-city,1000,195000,apartment,apartment,for sale,1,0,1,0,0,0,true,,0,0,GOOD
+11135884,blankenberge,8370,199000,apartment,apartment,for sale,2,0,1,0,0,0,0,,0,0,AS_NEW
+11150748,anderlecht,1070,184900,apartment,apartment,for sale,2,0,1,0,0,0,0,,0,0,TO_RENOVATE
+11044025,namur,5000,208000 - 355000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11140877,gavere,9890,419760,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11152186,herentals,2200,205000 - 495000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11153826,hoboken,2660,210000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,JUST_RENOVATED
+10332223,maisieres,7020,236000 - 339000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+10730837,soignies,7060,228000 - 345000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11155187,molenbeek-saint-jean,1080,219000 - 229000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11156909,durbuy,6940,290000,house,house,for sale,3,0,1,0,0,0,0,,0,0,
+11156907,lennik,1750,685000,house,villa,for sale,3,0,0,0,0,0,0,,0,0,
+10630994,mons,7000,236000 - 348000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11156905,assenede,9960,325000,house,house,for sale,4,0,1,0,0,0,true,,0,0,
+10998947,jambes,5100,225000 - 495000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11156901,chastre,1450,450000,house,house,for sale,4,0,1,0,0,1133,true,,0,0,GOOD
+11156900,brunehaut,7620,330000,house,house,for sale,4,0,1,0,0,0,0,,0,0,
+11156889,blankenberge,8370,170000,apartment,flat_studio,for sale,1,0,1,0,0,0,0,,0,0,GOOD
+11156891,vlezenbeek,1602,850000,house,house,for sale,5,0,1,0,0,0,true,,0,0,JUST_RENOVATED
+11156892,sint-pieters-leeuw,1600,850000,house,house,for sale,5,0,1,0,0,0,true,,0,0,JUST_RENOVATED
+11156888,herseaux,7712,219000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11156884,binche,7130,173568,apartment,apartment,for sale,1,0,0,0,0,0,0,,0,0,AS_NEW
+11156894,haut-fays,6929,219500,house,house,for sale,3,0,1,0,0,0,0,,0,0,
+11156885,binche,7130,185712,apartment,apartment,for sale,1,0,0,0,0,0,0,,0,0,AS_NEW
+11156898,hasti%C3%A8re-lavaux,5540,213000,house,house,for sale,3,0,1,0,0,0,0,,0,0,
+11156882,binche,7130,185712,apartment,apartment,for sale,1,0,0,0,0,0,0,,0,0,AS_NEW
+11156883,binche,7130,173568,apartment,apartment,for sale,1,0,0,0,0,0,0,,0,0,AS_NEW
+11156880,binche,7130,275520,apartment,apartment,for sale,3,0,0,0,0,0,0,,0,0,
+11156881,binche,7130,173520,apartment,apartment,for sale,1,0,0,0,0,0,0,,0,0,
+11156879,binche,7130,225114,apartment,apartment,for sale,1,0,0,0,0,0,0,,0,0,
+11155568,geraardsbergen,9500,157000,house,mixed_use_building,for sale,3,0,1,0,0,0,0,,0,0,TO_BE_DONE_UP
+11156874,st-mard,6762,336500,house,house,for sale,3,0,1,0,0,0,0,,0,0,
+11155565,geraardsbergen,9500,157000,house,house,for sale,3,0,1,0,0,0,0,,0,0,TO_BE_DONE_UP
+11156877,haine-saint-pierre,7100,139000,house,house,for sale,3,0,1,0,0,116,0,,0,0,GOOD
+11156875,vergnies,6440,165000,house,villa,for sale,4,0,1,0,0,0,true,,0,0,GOOD
+11156872,vilvoorde,1800,324900,house,house,for sale,3,0,1,0,0,0,0,,0,0,
+11156869,molenbeek-saint-jean,1080,535000,apartment,penthouse,for sale,3,0,1,0,0,0,true,,0,0,
+11156866,rivi%C3%A8re,5170,330500,house,house,for sale,3,0,1,0,0,0,0,,0,0,
+11156871,desselgem,8792,265000,apartment,apartment,for sale,2,0,0,0,0,0,0,,0,0,
+11156867,st-mard,6762,355500,house,house,for sale,3,0,1,0,0,0,0,,0,0,
+11156858,beveren,9120,175000,house,house,for sale,3,0,0,0,0,0,true,,0,0,TO_RENOVATE
+10769070,estaimpuis,7730,1690000,house,farmhouse,for sale,6,0,1,0,0,0,true,,0,0,AS_NEW
+11046719,lillois-witterzee,1428,239000 - 395000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11056242,nivelles,1400,239000 - 395000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11154851,watermael-boitsfort,1170,249000,apartment,apartment,for sale,1,0,1,0,0,0,true,,0,0,GOOD
+11049892,braine-lalleud,1420,239000 - 395000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11124681,mons,7000,255000 - 299000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+10947087,saint-symphorien,7030,255000 - 296000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11152551,gent,9000,255000 - 400000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11152550,gent,9000,255000 - 400000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11152549,wetteren,9230,260000 - 410000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11152248,bruxelles,1000,289000,apartment,apartment,for sale,1,0,1,0,0,0,0,,0,0,GOOD
+11150545,gent,9000,260000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+10946278,arlon,6700,345000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11151762,forest,1190,275000,apartment,apartment,for sale,2,0,1,0,0,0,0,,0,0,AS_NEW
+11153848,uccle,1180,340000,apartment,apartment,for sale,1,0,1,0,0,0,0,,0,0,AS_NEW
+11152264,berlaar,2590,319500 - 319500,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11064472,forest,1190,350000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,GOOD
+11150522,gavere,9890,356147.12 - 388789.12,house group,house_group,for sale,,0,0,0,0,0,0,,0,0,
+10882093,godinne,5530,385000 - 399000,house group,house_group,for sale,,0,0,0,0,0,0,,0,0,
+10739253,ranst-broechem,2520,384946 - 486068,house group,house_group,for sale,,0,0,0,0,0,0,,0,0,
+11151131,steenokkerzeel,1820,475000,house,house,for sale,3,0,1,0,0,0,true,,0,0,GOOD
+10919288,wilsele,3012,405000 - 490000,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11151746,laakdal,2430,397660 - 397660,house group,house_group,for sale,,0,0,0,0,0,0,,0,0,
+11150513,gent-gentbrugge,9050,560000 - 640000,house group,house_group,for sale,,0,0,0,0,0,0,,0,0,
+9979266,leuven,3000,561357 - 1883621,apartment group,apartment_group,for sale,,0,0,0,0,0,0,,0,0,
+11150480,gent,9000,625000,apartment,apartment,for sale,3,0,1,0,0,0,true,,0,0,TO_RENOVATE
+11148725,anderlecht,1070,289500,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+10699181,blankenberge,8370,279000,apartment,apartment,for sale,1,0,1,0,0,0,true,,0,0,GOOD
+10753483,mouscron,7700,445000,house,house,for sale,5,0,1,0,0,1860,true,,0,0,GOOD
+11154117,uccle,1180,670000,house,house,for sale,4,0,1,0,0,145,true,,0,0,TO_BE_DONE_UP
+11151417,grivegnee,4030,139000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,TO_BE_DONE_UP
+11156852,lier,2500,1495000,house,exceptional_property,for sale,8,0,1,0,0,0,true,,0,0,GOOD
+10978215,bornem,2880,465000,apartment,apartment,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11156856,courcelles,6180,130000,house,house,for sale,4,0,0,0,0,301,true,,0,0,TO_RENOVATE
+11156844,oostkamp,8020,545000,house,house,for sale,3,0,1,0,0,0,true,,0,0,
+10953473,rekkem,8930,425000,apartment,penthouse,for sale,3,0,1,0,0,0,true,,0,0,AS_NEW
+11076640,werchter,3118,605000 - 640000,house group,house_group,for sale,,0,0,0,0,0,0,,0,0,
+11156843,merelbeke,9820,315000,house,house,for sale,3,0,1,0,0,0,true,,0,0,GOOD
+11156845,oostkamp,8020,539000,house,house,for sale,3,0,1,0,0,0,true,,0,0,
+11156842,gent,9000,495000,house,house,for sale,4,0,1,0,0,0,true,,0,0,AS_NEW
+11156839,lubbeek%20linden,3210,399000,house,house,for sale,2,0,1,0,0,0,true,,0,0,AS_NEW
+11156831,hachy,6720,345500,house,house,for sale,3,0,1,0,0,0,0,,0,0,
+11156838,liege,4000,239000,house,apartment_block,for sale,3,0,1,0,0,130,true,,0,0,GOOD
+11156828,ch%C3%A2telineau,6200,240000,house,house,for sale,3,0,1,0,0,226,true,,0,0,GOOD
+11156837,beyne-heusay%20bellaire,4610,289900,house,house,for sale,3,0,1,0,0,50,true,,0,0,GOOD
+11156829,marcinelle,6001,69000,apartment,apartment,for sale,1,0,1,0,0,0,true,,0,0,GOOD
+11156826,turnhout,2300,580000,apartment,duplex,for sale,6,0,0,0,0,0,true,,0,0,GOOD
+11156827,tarcienne,5651,165000,house,house,for sale,2,0,0,0,0,0,0,,0,0,TO_BE_DONE_UP
+11156824,anderlecht,1070,250000,apartment,penthouse,for sale,1,0,1,0,0,0,true,,0,0,
+11156823,anderlecht,1070,248000,apartment,apartment,for sale,1,0,1,0,0,0,true,,0,0,
+11156819,machelen,1830,235000,apartment,apartment,for sale,2,0,0,0,0,0,true,,0,0,AS_NEW
+11156818,aarschot,3200,205000,apartment,service_flat,for sale,1,0,0,0,0,0,0,,0,0,AS_NEW
+11156815,haine-saint-paul,7100,229000,house,house,for sale,4,0,1,0,0,100,true,,0,0,GOOD
+11156821,blandain,7522,266000,house,house,for sale,3,0,1,0,0,0,0,,0,0,
+11156812,li%C3%A8ge,4030,234000,house,house,for sale,2,0,1,0,0,68,true,,0,0,GOOD
+11156814,carnieres,7141,349000,house,house,for sale,3,0,1,0,0,0,true,,0,0,GOOD
+11156811,oupeye,4683,210000,house,house,for sale,3,0,1,0,0,235,true,,0,0,TO_RENOVATE
+11156803,merksplas,2330,145000,house,chalet,for sale,2,0,0,0,0,240,true,,0,0,GOOD
+11156801,mechelen,2800,899000,house,mixed_use_building,for sale,10,0,1,0,0,0,true,,0,0,AS_NEW
+11156805,antwerp,2000,270000,apartment,apartment,for sale,1,0,0,0,0,0,true,,0,0,AS_NEW
+11156807,woluwe-saint-pierre,1150,1895000,house,house,for sale,7,0,1,0,0,0,true,,0,0,GOOD

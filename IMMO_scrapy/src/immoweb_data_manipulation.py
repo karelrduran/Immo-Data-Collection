@@ -1,4 +1,4 @@
-class DataManipulation:
+class IMMOWebDataManipulation:
     @classmethod
     def clean_data(cls) -> None:
         pass
