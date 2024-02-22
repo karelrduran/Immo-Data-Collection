@@ -1,4 +1,4 @@
-# Immo Eliza / Data Collection
+# Immo Eliza / Data Collection (MVP)
 
 [![forthebadge made-with-python](https://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
@@ -49,12 +49,19 @@ python3 main.py
 
 ## Program output
 
-The program's output is a dataset containing information about 12,000 properties all over Belgium.
+The program's output is a dataset containing information about approx 12,000 properties all over Belgium.
 
-Step 1 - a csv file with ~19,000 unique property urls
-Step 2 - a json file with
-Step 3 - a csv file with 
+**Step 1**: a csv file with ~19,000 unique property urls
 
+![20k-urls](first-csv.jpg)
+
+**Step 2**: a json file with 11,879 unique properties and 44 data points per property
+
+![json-dump](final-json.png)
+
+**Step 3**: a csv file with data about 11,879 properties in Belgium - ⚠️ to be further processed
+
+![csv-output](final-csv.png)
 
 ## 📂 Project background & timeline
 
