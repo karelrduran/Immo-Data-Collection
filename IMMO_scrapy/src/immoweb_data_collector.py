@@ -38,7 +38,7 @@ class IMMOWebDataCollector(object):
     @classmethod
     def get_properties_data(cls, response):
         script_content = response.xpath('//script[contains(text(),"window.dataLayer")]/text()').get()
-        # script_content = response.xpath('//script[contains(text(),"window.classified")]/text()').get()
+        # script_content = response.xpath('//script[contains(text(),"window.classified")]/text()').get()pwd
 
         data_layer = []
         av_items = []
@@ -56,14 +56,7 @@ class IMMOWebDataCollector(object):
             if match is not None:
                 av_items_json = match.group(1)
                 av_items = json.loads(av_items_json)
-        print("av_item start________________")
-        print(type(av_items))
-        print(av_items)
-        print("av_item end________________")
-        print("datalayer start________________")
-        print(type(data_layer))
-        print(data_layer)
-        print("datalayer end________________")
+
 
         split_url = response.url.split('/')
 
