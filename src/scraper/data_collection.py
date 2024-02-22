@@ -39,10 +39,22 @@ class DataCollector:
         return all_urls
 
     def get_data_from_html(self, html: str):
-        response = self.session.get(html)
-        regex = r"(<script type=\"text/javascript\">\n\s+window\.classified = )(.*)"
-        match = re.search(regex, response.text)
-        return json.loads(match.group(2)[:-1])
+        while True:
+            try:
+                response = self.session.get(html)
+                regex = (
+                    r"(<script type=\"text/javascript\">\n\s+window\.classified = )(.*)"
+                )
+                match = re.search(regex, response.text)
+                return json.loads(match.group(2)[:-1])
+            except Exception:
+                continue
+
+    def check_existant(self, id: str):
+        with open("data.json", "r", encoding="utf-8") as file:
+            if str(id) in file.read():
+                return True
+        return False
 
     def estate_check(self, data: dict):
         """
@@ -51,6 +63,7 @@ class DataCollector:
         self.data = data
         cluster = data.get("cluster")
         if cluster is None:
+            # if self.check_existant(data.get("id")) == False:
             DataManipulation().get_data(data)
         else:
             unitlist = []
@@ -71,4 +84,6 @@ class DataCollector:
                     baseurl = f"https://www.immoweb.be/en/classified/{housetype}/for-sale/{locality}/{postalcode}/{id}"
                     unitlist.append(baseurl)
             for unit in unitlist:
-                DataManipulation().get_data(self.get_data_from_html(unit))
+                rawdata = self.get_data_from_html(unit)
+                if self.check_existant(rawdata.get("id")) == False:
+                    DataManipulation().get_data(rawdata)
