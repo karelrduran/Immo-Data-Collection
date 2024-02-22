@@ -1,6 +1,7 @@
 from .data_output import DataOutput
 
 
+
 class DataManipulation:
     def __init__(self):
         pass
@@ -30,168 +31,66 @@ class DataManipulation:
         return current_level if current_level is not None else default
 
     def get_data(self, data: dict) -> dict:
-        self.data = data
         """
         receives the raw data from the window.classified json and returns a dictionary with the fields that we want to keep
         """
-        if not isinstance(data, dict):
-            raise ValueError("data must be a dictionary")
-
         # logic is not exact as item that are NOTARY_SALE and LIFE_ANNUITY_SALE will only be marked as LIFE_ANNUITY_SALE,
         # but it doesn't matter because we are only interested in NORMAL_SALE and not NORMAL_SALE
-        sale_type = "NORMAL_SALE"
+        sale_type = 'NORMAL_SALE'
         if self.safeget(data, ["flags", "isLifeAnnuitySale"], default=None):
-            sale_type = "LIFE_ANNUITY_SALE"
+            sale_type = 'LIFE_ANNUITY_SALE'
         elif self.safeget(data, ["flags", "isPublicSale"], default=None):
-            sale_type = "PUBLIC_SALE"
+            sale_type = 'PUBLIC_SALE'
         elif self.safeget(data, ["flags", "isNotarySale"], default=None):
-            sale_type = "NOTARY_SALE"
+            sale_type = 'NOTARY_SALE'
 
-        new_data = {}
-        # do not self.safeget the id, so it will raise an AttributeError if it does not exist
-        new_data["ID"] = data["id"]
-        new_data["Locality"] = self.safeget(
-            data, ["property", "location", "locality"], default=None
-        )
-        new_data["Postal Code"] = self.safeget(
-            data, ["property", "location", "postalCode"], default=None
-        )
-        new_data["Build Year"] = self.safeget(
-            data, ["property", "building", "constructionYear"], default=None
-        )
-        new_data["Facades"] = self.safeget(
-            data, ["property", "building", "facadeCount"], default=None
-        )
-        new_data["Habitable Surface"] = self.safeget(
-            data, ["property", "netHabitableSurface"], default=None
-        )
-        new_data["Land Surface"] = self.safeget(
-            data, ["property", "land", "surface"], default=None
-        )  # needs some work
-        new_data["Type"] = self.safeget(data, ["property", "type"], default=None)
-        new_data["Subtype"] = self.safeget(data, ["property", "subtype"], default=None)
-        new_data["Price"] = self.safeget(data, ["price", "mainValue"], default=None)
-        new_data["Sale Type"] = sale_type
-        new_data["Bedroom Count"] = self.safeget(
-            data, ["property", "bedroomCount"], default=None
-        )
-        new_data["Bathroom Count"] = self.safeget(
-            data, ["property", "bathroomCount"], default=None
-        )
-        new_data["Toilet Count"] = self.safeget(
-            data, ["property", "toiletCount"], default=None
-        )
+        new_data = {
+            'immoweb_id': data['id'], 'location': self.safeget(data, ["property", "location", "locality"], default=None),
+            'postal_code': self.safeget(data, ["property", "location", "postalCode"], default=None),
+            'build_year': self.safeget(data, ["property", "building", "constructionYear"], default=None),
+            'wall_count': self.safeget(data, ["property", "building", "facadeCount"], default=None),
+            'habitable_surface': self.safeget(data, ["property", "netHabitableSurface"], default=None),
+            'land_surface': self.safeget(data, ["property", "land", "surface"], default=None),
+            'property_type': self.safeget(data, ["property", "type"], default=None),
+            'subtype': self.safeget(data, ["property", "subtype"], default=None),
+            'price': self.safeget(data, ["price", "mainValue"], default=None), 'sale_type': sale_type,
+            'bedroom_count': self.safeget(data, ["property", "bedroomCount"], default=None),
+            'bathroom_count': self.safeget(data, ["property", "bathroomCount"], default=None),
+            'toilet_count': self.safeget(data, ["property", "toiletCount"], default=None),
+            "kitchen_exists": True if self.safeget(data, ["property", "kitchen", "type"], default=False) else False,
+            'kitchen_surface': self.safeget(data, ["property", "kitchen", "surface"], default=None),
+            'kitchen_type': self.safeget(data, ["property", "kitchen", "type"], default=None),
+            'furnish_exists': True if self.safeget(data, ["transaction", "sale", "isFurnished"],
+                                              default=False) else False,
+            'fireplace_exists': True if self.safeget(data, ["property", "fireplaceExists"], default=False) else False,
+            'fireplace_count': self.safeget(data, ["property", "fireplaceCount"], default=None),
+            'terrace_exists': True if self.safeget(data, ["property", "hasTerrace"], default=False) else False,
+            'terrace_surface': self.safeget(data, ["property", "terraceSurface"], default=None),
+            'terrace_orientation': self.safeget(data, ["property", "terraceOrientation"], default=None),
+            'garden_exists': True if self.safeget(data, ["property", "hasGarden"], default=False) else False,
+            'garden_surface': self.safeget(data, ["property", "gardenSurface"], default=None),
+            'garden_orientation': self.safeget(data, ["property", "gardenOrientation"], default=None),
+            'swimming_pool': self.safeget(data, ["property", "hasSwimmingPool"], default=None),
+            'state_of_building': self.safeget(data, ["property", "building", "condition"], default=None),
+            "living_surface": self.safeget(data, ["property", "livingRoom", "surface"], default=None),
+            "epc": self.safeget(data, ["transaction", "certificates", "epcScore"], default=None),
+            'cadastral_income': self.safeget(data, ["transaction", "sale", "cadastralIncome"], default=None),
+            'has_starting_price': self.safeget(data, ["transaction", "sale", "hasStartingPrice"], default=None),
+            'transaction_subtype': self.safeget(data, ["transaction", "subtype"], default=None),
+            'heating_type': self.safeget(data, ["property", "energy", "heatingType"], default=None),
+            'is_holiday_property': self.safeget(data, ["property", "isHolidayProperty"], default=None),
+            'gas_water_electricity_exists': self.safeget(data, ["property", "land", "hasGasWaterElectricityConnection"],
+                                                    default=None),
+            'sewer_exists': self.safeget(data, ["property", "land", "sewerConnection"], default=None),
+            'sea_view_exists': self.safeget(data, ["property", "location", "hasSeaView"], default=None),
+            'parking_count_inside': self.safeget(data, ["property", "parkingCountIndoor"], default=None),
+            'parking_count_outside': self.safeget(data, ["property", "parkingCountOutdoor"], default=None),
+            'room_count': 0
+        }
 
-        new_data["Room Count"] = 0
-        new_data["Room Count"] += (
-            new_data["Bedroom Count"] if new_data["Bedroom Count"] else 0
-        )
-        new_data["Room Count"] += (
-            new_data["Bathroom Count"] if new_data["Bathroom Count"] else 0
-        )
-        new_data["Room Count"] += (
-            new_data["Toilet Count"] if new_data["Toilet Count"] else 0
-        )
-        new_data["Room Count"] = (
-            new_data["Room Count"] if new_data["Room Count"] else None
-        )
+        new_data['room_count'] += new_data['bedroom_count'] if new_data['bedroom_count'] else 0
+        new_data['room_count'] += new_data['bathroom_count'] if new_data['bathroom_count'] else 0
+        new_data['room_count'] += new_data['toilet_count'] if new_data['toilet_count'] else 0
+        new_data['room_count'] = new_data['room_count'] if new_data['room_count'] else None
 
-        new_data["Kitchen"] = (
-            True
-            if self.safeget(data, ["property", "kitchen", "type"], default=False)
-            else False
-        )
-        new_data["Kitchen Surface"] = self.safeget(
-            data, ["property", "kitchen", "surface"], default=None
-        )
-        new_data["Kitchen Type"] = self.safeget(
-            data, ["property", "kitchen", "type"], default=None
-        )
-        new_data["Furnished"] = (
-            True
-            if self.safeget(data, ["transaction", "sale", "isFurnished"], default=False)
-            else False
-        )
-        new_data["Openfire"] = (
-            True
-            if self.safeget(data, ["property", "fireplaceExists"], default=False)
-            else False
-        )
-        new_data["Fireplace Count"] = self.safeget(
-            data, ["property", "fireplaceCount"], default=None
-        )
-        new_data["Terrace"] = (
-            True
-            if self.safeget(data, ["property", "hasTerrace"], default=False)
-            else False
-        )
-        new_data["Terrace Surface"] = self.safeget(
-            data, ["property", "terraceSurface"], default=None
-        )
-        new_data["Terrace Orientation"] = self.safeget(
-            data, ["property", "terraceOrientation"], default=None
-        )
-        new_data["Garden Exists"] = (
-            True
-            if self.safeget(data, ["property", "hasGarden"], default=False)
-            else False
-        )
-        new_data["Garden Surface"] = self.safeget(
-            data, ["property", "gardenSurface"], default=None
-        )
-        new_data["Garden Orientation"] = self.safeget(
-            data, ["property", "gardenOrientation"], default=None
-        )
-        new_data["Swimming Pool"] = self.safeget(
-            data, ["property", "hasSwimmingPool"], default=None
-        )
-        new_data["State of Building"] = self.safeget(
-            data, ["property", "building", "condition"], default=None
-        )
-        new_data["Living Surface"] = self.safeget(
-            data, ["property", "livingRoom", "surface"], default=None
-        )
-
-        new_data["EPC"] = self.safeget(
-            data, ["transaction", "certificates", "epcScore"], default=None
-        )
-        new_data["Consumption Per m2"] = self.safeget(
-            data,
-            ["transaction", "certificates", "primaryEnergyConsumptionPerSqm"],
-            default=None,
-        )
-        new_data["Cadastral Income"] = self.safeget(
-            data, ["transaction", "sale", "cadastralIncome"], default=None
-        )
-        new_data["Has starting Price"] = self.safeget(
-            data, ["transaction", "sale", "hasStartingPrice"], default=None
-        )
-        new_data["Transaction Subtype"] = self.safeget(
-            data, ["transaction", "subtype"], default=None
-        )
-        new_data["Heating Type"] = self.safeget(
-            data, ["property", "energy", "heatingType"], default=None
-        )
-
-        new_data["Is Holiday Property"] = self.safeget(
-            data, ["property", "isHolidayProperty"], default=None
-        )
-        new_data["Gas Water Electricity"] = self.safeget(
-            data, ["property", "land", "hasGasWaterElectricityConnection"], default=None
-        )
-        new_data["Sewer"] = self.safeget(
-            data, ["property", "land", "sewerConnection"], default=None
-        )
-        new_data["Sea view"] = self.safeget(
-            data, ["property", "location", "hasSeaView"], default=None
-        )
-        new_data["Parking count inside"] = self.safeget(
-            data, ["property", "parkingCountIndoor"], default=None
-        )
-        new_data["Parking count outside"] = self.safeget(
-            data, ["property", "parkingCountOutdoor"], default=None
-        )
-        new_data["Parking box count"] = self.safeget(
-            data, ["property", "parkingCountClosedBox"], default=None
-        )
-        DataOutput().to_json_file(new_data)
+        return new_data
