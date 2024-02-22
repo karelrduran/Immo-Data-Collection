@@ -8,11 +8,30 @@ from .data_manipulation import DataManipulation
 
 
 class DataCollector:
+    """
+    A class to collect data from Immoweb website.
+
+    Attributes:
+    session (Session): A session object for making HTTP requests.
+    """
+
     def __init__(self):
+        """
+        Initializes DataCollector with a session object.
+        """
         self.session = Session()
 
     def get_links_from_page(self, page):
-        self.page = page
+        """
+        Retrieves property links from a given page.
+
+        Args:
+        page (int): The page number to retrieve links from.
+
+        Returns:
+        list: A list of property URLs.
+        """
+        # self.page = page
         base_url = "https://www.immoweb.be/en/search/house-and-apartment/for-sale"
         search_url = f"{base_url}?countries=BE&page={page}"
         response = self.session.get(search_url)
@@ -27,7 +46,16 @@ class DataCollector:
     # This function retrieves the URLs of the properties listed on the Immoweb search results page
     # It now uses concurrent requests to speed up the process
     def get_property_links(self, pages):
-        self.pages = pages
+        """
+        Retrieves property links from multiple pages concurrently.
+
+        Args:
+        pages (int): The number of pages to retrieve links from.
+
+        Returns:
+        list: A list of property URLs.
+        """
+        # self.pages = pages
         all_urls = []
         with ThreadPoolExecutor() as executor:
             futures = [
@@ -39,6 +67,15 @@ class DataCollector:
         return all_urls
 
     def get_data_from_html(self, html: str):
+        """
+        Retrieves data from HTML content.
+
+        Args:
+        html (str): The HTML content to extract data from.
+
+        Returns:
+        dict: Extracted data in JSON format.
+        """
         while True:
             try:
                 response = self.session.get(html)
@@ -51,6 +88,15 @@ class DataCollector:
                 continue
 
     def check_existant(self, id: str):
+        """
+        Checks if a property ID exists in the data.
+
+        Args:
+        id (str): The ID to check.
+
+        Returns:
+        bool: True if the ID exists, False otherwise.
+        """
         with open("data.json", "r", encoding="utf-8") as file:
             if str(id) in file.read():
                 return True
@@ -58,9 +104,14 @@ class DataCollector:
 
     def estate_check(self, data: dict):
         """
-        Checks if the property is a new real estate project or not
+        Checks if the property is a new real estate project or not.
+
+        Args:
+        data (dict): The data of the property.
+
         """
-        self.data = data
+
+        # self.data = data
         cluster = data.get("cluster")
         if cluster is None:
             # if self.check_existant(data.get("id")) == False:

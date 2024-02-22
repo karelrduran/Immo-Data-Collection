@@ -1,22 +1,30 @@
-from .data_output import DataOutput
-
+import json
 
 
 class DataManipulation:
-    def __init__(self):
-        pass
+    """
+    A class to manipulate and clean data extracted from Immoweb.
 
-    @classmethod
-    def clean_data(cls) -> None:
-        pass
+    Methods:
+    clean_data(cls) -> None: A class method to clean data (not implemented).
+    safeget(nested_dict, keys: list[str], default=None): Safely gets a value from a nested dictionary using a list of keys.
+    get_data(data: dict) -> dict: Extracts relevant fields from raw data and returns a dictionary.
+    """
 
     def safeget(self, nested_dict, keys: list[str], default=None):
         """
         Safely get a value from a nested dictionary using a list of keys.
-        If an intermediate key leads to None, treat it as an empty dict for the purpose of continuing the path traversal.
+
+        Args:
+        nested_dict (dict): The nested dictionary to retrieve value from.
+        keys (list[str]): List of keys to traverse the nested dictionary.
+        default: The default value to return if the key is not found.
+
+        Returns:
+        The value corresponding to the keys in the nested dictionary, or default if not found.
         """
-        self.nested_dict = nested_dict
-        self.keys = keys
+        nested_dict = nested_dict
+        keys = keys
         current_level = nested_dict
         for i, key in enumerate(keys):
             # If current_level is None but not at the last key, simulate it as an empty dict
@@ -32,7 +40,13 @@ class DataManipulation:
 
     def get_data(self, data: dict) -> dict:
         """
-        receives the raw data from the window.classified json and returns a dictionary with the fields that we want to keep
+        Receives the raw data from the window.classified JSON and returns a dictionary with the desired fields.
+
+        Args:
+        data (dict): The raw data extracted from Immoweb.
+
+        Returns:
+        dict: Extracted and processed data.
         """
         # logic is not exact as item that are NOTARY_SALE and LIFE_ANNUITY_SALE will only be marked as LIFE_ANNUITY_SALE,
         # but it doesn't matter because we are only interested in NORMAL_SALE and not NORMAL_SALE
@@ -45,7 +59,8 @@ class DataManipulation:
             sale_type = 'NOTARY_SALE'
 
         new_data = {
-            'immoweb_id': data['id'], 'location': self.safeget(data, ["property", "location", "locality"], default=None),
+            'immoweb_id': data['id'],
+            'location': self.safeget(data, ["property", "location", "locality"], default=None),
             'postal_code': self.safeget(data, ["property", "location", "postalCode"], default=None),
             'build_year': self.safeget(data, ["property", "building", "constructionYear"], default=None),
             'wall_count': self.safeget(data, ["property", "building", "facadeCount"], default=None),
@@ -61,7 +76,7 @@ class DataManipulation:
             'kitchen_surface': self.safeget(data, ["property", "kitchen", "surface"], default=None),
             'kitchen_type': self.safeget(data, ["property", "kitchen", "type"], default=None),
             'furnish_exists': True if self.safeget(data, ["transaction", "sale", "isFurnished"],
-                                              default=False) else False,
+                                                   default=False) else False,
             'fireplace_exists': True if self.safeget(data, ["property", "fireplaceExists"], default=False) else False,
             'fireplace_count': self.safeget(data, ["property", "fireplaceCount"], default=None),
             'terrace_exists': True if self.safeget(data, ["property", "hasTerrace"], default=False) else False,
@@ -80,7 +95,7 @@ class DataManipulation:
             'heating_type': self.safeget(data, ["property", "energy", "heatingType"], default=None),
             'is_holiday_property': self.safeget(data, ["property", "isHolidayProperty"], default=None),
             'gas_water_electricity_exists': self.safeget(data, ["property", "land", "hasGasWaterElectricityConnection"],
-                                                    default=None),
+                                                         default=None),
             'sewer_exists': self.safeget(data, ["property", "land", "sewerConnection"], default=None),
             'sea_view_exists': self.safeget(data, ["property", "location", "hasSeaView"], default=None),
             'parking_count_inside': self.safeget(data, ["property", "parkingCountIndoor"], default=None),
