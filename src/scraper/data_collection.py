@@ -1,3 +1,4 @@
+import os
 from concurrent.futures import ThreadPoolExecutor
 import concurrent.futures
 import json
@@ -97,7 +98,7 @@ class DataCollector:
         Returns:
         bool: True if the ID exists, False otherwise.
         """
-        with open("data.json", "r", encoding="utf-8") as file:
+        with open(os.path.join("data", "data.json"), "r", encoding="utf-8") as file:
             if str(id) in file.read():
                 return True
         return False

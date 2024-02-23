@@ -1,5 +1,6 @@
 import csv
 import json
+import os
 
 
 class DataOutput:
@@ -20,7 +21,7 @@ class DataOutput:
         Args:
         data: The data to be written to the file.
         """
-        with open(f"data.json", "a", encoding="utf-8") as file:
+        with open(os.path.join("data", "data.json"), "a", encoding="utf-8") as file:
             json.dump(data, file, ensure_ascii=False)
             file.write("\n")
 
@@ -31,7 +32,7 @@ class DataOutput:
         Args:
         csv_file_path: The path to the CSV file.
         """
-        json_file_path = "data.json"
+        json_file_path = os.path.join("data", "data.json")
         with open(json_file_path, "r") as json_file:
             data = [json.loads(line) for line in json_file]
 

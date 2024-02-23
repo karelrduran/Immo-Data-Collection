@@ -1,5 +1,7 @@
 import json
 
+from src.scraper.data_output import DataOutput
+
 
 class DataManipulation:
     """
@@ -108,6 +110,5 @@ class DataManipulation:
         new_data['room_count'] += new_data['toilet_count'] if new_data['toilet_count'] else 0
         new_data['room_count'] = new_data['room_count'] if new_data['room_count'] else None
 
-        with open("testing2.json", "a", encoding="utf-8") as file:
-            json.dump(new_data, file, ensure_ascii=False)
-            file.write("\n")
+        DataOutput().to_json_file(new_data)
+
