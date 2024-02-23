@@ -1,38 +1,60 @@
 # Project Diary
 
 
-## Day 1: CHAOS!
-- changing tables, changing chairs, changing everything.
-- Immoweb will be our home for the week
+## Day 1: CHAOS! 😱
+
+First team project! what!? 
+
+- changing tables, changing chairs
+- immoweb.be is our home for the week
+- trello? github pages? scrum? nothing?
+- settle on a structure first? just dive in?
+- let's use a generator! huh?!
+- already inspecting the html !!
+- to API or not to API? that is the question 
+- APIs: public, private, paid, hidden?!
+- what version of Python are we all using?
+
+### **--- Project status after day 1**: Aaaaaargh!!! 
 
 
-- trello? github pages? nothing?
-- settle on a structure first?
-- let's use a generator!
-- already on immoweb, inspecting the html
-- APIs? No APIs? Public, private, paid, hidden?!
-- what verison of Python are we using?
+## Day 2: PROGRESS! 🚀 
 
-BREAK!
+-- tasks arise organically -- 
 
-"We have a whole week, we can afford taking a full day to look at this individually and re-group tomorrow morning." "Yes, then we cal all say how we want to approach this." "No, how about working in a team!?"
+**Em** → parses immoweb search results pages to get a list of unique property URLs\
+**Alice** → parses a unique hmtl page to get the required property data\
+**Karel** → creates project repo & project skeleton with file structure, modules & classes\
+**Gerrit** → explores alternative route to scraping the property data using Scrapy\
 
-Aaaaaargh!!!
+### **--- Project status after day2**: Everybody has something to do… 
 
-### Hurdle of the day:
+## Day 3: NO STRESS? 😶
 
-Uh-oh, can't get (some) data from the page, it only loads with the Javascript.
+**Gerrit** → “we’re done, right? I’ll go & see if I can help other ppl”\
+**Alice** →  “think we should continue to work individually, I’m trying out some other stuff”\
+**Karel** → “I will show you what I did with Scrapy”\
+**Em** → “but there’s no MVP, doesn’t look like we’re done. ok, I’ll work on my own solution”\
 
-### Successes of the day:
+### **--- Project Status after day3**: 4 different solutions in various stages of completion across 4 local machines and 9 remote branches
 
-## Day 2
-..
+## Day 4: SUCCESS! 🎉 
 
-## Day 3
-..
+-- irl is so much easier! --
 
-## Day 4
-..
+- agreement on what goes into the team solution\
+- pushing to main branch\
+- running tests in small batches\
+- running full solution to extract all data\
+- cleaning up code & draft README\
 
-## Day 5
-..
+### **--- Project status after day 4**: Integrated code is on repo main branch, we have ~12,000 property data in a CSV.\
+
+## Day 5: FINAL TOUCHES ✨
+
+- presentation deck
+- repo cleanup
+- code cleanup
+- finalise README
+
+### **--- Project status after day 4:* MVP done! \
