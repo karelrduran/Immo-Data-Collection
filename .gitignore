@@ -12,3 +12,4 @@ src/__pycache__/
 .idea/
 
 
+data/already_parsed.json
