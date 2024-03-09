@@ -53,53 +53,55 @@ def get_data(data: dict) -> dict:
         sale_type = 'NOTARY_SALE'
 
     new_data = {
-        'immoweb_id': data['id'], 'location': safeget(data, ["property", "location", "locality"], default=None),
-        'postal_code': safeget(data, ["property", "location", "postalCode"], default=None),
-        'build_year': safeget(data, ["property", "building", "constructionYear"], default=None),
-        'wall_count': safeget(data, ["property", "building", "facadeCount"], default=None),
-        'habitable_surface': safeget(data, ["property", "netHabitableSurface"], default=None),
-        'land_surface': safeget(data, ["property", "land", "surface"], default=None),
-        'property_type': safeget(data, ["property", "type"], default=None),
-        'subtype': safeget(data, ["property", "subtype"], default=None),
-        'price': safeget(data, ["price", "mainValue"], default=None), 'sale_type': sale_type,
-        'bedroom_count': safeget(data, ["property", "bedroomCount"], default=None),
-        'bathroom_count': safeget(data, ["property", "bathroomCount"], default=None),
-        'toilet_count': safeget(data, ["property", "toiletCount"], default=None),
-        "kitchen_exists": True if safeget(data, ["property", "kitchen", "type"], default=False) else False,
-        'kitchen_surface': safeget(data, ["property", "kitchen", "surface"], default=None),
-        'kitchen_type': safeget(data, ["property", "kitchen", "type"], default=None),
-        'furnish_exists': True if safeget(data, ["transaction", "sale", "isFurnished"],
+        'ID': data['id'],
+        'Locality': safeget(data, ["property", "location", "locality"], default=None),
+        'Postal Code': safeget(data, ["property", "location", "postalCode"], default=None),
+        'Build Year': safeget(data, ["property", "building", "constructionYear"], default=None),
+        'Facades': safeget(data, ["property", "building", "facadeCount"], default=None),
+        'Habitable Surface': safeget(data, ["property", "netHabitableSurface"], default=None),
+        'Land Surface': safeget(data, ["property", "land", "surface"], default=None),
+        'Type': safeget(data, ["property", "type"], default=None),
+        'Subtype': safeget(data, ["property", "subtype"], default=None),
+        'Price': safeget(data, ["price", "mainValue"], default=None),
+        'Sale Type': sale_type,
+        'Bedroom Count': safeget(data, ["property", "bedroomCount"], default=None),
+        'Bathroom Count': safeget(data, ["property", "bathroomCount"], default=None),
+        'Toilet Count': safeget(data, ["property", "toiletCount"], default=None),
+        "Kitchen": True if safeget(data, ["property", "kitchen", "type"], default=False) else False,
+        'Kitchen Surface': safeget(data, ["property", "kitchen", "surface"], default=None),
+        'Kitchen Type': safeget(data, ["property", "kitchen", "type"], default=None),
+        'Furnished': True if safeget(data, ["transaction", "sale", "isFurnished"],
                                           default=False) else False,
-        'fireplace_exists': True if safeget(data, ["property", "fireplaceExists"], default=False) else False,
-        'fireplace_count': safeget(data, ["property", "fireplaceCount"], default=None),
-        'terrace_exists': True if safeget(data, ["property", "hasTerrace"], default=False) else False,
-        'terrace_surface': safeget(data, ["property", "terraceSurface"], default=None),
-        'terrace_orientation': safeget(data, ["property", "terraceOrientation"], default=None),
-        'garden_exists': True if safeget(data, ["property", "hasGarden"], default=False) else False,
-        'garden_surface': safeget(data, ["property", "gardenSurface"], default=None),
-        'garden_orientation': safeget(data, ["property", "gardenOrientation"], default=None),
-        'swimming_pool': safeget(data, ["property", "hasSwimmingPool"], default=None),
-        'state_of_building': safeget(data, ["property", "building", "condition"], default=None),
-        "living_surface": safeget(data, ["property", "livingRoom", "surface"], default=None),
-        "epc": safeget(data, ["transaction", "certificates", "epcScore"], default=None),
-        'cadastral_income': safeget(data, ["transaction", "sale", "cadastralIncome"], default=None),
-        'has_starting_price': safeget(data, ["transaction", "sale", "hasStartingPrice"], default=None),
-        'transaction_subtype': safeget(data, ["transaction", "subtype"], default=None),
-        'heating_type': safeget(data, ["property", "energy", "heatingType"], default=None),
-        'is_holiday_property': safeget(data, ["property", "isHolidayProperty"], default=None),
-        'gas_water_electricity_exists': safeget(data, ["property", "land", "hasGasWaterElectricityConnection"],
+        'Openfire': True if safeget(data, ["property", "fireplaceExists"], default=False) else False,
+        'Fireplace Count': safeget(data, ["property", "fireplaceCount"], default=None),
+        'Terrace': True if safeget(data, ["property", "hasTerrace"], default=False) else False,
+        'Terrace Surface': safeget(data, ["property", "terraceSurface"], default=None),
+        'Terrace Orientation': safeget(data, ["property", "terraceOrientation"], default=None),
+        'Garden Exists': True if safeget(data, ["property", "hasGarden"], default=False) else False,
+        'Garden Surface': safeget(data, ["property", "gardenSurface"], default=None),
+        'Garden Orientation': safeget(data, ["property", "gardenOrientation"], default=None),
+        'Swimming Pool': safeget(data, ["property", "hasSwimmingPool"], default=None),
+        'State of Building': safeget(data, ["property", "building", "condition"], default=None),
+        "Living Surface": safeget(data, ["property", "livingRoom", "surface"], default=None),
+        "EPC": safeget(data, ["transaction", "certificates", "epcScore"], default=None),
+        'Cadastral Income': safeget(data, ["transaction", "sale", "cadastralIncome"], default=None),
+        'Has starting Price': safeget(data, ["transaction", "sale", "hasStartingPrice"], default=None),
+        'Transaction Subtype': safeget(data, ["transaction", "subtype"], default=None),
+        'Heating Type': safeget(data, ["property", "energy", "heatingType"], default=None),
+        'Is Holiday Property': safeget(data, ["property", "isHolidayProperty"], default=None),
+        'Gas Water Electricity': safeget(data, ["property", "land", "hasGasWaterElectricityConnection"],
                                                 default=None),
-        'sewer_exists': safeget(data, ["property", "land", "sewerConnection"], default=None),
-        'sea_view_exists': safeget(data, ["property", "location", "hasSeaView"], default=None),
-        'parking_count_inside': safeget(data, ["property", "parkingCountIndoor"], default=None),
-        'parking_count_outside': safeget(data, ["property", "parkingCountOutdoor"], default=None),
-        'room_count': 0
+        'Sewer': safeget(data, ["property", "land", "sewerConnection"], default=None),
+        'Sea view': safeget(data, ["property", "location", "hasSeaView"], default=None),
+        'Parking count inside': safeget(data, ["property", "parkingCountIndoor"], default=None),
+        'Parking count outside': safeget(data, ["property", "parkingCountOutdoor"], default=None),
+        'Room Count': 0
     }
 
-    new_data['room_count'] += new_data['bedroom_count'] if new_data['bedroom_count'] else 0
-    new_data['room_count'] += new_data['bathroom_count'] if new_data['bathroom_count'] else 0
-    new_data['room_count'] += new_data['toilet_count'] if new_data['toilet_count'] else 0
-    new_data['room_count'] = new_data['room_count'] if new_data['room_count'] else None
+    new_data['Room Count'] += new_data['Bedroom Count'] if new_data['Bedroom Count'] else 0
+    new_data['Room Count'] += new_data['Bathroom Count'] if new_data['Bathroom Count'] else 0
+    new_data['Room Count'] += new_data['Toilet Count'] if new_data['Toilet Count'] else 0
+    new_data['Room Count'] = new_data['Room Count'] if new_data['Room Count'] else None
 
     return new_data
 

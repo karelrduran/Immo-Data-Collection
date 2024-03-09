@@ -20,12 +20,12 @@ class ImmoSpider(scrapy.Spider):
         f"https://www.immoweb.be/en/search-results/house-and-apartment/for-sale/antwerpen/province?countries=BE&isALifeAnnuitySale=false&isAPublicSale=false&page=1&orderBy=most_expensive",
         f"https://www.immoweb.be/en/search-results/house-and-apartment/for-sale/limburg/province?countries=BE&isALifeAnnuitySale=false&isAPublicSale=false&page=1&orderBy=most_expensive",
         f"https://www.immoweb.be/en/search-results/house-and-apartment/for-sale/vlaams-brabant/province?countries=BE&isALifeAnnuitySale=false&isAPublicSale=false&page=1&orderBy=most_expensive",
-        # f"https://www.immoweb.be/en/search-results/house-and-apartment/for-sale/brussels/province?countries=BE&isALifeAnnuitySale=false&isAPublicSale=false&page=1&orderBy=most_expensive",
-        # f"https://www.immoweb.be/en/search-results/house-and-apartment/for-sale/waals-brabant/province?countries=BE&isALifeAnnuitySale=false&isAPublicSale=false&page=1&orderBy=most_expensive",
-        # f"https://www.immoweb.be/en/search-results/house-and-apartment/for-sale/henegouwen/province?countries=BE&isALifeAnnuitySale=false&isAPublicSale=false&page=1&orderBy=most_expensive",
-        # f"https://www.immoweb.be/en/search-results/house-and-apartment/for-sale/luxembourg/province?countries=BE&isALifeAnnuitySale=false&isAPublicSale=false&page=1&orderBy=most_expensive",
-        # f"https://www.immoweb.be/en/search-results/house-and-apartment/for-sale/namen/province?countries=BE&isALifeAnnuitySale=false&isAPublicSale=false&page=1&orderBy=most_expensive",
-        # f"https://www.immoweb.be/en/search-results/house-and-apartment/for-sale/luik/province?countries=BE&isALifeAnnuitySale=false&isAPublicSale=false&page=1&orderBy=most_expensive",  # &minPrice=2000000
+        f"https://www.immoweb.be/en/search-results/house-and-apartment/for-sale/brussels/province?countries=BE&isALifeAnnuitySale=false&isAPublicSale=false&page=1&orderBy=most_expensive",
+        f"https://www.immoweb.be/en/search-results/house-and-apartment/for-sale/waals-brabant/province?countries=BE&isALifeAnnuitySale=false&isAPublicSale=false&page=1&orderBy=most_expensive",
+        f"https://www.immoweb.be/en/search-results/house-and-apartment/for-sale/henegouwen/province?countries=BE&isALifeAnnuitySale=false&isAPublicSale=false&page=1&orderBy=most_expensive",
+        f"https://www.immoweb.be/en/search-results/house-and-apartment/for-sale/luxembourg/province?countries=BE&isALifeAnnuitySale=false&isAPublicSale=false&page=1&orderBy=most_expensive",
+        f"https://www.immoweb.be/en/search-results/house-and-apartment/for-sale/namen/province?countries=BE&isALifeAnnuitySale=false&isAPublicSale=false&page=1&orderBy=most_expensive",
+        f"https://www.immoweb.be/en/search-results/house-and-apartment/for-sale/luik/province?countries=BE&isALifeAnnuitySale=false&isAPublicSale=false&page=1&orderBy=most_expensive",  # &minPrice=2000000
     ]
 
     def __init__(self, *args, **kwargs):
@@ -97,13 +97,14 @@ class ImmoSpider(scrapy.Spider):
         try:
             cleaned_data = get_data(raw_data)
             # yield an ImmowebItem
+            logging.info('\t\t' + 'YIELD' * 5 + ' url:' + response.url)
             yield ImmowebItem(**cleaned_data, url=response.url)
         except Exception as e:
             # get the full error message
             full_traceback = traceback.format_exc()
 
             # build the error dump file path
-            error_dump_path = os.path.join('errors', raw_data.get("id") + '.json')
+            error_dump_path = os.path.join('errors', str(raw_data.get("id")) + '.json')
 
             logging.error('\t\t' + 'ERROR ' * 5 + ' error_dump:' + error_dump_path + ' url:' + response.url)
 
@@ -119,7 +120,7 @@ class ImmoSpider(scrapy.Spider):
             # raise an exception to stop the spider
             raise CloseSpider(reason=f'Error, stopping the spider. look at dump file: {error_dump_path}')
 
-        logging.info(f"\t\t#{self.counter} id: {cleaned_data.get('immoweb_id')} price: {cleaned_data.get('price')} location: {cleaned_data.get('location')}")
+        logging.info(f"\t\t#{self.counter} id: {cleaned_data.get('ID')} price: {cleaned_data.get('Price')} location: {cleaned_data.get('Locality')}")
 
     async def errback(self, failure):
         logging.error('FAILED')
